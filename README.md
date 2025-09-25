@@ -1,48 +1,59 @@
 <!-- Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:38bdf8&height=250&section=header&text=Hey%20there%20👋%20I'm%20Nexuss0781&fontSize=40&fontColor=ffffff&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=Welcome%20to%20My%20World%20🌌&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=I'm%20Nexuss0781%20—%20Builder%2C%20Learner%2C%20Explorer&descSize=20&descAlignY=60"/>
 
 <!-- Intro -->
-## 👨‍💻 About Me  
-- 🚀 Explorer of code, ideas, and new tech  
-- 🌱 Learning every day (currently: Backend + Systems)  
-- 🤝 Open to collaboration on creative projects  
-- ⚡ I like mixing logic with imagination  
+## 👋 Hey, I'm **Nexuss0781**  
+> *"Turning ideas into code. Turning code into experiences."*
+
+- 🚀 Developer in progress, always curious  
+- 🌱 Currently diving deeper into **backend systems** and **Rust/Python FFI**  
+- 🤝 Open to collaborate on **innovative projects**  
+- 🎯 Long-term: building projects that mix logic, design, and creativity  
+- ⚡ Fun fact: I love exploring **systems, memory, and how humans work**  
 
 ---
 
 ## 🌐 Connect with Me  
 <p align="left">
-  <a href="https://discordapp.com/users/nexuss0781"><img src="https://skillicons.dev/icons?i=discord" width="45"/></a>
-  <a href="https://twitter.com/"><img src="https://skillicons.dev/icons?i=twitter" width="45"/></a>
-  <a href="https://dev.to/"><img src="https://skillicons.dev/icons?i=devto" width="45"/></a>
+  <a href="https://discordapp.com/users/nexuss0781"><img src="https://skillicons.dev/icons?i=discord" width="48"/></a>
+  <a href="https://twitter.com/"><img src="https://skillicons.dev/icons?i=twitter" width="48"/></a>
+  <a href="https://dev.to/"><img src="https://skillicons.dev/icons?i=devto" width="48"/></a>
+  <a href="https://linkedin.com/"><img src="https://skillicons.dev/icons?i=linkedin" width="48"/></a>
 </p>
 
 ---
 
-## 🛠️ Tech Stack  
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,rust,cpp,c,java,dart,html,css" /><br/>
-  <img src="https://skillicons.dev/icons?i=react,nodejs,express,tailwind,electron,linux" />
-</p>
-
----
-
-## 📊 GitHub Stats  
+## 🛠️ Tech Arsenal  
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nexuss0781&show_icons=true&theme=tokyonight" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=tokyonight" height="165"/>
+  <img src="https://skillicons.dev/icons?i=python,rust,cpp,c,java,ts,js,dart" /><br/>
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,tailwind,electron,mysql,postgres,linux" />
+</p>
+
+---
+
+## 📊 GitHub Analytics  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=nexuss0781&show_icons=true&theme=tokyonight&hide_border=true" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=nexuss0781&theme=tokyonight&date_format=j%20M%5B%20Y%5D" height="165"/>
+  <img src="https://streak-stats.demolab.com?user=nexuss0781&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" height="170"/>
 </p>
 
 ---
 
-## ✨ Fun Zone  
-- 🎯 Goal: keep building & keep learning  
-- 🧩 Fun fact: I enjoy breaking systems just to fix them better  
-- 🎨 Motto: *Make it work. Make it beautiful. Make it yours.*  
+## 🧩 Fun Zone  
+🎯 **2025 Goal:** Build tools that last, not just projects  
+💡 Random Dev Quote:  
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight"/>
+</p>  
+
+🔥 Random Dev Meme (because why not):  
+<p align="center">
+  <img src="https://random-memer.herokuapp.com/" width="400"/>
+</p>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:38bdf8,100:1a1b27&height=150&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=180&section=footer"/>
