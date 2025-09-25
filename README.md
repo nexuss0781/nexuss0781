@@ -38,7 +38,7 @@
 </p>
 <p align="center">
 
-  [![GitHub Streak](https://streak-stats.demolab.com?user=nexuss0781&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=nexuss0781)](https://git.io/streak-stats)
 </p>
 
 ---
