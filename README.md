@@ -37,7 +37,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=tokyonight&hide_border=true" height="170"/>
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=nexuss0781&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" height="170"/>
+[![GitHub Streak](https://streak-stats.demolab.com?user=nexuss0781&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 </p>
 
 ---
