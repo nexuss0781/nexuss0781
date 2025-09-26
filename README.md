@@ -2,7 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=260&section=header&text=Welcome%20to%20My%20World%20🌌&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=I'm%20Nexuss0781%20—%20Builder%2C%20Learner%2C%20Explorer&descSize=20&descAlignY=60"/>
 
 <!-- Intro -->
-## 👋 Hey, I'm **Nexuss0781**  
+## 👋 Hey, I'm **Tadiyos Aschalew**  
 > *"Turning ideas into code. Turning code into experiences."*
 
 - 🚀 Developer in progress, always curious  
