@@ -1,0 +1,23 @@
+<svg width="1000" height="100" viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF0080">
+        <animate attributeName="stop-color" values="#FF0080;#7928CA;#FF0080" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#7928CA">
+        <animate attributeName="stop-color" values="#7928CA;#FF0080;#7928CA" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect x="10" y="10" width="980" height="80" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="6" stroke-dasharray="300 1800" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="2100" to="0" dur="6s" repeatCount="indefinite" />
+  </rect>
+  <rect x="10" y="10" width="980" height="80" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="2" opacity="0.2" />
+  <circle r="6" fill="#FF0080" filter="url(#glow)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M10,50 Q10,10 50,10 L950,10 Q990,10 990,50 Q990,90 950,90 L50,90 Q10,90 10,50" />
+  </circle>
+</svg>
