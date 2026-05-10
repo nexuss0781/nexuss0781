@@ -1,0 +1,11 @@
+<svg width="1000" height="20" viewBox="0 0 1000 20" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F2FE"><animate attributeName="stop-color" values="#00F2FE;#4FACFE;#00F2FE" dur="4s" repeatCount="indefinite" /></stop>
+      <stop offset="100%" stop-color="#4FACFE"><animate attributeName="stop-color" values="#4FACFE;#00F2FE;#4FACFE" dur="4s" repeatCount="indefinite" /></stop>
+    </linearGradient>
+  </defs>
+  <path d="M10,20 L10,10 Q10,5 15,5 L985,5 Q990,5 990,10 L990,20" fill="none" stroke="url(#frameGrad)" stroke-width="4" stroke-dasharray="200 1800">
+    <animate attributeName="stroke-dashoffset" from="2000" to="0" dur="8s" repeatCount="indefinite" />
+  </path>
+</svg>
