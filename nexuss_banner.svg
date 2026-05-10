@@ -1,0 +1,39 @@
+<svg width="800" height="250" viewBox="0 0 800 250" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF0080"><animate attributeName="stop-color" values="#FF0080;#7928CA;#FF0080" dur="4s" repeatCount="indefinite" /></stop>
+      <stop offset="100%" stop-color="#7928CA"><animate attributeName="stop-color" values="#7928CA;#FF0080;#7928CA" dur="4s" repeatCount="indefinite" /></stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Continuous Snake Border -->
+  <rect x="10" y="10" width="780" height="230" rx="25" fill="none" stroke="url(#borderGrad)" stroke-width="6" stroke-dasharray="200 1800" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="2000" to="0" dur="6s" repeatCount="indefinite" />
+  </rect>
+  <rect x="10" y="10" width="780" height="230" rx="25" fill="none" stroke="url(#borderGrad)" stroke-width="2" opacity="0.2" />
+
+  <!-- NEXUSS Text -->
+  <text x="400" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="80" font-weight="bold" letter-spacing="15" fill="#7928CA" filter="url(#glow)" style="text-shadow: 3px 3px 6px rgba(0,0,0,0.3);">
+    N E X U S S
+  </text>
+
+  <!-- Integrated Typing Animation -->
+  <text x="400" y="180" text-anchor="middle" font-family="'Courier New', Courier, monospace" font-size="24" fill="#FF0080" font-weight="bold">
+    <tspan>
+      Welcome to my profile
+      <animate attributeName="opacity" values="0;1;1;0" dur="4s" repeatCount="indefinite" />
+    </tspan>
+    <tspan x="400" dy="0">
+      Building the future
+      <animate attributeName="opacity" values="0;0;1;1;0" dur="4s" begin="4s" repeatCount="indefinite" />
+    </tspan>
+    <tspan x="400" dy="0">
+      Code | Create | Innovate
+      <animate attributeName="opacity" values="0;0;1;1;0" dur="4s" begin="8s" repeatCount="indefinite" />
+    </tspan>
+  </text>
+</svg>
