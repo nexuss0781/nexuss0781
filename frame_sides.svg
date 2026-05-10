@@ -1,0 +1,16 @@
+<svg width="1000" height="100" viewBox="0 0 1000 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE"><animate attributeName="stop-color" values="#00F2FE;#4FACFE;#00F2FE" dur="4s" repeatCount="indefinite" /></stop>
+      <stop offset="100%" stop-color="#4FACFE"><animate attributeName="stop-color" values="#4FACFE;#00F2FE;#4FACFE" dur="4s" repeatCount="indefinite" /></stop>
+    </linearGradient>
+  </defs>
+  <!-- Left Side -->
+  <line x1="10" y1="0" x2="10" y2="100" stroke="url(#frameGrad)" stroke-width="4" stroke-dasharray="200 1800">
+    <animate attributeName="stroke-dashoffset" from="0" to="-2000" dur="8s" repeatCount="indefinite" />
+  </line>
+  <!-- Right Side -->
+  <line x1="990" y1="0" x2="990" y2="100" stroke="url(#frameGrad)" stroke-width="4" stroke-dasharray="200 1800">
+    <animate attributeName="stroke-dashoffset" from="1500" to="-500" dur="8s" repeatCount="indefinite" />
+  </line>
+</svg>
