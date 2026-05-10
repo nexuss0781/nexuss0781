@@ -84,10 +84,10 @@
   <table>
     <tr>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=nexuss0781&show_icons=true&theme=radical&count_private=true&hide_rank=false&cache_seconds=1800" width="100%" alt="GitHub Stats" />
+        <img src="https://github-readme-stats-ten-rho.vercel.app/api?username=nexuss0781&show_icons=true&theme=radical&count_private=true&hide_rank=false" width="100%" alt="GitHub Stats" />
       </td>
       <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=radical&hide=jupyter%20notebook&cache_seconds=1800" width="100%" alt="Top Languages" />
+        <img src="https://github-readme-stats-ten-rho.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=radical&hide=jupyter%20notebook" width="100%" alt="Top Languages" />
       </td>
     </tr>
   </table>
@@ -100,7 +100,7 @@
   <table>
     <tr>
       <td>
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=nexuss0781&theme=radical&date_format=M%20j%5B%2C%20Y%5D&cacheSeconds=1800" width="100%" alt="Commit Streak" />
+        <img src="https://streak-stats.demolab.com/?user=nexuss0781&theme=radical&date_format=M%20j%5B%2C%20Y%5D" width="100%" alt="Commit Streak" />
       </td>
       <td>
         <img src="https://github-profile-trophy.vercel.app/?username=nexuss0781&theme=radical&no-frame=true&row=1&column=4&margin-w=10" width="100%" alt="Trophies" />
