@@ -1,0 +1,16 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE"><animate attributeName="stop-color" values="#00F2FE;#4FACFE;#00F2FE" dur="4s" repeatCount="indefinite" /></stop>
+      <stop offset="100%" stop-color="#4FACFE"><animate attributeName="stop-color" values="#4FACFE;#00F2FE;#4FACFE" dur="4s" repeatCount="indefinite" /></stop>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  <rect x="10" y="10" width="980" height="980" rx="30" fill="none" stroke="url(#frameGrad)" stroke-width="8" stroke-dasharray="400 3600" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="4000" to="0" dur="10s" repeatCount="indefinite" />
+  </rect>
+  <rect x="10" y="10" width="980" height="980" rx="30" fill="none" stroke="url(#frameGrad)" stroke-width="2" opacity="0.3" />
+</svg>
