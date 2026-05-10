@@ -1,8 +1,5 @@
 <div align="center">
-  <!-- Top Frame -->
-  <img src="https://raw.githubusercontent.com/nexuss0781/nexuss0781/main/frame_top.svg" width="100%" style="max-width: 1000px; display: block;" />
-  
-  <div style="border-left: 4px solid transparent; border-right: 4px solid transparent; background: url('https://raw.githubusercontent.com/nexuss0781/nexuss0781/main/frame_sides.svg'); background-size: 100% 100%; max-width: 1000px; padding: 0 20px;">
+  <div style="position: relative; max-width: 1000px; padding: 40px; background: url('https://raw.githubusercontent.com/nexuss0781/nexuss0781/main/full_frame.svg'); background-size: 100% 100%; background-repeat: no-repeat;">
 
     <!-- Big NEXUSS Banner -->
     <h1 style="font-size: 80px; font-weight: bold; letter-spacing: 10px; color: #4FACFE; text-shadow: 3px 3px 6px rgba(0,0,0,0.5); margin: 20px 0;">
@@ -95,7 +92,4 @@
     <img src="https://komarev.com/ghpvc/?username=nexuss0781&color=4FACFE" alt="Profile views" />
 
   </div>
-
-  <!-- Bottom Frame -->
-  <img src="https://raw.githubusercontent.com/nexuss0781/nexuss0781/main/frame_bottom.svg" width="100%" style="max-width: 1000px; display: block;" />
 </div>
