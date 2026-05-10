@@ -1,18 +1,6 @@
-<!-- Circular Rectangular Border Animation Top -->
+<!-- Unified NEXUSS Banner with Animation -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/nexuss0781/nexuss0781/main/top_animation.svg" width="100%" style="max-width: 1000px;" />
-</div>
-
-<!-- Big NEXUSS Banner -->
-<div align="center">
-  <h1 style="font-size: 80px; font-weight: bold; letter-spacing: 10px; color: #7928CA; text-shadow: 3px 3px 6px rgba(0,0,0,0.5); margin: 20px 0;">
-    N E X U S S
-  </h1>
-</div>
-
-<!-- Animated Typing Header -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=FF0080&center=true&vCenter=true&width=600&height=60&lines=Welcome+to+my+profile;Building+the+future;Code+%7C+Create+%7C+Innovate" alt="Typing SVG" />
+  <img src="https://raw.githubusercontent.com/nexuss0781/nexuss0781/main/nexuss_banner.svg" width="100%" style="max-width: 800px;" />
 </div>
 
 <br/>
@@ -107,9 +95,4 @@
 <div align="center">
   <h3 style="color: #7928CA;">Thanks for visiting! 🚀</h3>
   <img src="https://komarev.com/ghpvc/?username=nexuss0781&color=7928CA" alt="Profile views" />
-</div>
-
-<!-- Circular Rectangular Border Animation Bottom -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/nexuss0781/nexuss0781/main/bottom_animation.svg" width="100%" style="max-width: 1000px;" />
 </div>
