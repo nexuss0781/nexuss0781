@@ -756,15 +756,15 @@ My coding environment is a constraint I work within. Anyone who wants to collabo
 
   <!-- Stats & Top Languages -->
   <a href="https://github.com/nexuss0781">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=nexuss0781&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=2c5364&include_all_commits=true" />
+    <img height="180" src="https://github-readme-stats-fast.vercel.app/api?username=nexuss0781&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=2c5364&include_all_commits=true" />
   </a>
   <a href="https://github.com/nexuss0781">
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=2c5364" />
+    <img height="180" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=2c5364" />
   </a>
 
   <!-- Streak Stats -->
   <a href="https://github.com/nexuss0781">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=nexuss0781&theme=dark&hide_border=true" width="100%" alt="GitHub Streak" />
+    <img src="https://streak-stats.demolab.com/?user=nexuss0781&theme=dark&hide_border=true" width="100%" alt="GitHub Streak" />
   </a>
 
   <!-- Contribution Graph -->
@@ -774,7 +774,7 @@ My coding environment is a constraint I work within. Anyone who wants to collabo
 
   <!-- Trophies -->
   <a href="https://github.com/nexuss0781">
-    <img src="https://github-profile-trophy.vercel.app/?username=nexuss0781&theme=darkhub" width="100%" alt="GitHub Trophies" />
+    <img src="https://github-profile-trophy.zeabur.app/?username=nexuss0781&theme=darkhub" width="100%" alt="GitHub Trophies" />
   </a>
 
 </div>
