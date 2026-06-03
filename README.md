@@ -1,35 +1,15 @@
 <div align="center">
 
-<!-- Animated header line -->
-<svg width="100%" height="3" xmlns="http://www.w3.org/2000/svg" style="display:block">
-  <defs>
-    <linearGradient id="hg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#0f2027"/>
-      <stop offset="40%" style="stop-color:#203a43"/>
-      <stop offset="100%" style="stop-color:#2c5364"/>
-    </linearGradient>
-  </defs>
-  <rect width="0" height="3" fill="url(#hg)">
-    <animate attributeName="width" from="0" to="100%" dur="1.8s" fill="freeze"/>
-  </rect>
-</svg>
+# 🧬 TADIYOS ASCHALEW
+### ታዲዮስ አስቻለው
 
-<br/>
+**Software & AI Engineer** · **Ethco Coder** · **Addis Ababa, Ethiopia**
 
-<!-- Name -->
-<h1 align="center" style="font-family:'Georgia',serif; font-size:2.8em; font-weight:400; letter-spacing:3px; color:#1a1a2e; margin:0.3em 0 0.1em;">
- 🧬 TADIYOS ASCHALEW | ታዲዮስ አስቻለው 
-</h1>
-
-<p align="center" style="font-size:0.95em; letter-spacing:2px; color:#555; text-transform:uppercase; font-family:monospace; margin:0 0 0.6em;">
-  Software &amp; AI Engineer &nbsp;·&nbsp; Ethco Coder &nbsp;·&nbsp; Addis Ababa, Ethiopia
-</p>
-
-<br/>
+---
 
 > *"I don't build on what's already assumed. I return to where the assumptions began—and rebuild from there."*
 
-<br/>
+---
 
 [![Email](https://img.shields.io/badge/nexuss0781%40gmail.com-0f2027?style=flat-square&logo=gmail&logoColor=white)](mailto:nexuss0781@gmail.com)
 [![GitHub](https://img.shields.io/badge/nexuss0781-0f2027?style=flat-square&logo=github&logoColor=white)](https://github.com/nexuss0781)
@@ -764,24 +744,13 @@ My coding environment is a constraint I work within. Anyone who wants to collabo
 
 <div align="center">
 
-<svg width="100%" height="3" xmlns="http://www.w3.org/2000/svg" style="display:block">
-  <defs>
-    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2c5364"/>
-      <stop offset="50%" style="stop-color:#203a43"/>
-      <stop offset="100%" style="stop-color:#0f2027"/>
-    </linearGradient>
-  </defs>
-  <rect width="100%" height="3" fill="url(#fg)"/>
-</svg>
-
-<br/>
+---
 
 *Self-taught. Community-rooted. Foundation-first.*
 
 **Find the broken foundation. Understand why it broke. Rebuild it properly.**
 
-<br/>
+---
 
 [![Email](https://img.shields.io/badge/nexuss0781%40gmail.com-0f2027?style=flat-square&logo=gmail&logoColor=white)](mailto:nexuss0781@gmail.com)
 [![GitHub](https://img.shields.io/badge/nexuss0781-0f2027?style=flat-square&logo=github&logoColor=white)](https://github.com/nexuss0781)
