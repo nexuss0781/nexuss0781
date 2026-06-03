@@ -764,17 +764,17 @@ My coding environment is a constraint I work within. Anyone who wants to collabo
 
   <!-- Streak Stats -->
   <a href="https://github.com/nexuss0781">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=nexuss0781&theme=dark&hide_border=true&ring=2c5364&fire=203a43&currStreakLabel=2c5364&background=0d1117&stroke=1a1a2e" width="100%" alt="GitHub Streak" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=nexuss0781&theme=dark&hide_border=true" width="100%" alt="GitHub Streak" />
   </a>
 
   <!-- Contribution Graph -->
   <a href="https://github.com/nexuss0781">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=nexuss0781&theme=react-dark&hide_border=true&area=true&color=2c5364&point=203a43" width="100%" alt="Contribution Graph" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=nexuss0781&theme=react-dark&hide_border=true" width="100%" alt="Contribution Graph" />
   </a>
 
   <!-- Trophies -->
   <a href="https://github.com/nexuss0781">
-    <img src="https://github-profile-trophy.vercel.app/?username=nexuss0781&theme=darkhub&no-frame=true&row=1&column=6&no-bg=true" width="100%" alt="GitHub Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=nexuss0781&theme=darkhub" width="100%" alt="GitHub Trophies" />
   </a>
 
 </div>
