@@ -1,19 +1,13 @@
 <div align="center">
 
 <!-- Colorful Animated Line -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbac4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated colorful line" />
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
 
 # 🧬 TADIYOS ASCHALEW <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35px">
 
 ### ታዲዮስ አስቻለው
 
 **Software & AI Engineer** · **Ethco Coder** · **Addis Ababa, Ethiopia**
-
-
-<!-- Animated Colorful Line Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbac4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated colorful line" />
-
----
 
 > *"I don't build on what's already assumed. I return to where the assumptions began—and rebuild from there."*
 
