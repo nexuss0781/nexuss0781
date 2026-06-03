@@ -51,11 +51,11 @@
 
 ---
 
-## About
+## 🎯 About
 
-I am a **self-taught Software and AI Engineer** from Ethiopia. No institution handed me this path. No structured curriculum pointed here. What brought me here—and what drives every line of code in this profile—is a single conviction: **the foundations most people accept as fixed can, in fact, be rebuilt**.
+I am a 20 y/o **self-taught Software and AI Engineer** from Ethiopia. No institution handed me this path. No structured curriculum pointed here. What brought me here—and what drives every line of code in this profile—is a single conviction: **the foundations most people accept as fixed can, in fact, be rebuilt**.
 
-### AI & Intelligence: The Core Focus
+### 🧠 AI & Intelligence: The Core Focus
 
 My deepest work belongs to **artificial intelligence and cognitive architecture**—specifically, to the places where current approaches hit walls that cannot be climbed by adding more of the same.
 
@@ -91,7 +91,7 @@ The works described here are passing through trials, prototypes, and proof phase
 
 ---
 
-### Community, Teaching & Infrastructure
+### 👥 Community, Teaching & Infrastructure
 
 Beyond research, I am a founding member of **Ethco Coders**, a collaborative community of engineers researching and building technology that matters beyond benchmarks.
 
@@ -103,19 +103,19 @@ Beyond research, I am a founding member of **Ethco Coders**, a collaborative com
 
 ---
 
-## The Work
+## 💼 The Work
 
 What follows is not a list of repositories. It is a record of problems I refused to leave unanswered. Each section describes research directions and working implementations exploring solutions where conventional approaches have plateaued.
 
 ---
 
-### I. Intelligence Architecture
+### 🧠 I. Intelligence Architecture
 
 *The work that challenges what artificial cognition is allowed to be.*
 
 ---
 
-#### AURELIS — Linear Complexity, Proven
+#### ⚡ AURELIS — Linear Complexity, Proven
 
 **Challenge**: Every transformer-based architecture carries a fundamental tax—attention mechanisms that scale quadratically. Double the context, quadruple the computation. This is not an engineering inconvenience. It is a structural ceiling on what these systems can ever do with long sequences.
 
@@ -144,7 +144,7 @@ Built in collaboration with the Ethco Coders team, **AURELIS** (*Adaptive Unders
 
 ---
 
-#### Nexuss Neural Cognition — A Brain That Manages Itself
+#### 🧬 Nexuss Neural Cognition — A Brain That Manages Itself
 
 **Challenge**: Biological neurons do not crash from memory errors. They grow when needed. They prune when wasteful. They adapt their own structure to match cognitive demand. AI systems that claim to be intelligent should do the same.
 
@@ -166,7 +166,7 @@ The system monitors its own resource usage and responds in real-time:
 
 ---
 
-#### Genesis Trinity — Three Layers of Actual Thought
+#### 🌌 Genesis Trinity — Three Layers of Actual Thought
 
 **Challenge**: Pattern matching is not thinking. It is recognition. What Genesis Trinity builds is something closer to cognition itself—a three-layer bio-inspired architecture that mirrors how biological intelligence actually emerged.
 
@@ -190,7 +190,7 @@ The system monitors its own resource usage and responds in real-time:
 
 ---
 
-#### Intellectual Cortex Architecture — Intellect Without Survival
+#### 🔬 Intellectual Cortex Architecture — Intellect Without Survival
 
 **Challenge**: Biological brains evolved to survive—hunger, fear, reproductive drives, territorial instinct baked into the architecture. These are not bugs; they were adaptive. But they are not what we need when we want pure reasoning.
 
@@ -205,7 +205,7 @@ The system monitors its own resource usage and responds in real-time:
 
 ---
 
-#### Chrono-Causal Tapestry (CCT) — Why, Not Just What
+#### ⏳ Chrono-Causal Tapestry (CCT) — Why, Not Just What
 
 **Challenge**: Statistical models find correlations. They cannot tell you what caused what. CCT addresses this directly—building AI systems that reason about causality rather than merely recognizing patterns.
 
@@ -219,7 +219,7 @@ The system monitors its own resource usage and responds in real-time:
 
 ---
 
-#### CogniArch — Learning Without Forgetting *(Internal Research)*
+#### 🏗️ CogniArch — Learning Without Forgetting *(Internal Research)*
 
 AI that learns new tasks while losing old ones is not accumulating intelligence. It is cycling through it. CogniArch addresses catastrophic forgetting through category theory and continual learning mechanisms—building systems that hold knowledge the way humans do:
 
@@ -229,7 +229,7 @@ AI that learns new tasks while losing old ones is not accumulating intelligence.
 
 ---
 
-### II. Quantum & Language Computing
+### ⚛️ II. Quantum & Language Computing
 
 *New computational substrates. Languages that change what programs can be.*
 
@@ -237,7 +237,7 @@ AI that learns new tasks while losing old ones is not accumulating intelligence.
 
 ---
 
-#### Quantum Absolute Unit (QAU) — Quantum Without Quantum Hardware
+#### 🌀 Quantum Absolute Unit (QAU) — Quantum Without Quantum Hardware
 
 **Assumption**: Quantum computing requires quantum hardware. This assumption has not been rigorously examined.
 
@@ -258,7 +258,7 @@ AI that learns new tasks while losing old ones is not accumulating intelligence.
 
 ---
 
-#### Walia — The Language Where Data Survives
+#### 💾 Walia — The Language Where Data Survives
 
 **Assumption**: Programs must serialize data to persist. This assumption has never been questioned.
 
@@ -286,13 +286,13 @@ This is not a storage layer added on top. It is a first principle of the languag
 
 ---
 
-### III. Autonomous Agent Systems
+### 🤖 III. Autonomous Agent Systems
 
 *Coordination at scale. Intelligence that orchestrates intelligence.*
 
 ---
 
-#### Ardi-Agents — Sixteen Specialists, Zero Standups
+#### 🎯 Ardi-Agents — Sixteen Specialists, Zero Standups
 
 What human development teams coordinate over days, this system orchestrates in minutes.
 
@@ -307,13 +307,13 @@ The architecture is not just efficient. It is a model for how intelligent system
 
 ---
 
-### IV. Sensory Substrates for AGI
+### 👁️ IV. Sensory Substrates for AGI
 
 *Mathematical foundations for how AI systems hear and see.*
 
 ---
 
-#### NASS — Audio as Mathematics
+#### 🎵 NASS — Audio as Mathematics
 
 Sound is not waveforms. Not spectrograms. Not compressed representations. At its foundation, sound is a mathematical object—and AI systems that want to understand it need access to that object directly.
 
@@ -328,7 +328,7 @@ This is not audio processing software. It is the sensory foundation for systems 
 
 ---
 
-#### ALVS — Vision as Physics
+#### 🖼️ ALVS — Vision as Physics
 
 Pixels are not how reality is structured. Reality has energy. Reality has flow. The Atomic Logic Vision System decomposes images into their physical essence:
 
@@ -342,13 +342,13 @@ Vision systems built on this substrate see structure that pixel-based approaches
 
 ---
 
-### V. Language Technology for Underserved Communities
+### 🌍 V. Language Technology for Underserved Communities
 
 *Because technology that only serves English perpetuates inequality.*
 
 ---
 
-#### EthioBBPE — Ethiopian Languages as First-Class Citizens
+#### 🔤 EthioBBPE — Ethiopian Languages as First-Class Citizens
 
 Most AI tokenizers encounter Amharic and Ge'ez and break them into fragments—losing meaning, losing structure, losing the cultural precision encoded in the script. EthioBBPE was built from the ground up for Ethiopian languages.
 
@@ -362,7 +362,7 @@ The tokenizer does not treat Ethiopian languages as an afterthought. It was buil
 
 ---
 
-#### Nexuss Transformer Framework (NTF) — Train Your Own Model From Scratch
+#### 🚀 Nexuss Transformer Framework (NTF) — Train Your Own Model From Scratch
 
 Fine-tuning someone else's model means inheriting their assumptions. NTF provides everything needed to build from a blank slate:
 
@@ -376,7 +376,7 @@ Data preparation, training, alignment, deployment—complete.
 
 ---
 
-#### Nexuss-AI — Enterprise LLM Capabilities, Open-Source Freedom
+#### 🏛️ Nexuss-AI — Enterprise LLM Capabilities, Open-Source Freedom
 
 The same capabilities that large labs protect behind closed APIs, made accessible:
 
@@ -390,7 +390,7 @@ The same capabilities that large labs protect behind closed APIs, made accessibl
 
 ---
 
-### V. Financial Technology Solutions
+### 💰 V. Financial Technology Solutions
 
 *Building clarity where complexity obscures decisions.*
 
@@ -398,7 +398,7 @@ The same capabilities that large labs protect behind closed APIs, made accessibl
 
 ---
 
-#### ZeinthFinance — Financial Visibility That Changes Decisions
+#### 📊 ZeinthFinance — Financial Visibility That Changes Decisions
 
 **Problem**: Budgeting tools fail not because they lack features, but because they don't show people what they need to see *before it's too late*. Most financial software is reactive—it records transactions after they happen. By then, the damage is done.
 
@@ -421,13 +421,35 @@ The same capabilities that large labs protect behind closed APIs, made accessibl
 
 ---
 
-### VI. Software Solutions
+#### 🛒 C9-Marketing — E-Commerce Without the Friction
+
+**Problem**: Online stores fail not because of lack of products, but because of friction. Complex interfaces, unclear pricing, hidden seller information. C9-Marketing eliminates the noise.
+
+**Solution**: A **streamlined e-commerce platform** focused on simplicity and transparency.
+
+**Core Features**:
+- 📸 **Dynamic Listings**: Product cards with multiple photos and dynamic pricing
+- 👤 **Transparent Sellers**: Seller information integrated into every listing
+- 🎨 **Responsive Grid**: TailwindCSS responsive design that works on any device
+- 🔐 **Secure Authentication**: JWT-based authentication with proper security
+- ⚡ **Fast & Direct**: React + TypeScript frontend, Flask backend—built for speed
+
+**Technical Stack**:
+- Frontend: React 18, TypeScript, Vite, TailwindCSS
+- Backend: Flask, SQLAlchemy ORM, SQLite
+- Real-time updates and seamless API integration
+
+**Why It Works**: Removes the complexity that kills online stores. Product-focused, seller-transparent, customer-friendly. No bloat. Just commerce.
+
+---
+
+### 🛠️ VI. Software Solutions
 
 *Tools that work. Interfaces that get out of the way.*
 
 ---
 
-#### FTP-Client — Enterprise File Transfer Without the 3 AM Call
+#### 📁 FTP-Client — Enterprise File Transfer Without the 3 AM Call
 
 **Problem**: File transfer systems must be reliable. Not "usually works." Not "works 95% of the time." Enterprises need systems that move files reliably at 3 AM when nobody is watching—with zero manual intervention.
 
@@ -481,7 +503,7 @@ The same capabilities that large labs protect behind closed APIs, made accessibl
 
 **Language Support**:
 
-- **Python**: `pip install ftpclient` with first-class async support
+- **Python**: first-class async support
 - **C/C++**: Frozen ABI for language-agnostic consumption
 - **Go/Rust/Node**: Native FFI bindings available
 
@@ -500,21 +522,7 @@ Nightly backup pipelines. CI/CD artifact distribution. IoT firmware delivery. An
 
 ---
 
-#### ZeinthFinance — Financial Visibility That Changes Decisions
-
-The problem with budgeting tools is not features. It is that they do not show people what they need to see before it is too late. ZeinthFinance is built around that single requirement.
-
-- Visual analytics: pie charts for expense distribution, bar charts for monthly trends
-- AI-powered insights that project financial trajectories, not just record transactions
-- Transaction filtering by type, date, and category—organized the way humans actually think about money
-- PostgreSQL backend with JWT authentication
-- 30-day trend visibility and recent transaction summaries at a glance
-
-Not a budgeting app. A tool for financial clarity that changes how decisions get made.
-
----
-
-#### NPMS & Nexuss School Management — One System for an Entire Institution
+#### 🎓 NPMS & Nexuss School Management — One System for an Entire Institution
 
 Schools run on fragmented software. Attendance in one place. Grades in another. Communication somewhere else. Assets in spreadsheets. These platforms unify everything.
 
@@ -530,43 +538,37 @@ No more ten platforms that do not talk to each other.
 
 ---
 
-#### C9-Marketing — E-Commerce Without the Friction
-
-The thing that kills online stores is not competition. It is complexity. C9-Marketing strips it away: product listings with multiple photos and dynamic pricing, seller information built into every listing, TailwindCSS responsive grid, JWT authentication with proper security. Clean, fast, and direct.
-
----
-
-#### Nexuss-IDE — Professional Development on Mobile
+#### 💻 Nexuss-IDE — Professional Development on Mobile
 
 A mobile-first IDE built on Monaco Editor with custom touch interactions: drag selections, long-press menus, floating toolbars. Flask backend handling file I/O, authentication, and an extensible plugin system. Workspace management for entire projects. Professional development from anywhere.
 
 ---
 
-#### Nexuss-Studio — Study and Code in the Same Environment
+#### 📚 Nexuss-Studio — Study and Code in the Same Environment
 
 Left panel: AI chat. Right panel: PDF study mode or full coding environment. Five models available—GPT-4 Turbo, Claude 3 Opus, Gemini Ultra, Llama 3 70B, Mistral Large. Three-level caching for speed. Documents and code in one coherent space.
 
 ---
 
-#### Nexuss Education — AI That Understands the Document
+#### 📖 Nexuss Education — AI That Understands the Document
 
 Upload a PDF. Ask questions about its content. Receive answers grounded in what the document actually says. Smart multi-key rotation across the OpenRouter API ensures continuity when rate limits are hit. Access to 31+ AI models including vision-capable systems that analyze PDF pages directly.
 
 ---
 
-#### Nexuss Chat, codespacehub (GitPHP), Nexuss-Media, Nexuss-Playground
+#### 💬 Nexuss Chat, codespacehub (GitPHP), Nexuss-Media, Nexuss-Playground
 
-**Nexuss Chat**: Real-time messaging with presence status, typing indicators, group communication, and file sharing with encryption. It works and does not announce itself.
+**💬 Nexuss Chat**: Real-time messaging with presence status, typing indicators, group communication, and file sharing with encryption. It works and does not announce itself.
 
-**codespacehub (GitPHP)**: Self-hosted Git with smart filtering—only source code and essential documentation, without noise. In-browser editing. ZIP uploads. Built for people who want to work, not navigate bloat.
+**🗂️ codespacehub (GitPHP)**: Self-hosted Git with smart filtering—only source code and essential documentation, without noise. In-browser editing. ZIP uploads. Built for people who want to work, not navigate bloat.
 
-**Nexuss-Media**: 2,127 Unicode v13.1 emojis rendered at 200×200px using Apple Color Emoji, with a browser-based generator for custom sizes. Published as an npm package.
+**😀 Nexuss-Media**: 2,127 Unicode v13.1 emojis rendered at 200×200px using Apple Color Emoji, with a browser-based generator for custom sizes. Published as an npm package.
 
-**Nexuss-Playground (Nexus Pro)**: Multi-model AI routing—Claude, Gemini, GPT—with one-click switching, integrated DuckDuckGo search, syntax highlighting for 100+ languages, KaTeX math typesetting, and zero-backend architecture using browser IndexedDB for history.
+**🚀 Nexuss-Playground (Nexus Pro)**: Multi-model AI routing—Claude, Gemini, GPT—with one-click switching, integrated DuckDuckGo search, syntax highlighting for 100+ languages, KaTeX math typesetting, and zero-backend architecture using browser IndexedDB for history.
 
 ---
 
-### VII. Internal Research — Ongoing
+### 🔬 VII. Internal Research — Ongoing
 
 *These are not products. They are directions. The public repositories are early steps.*
 
@@ -584,7 +586,7 @@ The work on AURELIS (linear complexity), Walia (persistent memory), QAU (native 
 
 ---
 
-## Technical Expertise
+## 📊 Technical Expertise
 
 Practical mastery across multiple domains, validated by shipped systems and research implementations.
 
@@ -703,29 +705,29 @@ Practical mastery across multiple domains, validated by shipped systems and rese
 
 ---
 
-## Fields of Participation
+## 📝 Fields of Participation
 
 **Practical engagement across multiple domains, grounded in shipped systems and ongoing research.**
 
-**Artificial Intelligence & Machine Learning** — Neural architectures for continual learning, spiking networks, cognitive systems, causal AI, multi-agent orchestration, RLHF alignment, Bayesian inference, end-to-end model training without pre-trained weights.
+🧠 **Artificial Intelligence & Machine Learning** — Neural architectures for continual learning, spiking networks, cognitive systems, causal AI, multi-agent orchestration, RLHF alignment, Bayesian inference, end-to-end model training without pre-trained weights.
 
-**Quantum & Advanced Computing** — Native quantum primitive execution on classical hardware, quantum virtual substrates, hybrid quantum-classical architecture, computing beyond traditional boundaries.
+⚛️ **Quantum & Advanced Computing** — Native quantum primitive execution on classical hardware, quantum virtual substrates, hybrid quantum-classical architecture, computing beyond traditional boundaries.
 
-**Programming Languages & Systems** — Orthogonal persistence, register-based VMs, dimensional type systems, compiler design, memory management from embedded devices to data centers, runtime optimization.
+💾 **Programming Languages & Systems** — Orthogonal persistence, register-based VMs, dimensional type systems, compiler design, memory management from embedded devices to data centers, runtime optimization.
 
-**Distributed Systems & Infrastructure** — Circuit breakers, multi-key rotation, exponential backoff, concurrent I/O, self-healing production systems, hardware-agnostic optimization.
+🌐 **Distributed Systems & Infrastructure** — Circuit breakers, multi-key rotation, exponential backoff, concurrent I/O, self-healing production systems, hardware-agnostic optimization.
 
-**Natural Language Processing** — Tokenizers purpose-built for Ethiopian scripts, blank-slate LLM training, parameter-efficient fine-tuning, catastrophic forgetting prevention, multi-language support.
+🗣️ **Natural Language Processing** — Tokenizers purpose-built for Ethiopian scripts, blank-slate LLM training, parameter-efficient fine-tuning, catastrophic forgetting prevention, multi-language support.
 
-**Computer Vision & Audio Processing** — Physics-based image decomposition, lossless audio-to-tensor conversion, SIMD hardware optimization, AGI-grade sensory substrates, real-time signal analysis.
+👁️ **Computer Vision & Audio Processing** — Physics-based image decomposition, lossless audio-to-tensor conversion, SIMD hardware optimization, AGI-grade sensory substrates, real-time signal analysis.
 
-**Education Technology** — School management ecosystems, AI-powered study tools, mobile development environments, community-serving digital infrastructure, accessible technology for underserved communities.
+🎓 **Education Technology** — School management ecosystems, AI-powered study tools, mobile development environments, community-serving digital infrastructure, accessible technology for underserved communities.
 
-**Networking & Infrastructure** — Server recovery, digital library implementation, city-level infrastructure problem resolution, youth training in technology fundamentals, building institutions from broken foundations.
+🏗️ **Networking & Infrastructure** — Server recovery, digital library implementation, city-level infrastructure problem resolution, youth training in technology fundamentals, building institutions from broken foundations.
 
 ---
 
-## GitHub Activity
+## 📊 GitHub Activity
 
 <div align="center">
 
@@ -741,22 +743,22 @@ Practical mastery across multiple domains, validated by shipped systems and rese
 
 ---
 
-## Collaboration
+## 🤝 Collaboration
 
 I work at the edge of what current approaches can do. The work benefits from people who think in the same direction: engineers who want to push past the quadratic walls, researchers who take mathematical rigor seriously, builders who care about the communities technology tends to overlook.
 
 My coding environment is a constraint I work within. Anyone who wants to collaborate—whether on maximizing the reach of what already exists here or on securing capabilities that matter for the future—can reach me directly.
 
-**nexuss0781@gmail.com**
+**📧 nexuss0781@gmail.com**
 
-What interests me in collaboration:
+**What interests me in collaboration**:
 
-- Rebuilding AI foundations where current methods have plateaued
-- Mathematical proofs over empirical approximations, wherever possible
-- Technology that serves Ethiopian and other underserved language communities
-- Production systems that ship and hold
-- Quantum-classical computing that works on available hardware today
-- Cognitive architectures that accumulate knowledge rather than cycling through it
+- 🎯 Rebuilding AI foundations where current methods have plateaued
+- ✓ Mathematical proofs over empirical approximations, wherever possible
+- 🌍 Technology that serves Ethiopian and other underserved language communities
+- 🚀 Production systems that ship and hold
+- ⚛️ Quantum-classical computing that works on available hardware today
+- 🧠 Cognitive architectures that accumulate knowledge rather than cycling through it
 
 ---
 
