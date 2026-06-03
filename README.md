@@ -754,39 +754,25 @@ My coding environment is a constraint I work within. Anyone who wants to collabo
 
 <div align="center">
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=nexuss0781&theme=dark&hide_border=true&ring=2c5364&fire=203a43&currStreakLabel=2c5364&background=0d1117&stroke=1a1a2e)](https://github.com/nexuss0781)
-
-[![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=nexuss0781&theme=react-dark&hide_border=true&area=true&color=2c5364&point=203a43)](https://github.com/nexuss0781)
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=nexuss0781&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&hide=stars,languages&hide_title=false&bg_color=0d1117&icon_color=2c5364&title_color=c9d1d9)](https://github.com/nexuss0781)
-
-[![Trophies](https://github-profile-trophy.vercel.app/?username=nexuss0781&theme=darkhub&no-frame=true&row=1&column=6&no-bg=true)](https://github.com/nexuss0781)
-
-</div>
-
-
-<!-- Animated Colorful Line at End -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbac4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated colorful line" />
-
-<!-- GitHub Stats Widget -->
-<div>
+  <!-- Stats & Top Languages -->
   <a href="https://github.com/nexuss0781">
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=nexuss0781&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=2c5364&icon_color=2c5364" width="48%" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=nexuss0781&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=2c5364&include_all_commits=true" />
   </a>
   <a href="https://github.com/nexuss0781">
-    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=2c5364" width="48%" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=2c5364" />
   </a>
-</div>
 
-<!-- GitHub Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=nexuss0781&theme=dark&hide_border=true&ring=2c5364&fire=203a43&currStreakLabel=2c5364&background=0d1117&stroke=1a1a2e" width="100%" alt="GitHub Streak" />
+  <!-- Streak Stats -->
+  <img src="https://streak-stats.demolab.com/?user=nexuss0781&theme=dark&hide_border=true&ring=2c5364&fire=203a43&currStreakLabel=2c5364&background=0d1117&stroke=1a1a2e" width="100%" alt="GitHub Streak" />
 
-<!-- Contribution Stats -->
-<div>
+  <!-- Contribution Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nexuss0781&theme=react-dark&hide_border=true&area=true&color=2c5364&point=203a43" width="100%" alt="Contribution Graph" />
+
+  <!-- Trophies -->
+  <img src="https://github-profile-trophy.vercel.app/?username=nexuss0781&theme=darkhub&no-frame=true&row=1&column=6&no-bg=true" width="100%" alt="GitHub Trophies" />
+
 </div>
 
-<!-- Profile Views Counter -->
-<img src="https://komarev.com/ghpvc/?username=nexuss0781&label=Profile%20Views&color=2c5364&style=flat-square" alt="Profile views" />
-
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=nexuss0781&label=Profile%20Views&color=2c5364&style=flat-square" alt="Profile views" />
 </div>
