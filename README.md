@@ -18,7 +18,7 @@
 
 <!-- Name -->
 <h1 align="center" style="font-family:'Georgia',serif; font-size:2.8em; font-weight:400; letter-spacing:3px; color:#1a1a2e; margin:0.3em 0 0.1em;">
-  TADIYOS ASCHALEW
+ 🧬 TADIYOS ASCHALEW | ታዲዮስ አስቻለው 
 </h1>
 
 <p align="center" style="font-size:0.95em; letter-spacing:2px; color:#555; text-transform:uppercase; font-family:monospace; margin:0 0 0.6em;">
