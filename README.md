@@ -1,3 +1,5 @@
+<!-- Colorful Animated Line -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
 <div align="center">
 <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663032273033/EWBfFtNaBtFKWlvq.png" width="800">
 
@@ -14,27 +16,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nexuss0781/)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=react&logoColor=white)](https://nexuss.pro.et/)
 
----
-<div align="center">
-
-<!-- Colorful Animated Line -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
-
-# 🧬 TADIYOS ASCHALEW <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35px">
-
-### ታዲዮስ አስቻለው
-
-**Software & AI Engineer** · **Ethco Coder** · **Addis Ababa, Ethiopia**
-
 > *"I don't build on what's already assumed. I return to where the assumptions began—and rebuild from there."*
-
----
-
-[![Email](https://img.shields.io/badge/nexuss0781%40gmail.com-0f2027?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nexuss0781@gmail.com)
-[![GitHub](https://img.shields.io/badge/nexuss0781-0f2027?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nexuss0781)
-[![HuggingFace](https://img.shields.io/badge/Nexuss0781-0f2027?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/Nexuss0781)
-[![PyPI](https://img.shields.io/badge/EthioBBPE-0f2027?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/EthioBBPE/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
 </div>
 
