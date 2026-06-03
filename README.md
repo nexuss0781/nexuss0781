@@ -40,7 +40,7 @@
 
 ---
 
-## Who I Am
+## About
 
 I am a self-taught Software and AI Engineer from Ethiopia. No institution handed me this. No structured path pointed here. What brought me here is the same thing that drives every line of work you will find in this profile: a conviction that the foundations most people accept as fixed can, in fact, be rebuilt.
 
