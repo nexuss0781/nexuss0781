@@ -1,4 +1,21 @@
 <div align="center">
+<img src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663032273033/EWBfFtNaBtFKWlvq.png" width="800">
+
+# 🧬 TADIYOS ASCHALEW <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35px">
+### ታዲዮስ አስቻለው
+**Software & AI Engineer** · **Ethco Coder** · **Addis Ababa, Ethiopia**
+
+---
+
+### 🌐 Social Media
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nexuss0781)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Nexuss0781)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Nexuss_stuff)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nexuss0781/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=react&logoColor=white)](https://nexuss.pro.et/)
+
+---
+<div align="center">
 
 <!-- Colorful Animated Line -->
 <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
