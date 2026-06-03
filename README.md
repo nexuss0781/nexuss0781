@@ -1,8 +1,5 @@
 <div align="center">
 
-<!-- Profile Views Counter -->
-<img src="https://komarev.com/ghpvc/?username=nexuss0781&label=Profile%20Views&color=2c5364&style=flat-square" alt="Profile views" />
-
 <!-- Colorful Animated Line -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbac4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Animated colorful line" />
 
@@ -788,5 +785,8 @@ My coding environment is a constraint I work within. Anyone who wants to collabo
 <div>
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nexuss0781&theme=react-dark&hide_border=true&area=true&color=2c5364&point=203a43" width="100%" alt="Contribution Graph" />
 </div>
+
+<!-- Profile Views Counter -->
+<img src="https://komarev.com/ghpvc/?username=nexuss0781&label=Profile%20Views&color=2c5364&style=flat-square" alt="Profile views" />
 
 </div>
