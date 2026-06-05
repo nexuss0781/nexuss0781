@@ -1,20 +1,20 @@
 <!-- Colorful Animated Line -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="1000">
+<img src="assets/b727a8d982.gif" width="1000">
 <div align="center">
-<img src="https://files.manuscdn.com/user_upload_by_module/session_file/310419663032273033/EWBfFtNaBtFKWlvq.png" width="800">
+<img src="assets/c415cab317.svg" width="800">
 
-# 🧬 TADIYOS ASCHALEW <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="35px">
+# 🧬 TADIYOS ASCHALEW <img src="assets/77bbab8b1c.gif" width="35px">
 ### ታዲዮስ አስቻለው
 **Software & AI Engineer** · **Ethco Coder** · **Addis Ababa, Ethiopia**
 
 ---
 
 ### 🌐 Social Media
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nexuss0781)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/Nexuss0781)
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/Nexuss_stuff)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nexuss0781/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=react&logoColor=white)](https://nexuss.pro.et/)
+[![GitHub](assets/c3cde3ac9d.svg)](https://github.com/nexuss0781)
+[![HuggingFace](assets/18e421212a.svg)](https://huggingface.co/Nexuss0781)
+[![Telegram](assets/aa411d57ec.svg)](https://t.me/Nexuss_stuff)
+[![LinkedIn](assets/05803a7403.svg)](https://www.linkedin.com/in/nexuss0781/)
+[![Portfolio](assets/4bec80e416.svg)](https://nexuss.pro.et/)
 
 > *"I don't build on what's already assumed. I return to where the assumptions began—and rebuild from there."*
 
@@ -737,10 +737,10 @@ My coding environment is a constraint I work within. Anyone who wants to collabo
 
 ### 🌟 Quick Links
 
-[![Email](https://img.shields.io/badge/Email-0f2027?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nexuss0781@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-0f2027?style=for-the-badge&logo=github&logoColor=white)](https://github.com/nexuss0781)
-[![HuggingFace](https://img.shields.io/badge/HuggingFace-0f2027?style=for-the-badge&logo=huggingface&logoColor=white)](https://huggingface.co/Nexuss0781)
-[![PyPI](https://img.shields.io/badge/PyPI-0f2027?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/EthioBBPE/)
+[![Email](assets/a5d4cab933.svg)](mailto:nexuss0781@gmail.com)
+[![GitHub](assets/bada021f1c.svg)](https://github.com/nexuss0781)
+[![HuggingFace](assets/51b4e79f84.svg)](https://huggingface.co/Nexuss0781)
+[![PyPI](assets/2b1da11de9.svg)](https://pypi.org/project/EthioBBPE/)
 
 
 ## 📊 GitHub Activity
@@ -749,29 +749,29 @@ My coding environment is a constraint I work within. Anyone who wants to collabo
 
   <!-- Stats & Top Languages -->
   <a href="https://github.com/nexuss0781">
-    <img height="180" src="https://github-readme-stats-fast.vercel.app/api?username=nexuss0781&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=c9d1d9&icon_color=2c5364&include_all_commits=true" />
+    <img height="180" src="assets/d18ea2ae3a.svg" />
   </a>
   <a href="https://github.com/nexuss0781">
-    <img height="180" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=2c5364" />
+    <img height="180" src="assets/fd9a7d417f.svg" />
   </a>
 
   <!-- Streak Stats -->
   <a href="https://github.com/nexuss0781">
-    <img src="https://streak-stats.demolab.com/?user=nexuss0781&theme=dark&hide_border=true" width="100%" alt="GitHub Streak" />
+    <img src="assets/882b120959.svg" width="100%" alt="GitHub Streak" />
   </a>
 
   <!-- Contribution Graph -->
   <a href="https://github.com/nexuss0781">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=nexuss0781&theme=react-dark&hide_border=true" width="100%" alt="Contribution Graph" />
+    <img src="assets/d0f8c74e09.svg" width="100%" alt="Contribution Graph" />
   </a>
 
   <!-- Trophies -->
   <a href="https://github.com/nexuss0781">
-    <img src="https://github-profile-trophy.zeabur.app/?username=nexuss0781&theme=darkhub" width="100%" alt="GitHub Trophies" />
+    <img src="assets/0bcc6096ae.svg" width="100%" alt="GitHub Trophies" />
   </a>
 
 </div>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=nexuss0781&label=Profile%20Views&color=2c5364&style=flat-square" alt="Profile views" />
+  <img src="assets/0ab940dd60.svg" alt="Profile views" />
 </div>
