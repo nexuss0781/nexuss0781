@@ -1,7 +1,6 @@
 <!-- Colorful Animated Line -->
 <img src="assets/b727a8d982.gif" width="1000">
 <div align="center">
-<img src="assets/c415cab317.svg" width="800">
 
 # 🧬 TADIYOS ASCHALEW <img src="assets/77bbab8b1c.gif" width="35px">
 ### ታዲዮስ አስቻለው
