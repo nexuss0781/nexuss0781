@@ -1,5 +1,6 @@
 <!-- Colorful Animated Line -->
 <img src="assets/b727a8d982.gif" width="1000">
+<img src="assets/compressed1.jpg" width="1000">
 <div align="center">
 
 # 🧬 TADIYOS ASCHALEW <img src="assets/77bbab8b1c.gif" width="35px">
