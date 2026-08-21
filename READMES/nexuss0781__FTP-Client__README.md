@@ -1,16 +1,24 @@
-# FTP Client Library
+# FTP-Client
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/FTP-Client](https://github.com/nexuss0781/FTP-Client) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## FTP Client Library
 
 **FTPS Client Library — C++ Core with Python Bindings (M0 Development Baseline)**
 
-[![Version](https://img.shields.io/badge/version-0.1.0--prealpha-orange)](https://github.com/yourorg/ftpclient)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![C++](https://img.shields.io/badge/C++-17-orange)](https://isocpp.org/)
-[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
-[![Platforms](https://img.shields.io/badge/platforms-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey)](SUPPORT)
 
 A **development-stage FTPS client foundation** engineered for a stable C ABI, protocol correctness, and future unattended batch operations. The current M0 baseline contains protocol, TLS, transfer, resilience, and Python-binding scaffolding; real public connection and file-transfer operations are not yet complete.
 
----
 
 ## Table of Contents
 

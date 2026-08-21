@@ -1,17 +1,23 @@
-<div align="center">
+# Scaled-Dot-Product-Attention
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Scaled-Dot-Product-Attention](https://github.com/nexuss0781/Scaled-Dot-Product-Attention) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | O(n) linear-time attention with epistemic uncertainty, adaptive compute depth, and provable convergence |
+
+---
 <h1> SGRK-UQAD — Spectrally-Gated Recurrent Kernel Attention</h1>
 
 <p><strong>O(n) linear-time attention with epistemic uncertainty, adaptive compute depth, and provable convergence — no approximation gap at inference.</strong></p>
 
 <p><em>A drop-in replacement for standard Scaled Dot-Product Attention that eliminates the O(n²) bottleneck by reformulating the exponential kernel through a learnable finite-rank feature map, fused with a constant-size exact residual via a content-adaptive spectral gate. No score matrix is ever materialized.</em></p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
-[![O(n)](https://img.shields.io/badge/Sequence-O(n)-brightgreen.svg)](#mathematical-foundations)
-[![O(1)](https://img.shields.io/badge/Memory-O(1)-brightgreen.svg)](#complexity-guarantees)
-[![Uncertainty](https://img.shields.io/badge/Epistemic-Uncertainty-purple.svg)](#iv-epistemic-uncertainty-every-token-knows-what-it-doesnt-know)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
 <br/>
 
@@ -24,9 +30,7 @@
 | 128k-token peak RAM | >1 TB (infeasible) | **~102 MB total** | **10,000× reduction** |
 | Epistemic uncertainty | Not available | **Per-token, per-element** | New capability |
 
-</div>
 
----
 
 ## Table of Contents
 

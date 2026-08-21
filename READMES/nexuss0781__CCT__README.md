@@ -1,4 +1,18 @@
-# CCT-ASE Native C++ Research Prototype
+# CCT
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/CCT](https://github.com/nexuss0781/CCT) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## CCT-ASE Native C++ Research Prototype
 
 The **Chrono-Causal Tapestry — Adaptive Spectral Engine (CCT-ASE)** is a research prototype for testing causal event fields and efficient spectral dynamics. The repository currently provides a reproducible **native C++20 numerical, sequence, causal-event, persistent-memory, small-scale language/code, bounded deliberation, controlled multimodal, governed-corpus, tokenizer/representation, trainable next-token, CPU scaling, supervised-adaptation, preference-alignment, verified-retrieval, production-like inference-operations, and controlled-release substrate**; it does not claim to be a general language model or superintelligence system. The implemented Stage 0 through Stage 17 gates establish reproducibility, recurrent trainability, efficiency measurement, governance, real-source corpus controls, tokenizer and checkpoint integrity, supervised adaptation, preference alignment, verified retrieval, versioned serving, bounded pilot admission, human review, incident response, deletion, drift, rollback, and named approval controls on declared fixtures and a named low-risk release scope.
 

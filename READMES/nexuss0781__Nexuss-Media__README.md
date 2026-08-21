@@ -1,6 +1,19 @@
-# 🙈 Emoji Images
+# Nexuss-Media
 
-[![npm version](https://badge.fury.io/js/emojiimages.svg)](https://badge.fury.io/js/emojiimages)
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss-Media](https://github.com/nexuss0781/Nexuss-Media) |
+| Visibility | Public |
+| Fork | Yes |
+| Archived | No |
+| Default branch | `master` |
+| Primary language | Not specified |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## 🙈 Emoji Images
+
 
 Images (200x200) for all emojis in [Unicode v13.1](https://unicode.org/Public/emoji/13.1/emoji-sequences.txt) (Date 2020-08-31) and some composite emojis in [supplement.txt](./supplement.txt) such as `👨‍👩‍👧‍👦`, rendered with *Apple Color Emoji* font in Mac OS.
 
@@ -10,7 +23,6 @@ NOTE: Some emojis are not supported by the Apple Color Emoji font.
 - `supplement.txt` contains 125 emojis, 124 are suppoted.
 - So we get 2127 + 124 = **2251** emoji images in total!
 
-![](http://asset.cjting.cn/Fl94d35lOHoRctklj0MW8P5SRMhO.png)
 
 ## Install
 

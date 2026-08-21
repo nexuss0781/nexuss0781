@@ -1,15 +1,21 @@
-# 🚀 Nexuss-IDE
+# Nexuss-IDE
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.1.0-orange)](https://github.com)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com)
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss-IDE](https://github.com/nexuss0781/Nexuss-IDE) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | HTML |
+| Topics | None listed |
+| Repository description | Not provided |
 
+---
 A self-hosted, mobile-first, full-stack IDE with a powerful Python-based plugin architecture. Nexuss-IDE combines the versatility of Monaco Editor with a robust Flask backend to create a seamless, extensible coding environment accessible from any modern browser.
 
 > This project is designed to be a lightweight, personal cloud development environment that you can run on any machine and access from anywhere.
 
----
 
 ## ✨ Core Features
 

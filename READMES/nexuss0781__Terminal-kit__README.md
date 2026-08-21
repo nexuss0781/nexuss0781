@@ -1,5 +1,17 @@
-# Terminal-Kit
+# Terminal-kit
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Terminal-kit](https://github.com/nexuss0781/Terminal-kit) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | TypeScript |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
 **Terminal-Kit is the backend control plane for Nexuss agentic AIs.** It registers remote terminal instances, securely enrolls an instance agent, routes commands, accepts interactive stdin, streams real-time terminal output, records history, and balances work across online instances.
 
 The browser interface is deliberately minimal. It exists only to collect an instance name and URL, then generate and deliver the **Dockerfile as communication protocol**. AI agents should use the authenticated versioned API directly.

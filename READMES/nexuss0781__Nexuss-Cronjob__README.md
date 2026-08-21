@@ -1,18 +1,23 @@
-<p align="center">
-  <img src="public/favicon.svg" alt="Nexuss Logo" width="80" height="80" />
-</p>
+# Nexuss-Cronjob
 
-<h1 align="center">Nexuss Cronjob</h1>
-
-<p align="center">
-  Real-time uptime monitoring and alerting platform for APIs, websites, and services.
-</p>
-
-<p align="center">
-  <a href="https://nexuss-cronjob.vercel.app">Live Demo</a>
-</p>
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss-Cronjob](https://github.com/nexuss0781/Nexuss-Cronjob) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `master` |
+| Primary language | TypeScript |
+| Topics | None listed |
+| Repository description | Real-time uptime monitoring and alerting platform for APIs, websites, and services. Built with React, TypeScript, and Vercel. |
 
 ---
+<h1 align="center">Nexuss Cronjob</h1>
+
+  Real-time uptime monitoring and alerting platform for APIs, websites, and services.
+
+  <a href="https://nexuss-cronjob.vercel.app">Live Demo</a>
+
 
 ## Overview
 

@@ -1,9 +1,22 @@
-# Alien Intelligence (AI²)
+# alien-intelligence
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/alien-intelligence](https://github.com/nexuss0781/alien-intelligence) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `master` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## Alien Intelligence (AI²)
 
 **A Sub-Quadratic Neural Architecture for Language Modeling**  
 *Beyond the Attention Bottleneck: Sparse, Streaming, and Spectral Computation*
 
----
 
 ## Executive Summary
 

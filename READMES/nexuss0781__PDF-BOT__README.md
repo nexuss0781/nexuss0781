@@ -1,4 +1,18 @@
-# Telegram PDF Classifier Bot
+# PDF-BOT
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/PDF-BOT](https://github.com/nexuss0781/PDF-BOT) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | TypeScript |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## Telegram PDF Classifier Bot
 
 This project implements a Telegram PDF classifier with a Vercel webhook layer and an optional persistent Render worker for large-file inspection. The bot forwards the original PDF to the destination channel using Telegram’s server-side `copyMessage` operation, so the application does not download the PDF merely to upload it again.
 

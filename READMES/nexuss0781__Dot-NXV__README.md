@@ -1,21 +1,23 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Language-C%2B%2B17-blue?logo=cplusplus" alt="C++17">
-  <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey" alt="Platform">
-  <img src="https://img.shields.io/badge/Dependencies-Eigen3%20%7C%20stb-lightgrey" alt="Dependencies">
-  <img src="https://img.shields.io/badge/Status-Active%20Development-brightgreen" alt="Status">
-</p>
+# Dot-NXV
 
-<h1 align="center">Nexuss Vision</h1>
-
-<p align="center">
-  <strong>A lightweight, from-scratch OCR engine built on classical image processing<br>and a custom neural recognizer — no heavyweight frameworks, no cloud offload.</strong>
-</p>
-
-<p align="center">
-  Designed to extract text from images and scanned documents on-device,<br>from phones to low-end laptops, without requiring a GPU.
-</p>
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Dot-NXV](https://github.com/nexuss0781/Dot-NXV) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Not provided |
 
 ---
+<h1 align="center">Nexuss Vision</h1>
+
+  <strong>A lightweight, from-scratch OCR engine built on classical image processing<br>and a custom neural recognizer — no heavyweight frameworks, no cloud offload.</strong>
+
+  Designed to extract text from images and scanned documents on-device,<br>from phones to low-end laptops, without requiring a GPU.
+
 
 ## What is Nexuss Vision?
 

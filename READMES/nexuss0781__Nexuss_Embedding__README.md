@@ -1,16 +1,23 @@
-<div align="center">
+# Nexuss_Embedding
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss_Embedding](https://github.com/nexuss0781/Nexuss_Embedding) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `master` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
 <h1>⚡ Nexuss Embedding</h1>
 
 <p><strong>Hierarchical Frequency-Adaptive Quantized Embedding (HFAQE)</strong></p>
 
 <p><em>A revolutionary CPU-native token embedding system that cuts memory by 93% and accelerates LM-head projection by 8× — without perceptible quality loss.</em></p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
-[![AVX-512](https://img.shields.io/badge/SIMD-AVX--512-green.svg)](#cpu-optimisation)
-[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)](#quick-start)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/nexuss0781/Nexuss_Embedding/pulls)
 
 <br/>
 
@@ -21,9 +28,7 @@
 | Tokens / sec (batch = 1) | 12.4 | **89.2** | **+7.2×** |
 | WikiText-103 Perplexity Δ | — | **+0.04** | ≈ lossless |
 
-</div>
 
----
 
 ## Table of Contents
 

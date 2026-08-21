@@ -1,5 +1,17 @@
 # YOB-OS
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/YOB-OS](https://github.com/nexuss0781/YOB-OS) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | JavaScript |
+| Topics | None listed |
+| Repository description | Cloud-synchronized HTML app operating system with Play Store, web shell, and Android client |
+
+---
 **YOB-OS** is a personal cloud operating-system experience centered on a synchronized home screen and a versioned **Play Store** for standalone HTML applications. The repository contains both the cloud-hosted web product and a native Expo Android client. Users sign in once, choose a wallpaper, install trusted HTML apps, apply updates deliberately, and launch apps in an isolated full-screen player.
 
 ## Product surfaces

@@ -1,35 +1,33 @@
-<div align="center">
-  <br/>
+# Digital-Edu
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Digital-Edu](https://github.com/nexuss0781/Digital-Edu) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | TypeScript |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+<br/>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="static/favicon.svg">
-    <img src="static/favicon.svg" alt="DigitalEdu" width="72" height="72"/>
   </picture>
   <h1 align="center">DigitalEdu</h1>
-  <p align="center">
     <strong>Competency-Based Learning Management System</strong>
     <br/>
     <code>nexuss0781/Digital-Edu</code>
-  </p>
-  <p align="center">
     <a href="https://github.com/nexuss0781/Digital-Edu/stargazers">
-      <img src="https://img.shields.io/github/stars/nexuss0781/Digital-Edu?style=flat&logo=github&color=%2300B4FC" alt="Stars"/>
     </a>
     <a href="https://github.com/nexuss0781/Digital-Edu/blob/main/LICENSE">
-      <img src="https://img.shields.io/badge/license-MIT-%2300B4FC" alt="License"/>
     </a>
-    <img src="https://img.shields.io/badge/python-3.12-%23001A49?logo=python" alt="Python"/>
-    <img src="https://img.shields.io/badge/flask-3.1-%23001A49?logo=flask" alt="Flask"/>
-    <img src="https://img.shields.io/badge/tests-745%20passing-%2317F9FF" alt="745 tests passing"/>
-    <img src="https://img.shields.io/badge/status-production%20ready-%2300B4FC" alt="Production Ready"/>
-  </p>
-  <p align="center">
     <sub>Built by <strong>DigitalEdu Team</strong> · <a href="https://ethcocoders.gt.tc">Ethco Coders</a></sub>
-  </p>
-</div>
 
 <br/>
 
-<p align="center">
   <strong>
     <a href="#-features">Features</a> ·
     <a href="#-tech-stack">Tech Stack</a> ·
@@ -39,7 +37,6 @@
     <a href="#-testing">Testing</a> ·
     <a href="#-project-structure">Structure</a>
   </strong>
-</p>
 
 <br/>
 
@@ -47,7 +44,6 @@ DigitalEdu transforms a directory of Markdown files into a fully interactive lea
 
 > **Core philosophy:** The filesystem *is* the course structure. No database configuration needed for course layout. Add a Markdown file, capture the structure, and it appears in the curriculum.
 
----
 
 ## ✨ Features
 

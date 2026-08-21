@@ -1,4 +1,18 @@
-# Nexus Notes
+# Nexuss-Notes
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss-Notes](https://github.com/nexuss0781/Nexuss-Notes) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | PHP |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## Nexus Notes
 
 Premium note-taking application with Ethiopian calendar support, dual timezone display, and modern UI.
 

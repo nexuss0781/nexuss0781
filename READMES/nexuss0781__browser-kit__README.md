@@ -1,9 +1,17 @@
-# Browser Kit
+# browser-kit
 
-[![npm version](https://img.shields.io/npm/v/browser-kit?logo=npm)](https://www.npmjs.com/package/browser-kit)
-[![CI status](https://img.shields.io/badge/tests-20%20passing-success)](https://github.com/nexuss0781/browser-kit)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/browser-kit](https://github.com/nexuss0781/browser-kit) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | TypeScript |
+| Topics | None listed |
+| Repository description | Not provided |
 
+---
 **Browser Kit** is an AI-facing remote Chromium control platform. It combines a Docker-hosted browser engine, a TypeScript SDK, JSON-schema agent tools, a REST API, session-scoped WebSocket control, and a secure live browser view in one repository.
 
 It is designed for agents that need to **navigate real websites, inspect rendered pages, interact with controls, complete authorized workflows, collect research evidence, and recover safely from browser failures**. The npm package is the server-side client contract; Chromium and the browser engine run in the separately deployed service.

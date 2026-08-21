@@ -1,21 +1,27 @@
-# ◈ Nexus Pro
+# Nexuss-Playground
 
-<div align="center">
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss-Playground](https://github.com/nexuss0781/Nexuss-Playground) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | PHP |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## ◈ Nexus Pro
+
 
 **Advanced AI Chat & Tools — Powered by Puter**
 
 A beautiful, zero-backend web application featuring multi-model AI routing, real-time web search, code intelligence, and local-first data persistence.
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/status-production--ready-green.svg)]()
-[![Puter](https://img.shields.io/badge/Powered%20by-Puter-7b68ee.svg)](https://puter.com/)
-[![PHP](https://img.shields.io/badge/PHP-7.4+-purple.svg)]()
 
-![Preview](https://via.placeholder.com/800x450/1a1a2e/7b68ee?text=Nexus+Pro+Interface)
 
-</div>
 
----
 
 ## ✨ Features
 

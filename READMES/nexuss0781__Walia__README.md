@@ -1,18 +1,26 @@
-# 🌟 Walia: The Sovereign 5th Generation Programming Language
+# Walia
 
-<div align="center">
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Walia](https://github.com/nexuss0781/Walia) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | C |
+| Topics | None listed |
+| Repository description | Not provided |
 
-![Walia Banner](https://img.shields.io/badge/Walia-5th_Gen_Language-FF6B35?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Sovereign-00D4AA?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Active_Development-7B2CBF?style=for-the-badge)
+---
+## 🌟 Walia: The Sovereign 5th Generation Programming Language
+
+
 
 **_Your Code Doesn't Just Run—It Lives Forever_**
 
 [📚 Documentation](https://nexuss0781.github.io/Walia-docs/) • [🎓 Academy](#-learning-path) • [💡 Philosophy](#-why-walia) • [💻 Examples](#-code-examples)
 
-</div>
 
----
 
 ## 📖 Table of Contents
 

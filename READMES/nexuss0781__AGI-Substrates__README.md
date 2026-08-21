@@ -1,7 +1,19 @@
-# ⚛️ Atomic Logic Vision System (ALVS)
+# AGI-Substrates
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![Dependencies](https://img.shields.io/badge/Dependencies-Numpy%20%7C%20Pillow-brightgreen?style=for-the-badge)](https://pypi.org/project/numpy/)
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/AGI-Substrates](https://github.com/nexuss0781/AGI-Substrates) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | Python |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## ⚛️ Atomic Logic Vision System (ALVS)
+
 
 ## The Pure Math Image Processor: Deconstructing Reality into Logic Atoms.
 

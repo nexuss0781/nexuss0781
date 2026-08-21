@@ -1,14 +1,21 @@
-# EthioBBPE
+# Ethio_BBPE
 
-<div align="center">
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Ethio_BBPE](https://github.com/nexuss0781/Ethio_BBPE) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | Python |
+| Topics | None listed |
+| Repository description | Not provided |
 
-![PyPI - Version](https://img.shields.io/pypi/v/EthioBBPE.svg)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/EthioBBPE.svg)
-![PyPI - License](https://img.shields.io/pypi/l/EthioBBPE.svg)
-[![Hugging Face](https://img.shields.io/badge/🤗-Hugging%20Face-yellow)](https://huggingface.co/Nexuss0781/Ethio-BBPE)
-[![GitHub](https://img.shields.io/badge/GitHub-repo-blue)](https://github.com/nexuss0781/Ethio_BBPE)
+---
+## EthioBBPE
 
-</div>
+
+
 
 ## 📖 Overview
 

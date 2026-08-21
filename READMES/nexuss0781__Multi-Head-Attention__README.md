@@ -1,15 +1,23 @@
-<div align="center">
+# Multi-Head-Attention
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Multi-Head-Attention](https://github.com/nexuss0781/Multi-Head-Attention) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `master` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Optimized Multi-Head Attention for Transformer |
+
+---
 <h1> TMHA-CRUS — Tensorized Multi-Head Attention with Cross-Head Recurrence and Uncertainty-Adaptive Routing</h1>
 
 <p><strong>O(n) linear-time attention with CP-factorized projections, cross-head state propagation, and spectrally-gated kernel attention — a complete replacement for standard Multi-Head Attention.</strong></p>
 
 <p><em>A CPU-native, sub-quadratic attention architecture that replaces h independent softmax heads with a CP-tensorized shared latent, cross-head recurrent state machine, uncertainty-adaptive top-k routing, and SGRK-UQAD linear attention. Parameter count drops from O(h·d²) → O(d·log d + c·r), compute from O(n²·d) → O(n·d·log d) per token.</em></p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
-[![O(n)](https://img.shields.io/badge/Attention-O(n)-brightgreen.svg)](#mathematical-foundations)
-[![32/32 Tests](https://img.shields.io/badge/Tests-32%E2%81%8432%20passed-brightgreen.svg)](#testing)
 
 <br/>
 
@@ -21,9 +29,7 @@
 | Output projection | h·d_v × d = **~16.8M** | d × r_o + c·d_v·r_o = **~0.5M** | **~34×** |
 | Per-step FLOPs (causal) | O(n·d·h) unbounded | **O(c·k_max·r_feat·d_v)** bounded | **O(1) per token** |
 
-</div>
 
----
 
 ## Table of Contents
 

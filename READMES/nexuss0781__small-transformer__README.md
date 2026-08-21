@@ -1,4 +1,18 @@
-# SmolLM2 Q6_K Inference Window
+# small-transformer
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/small-transformer](https://github.com/nexuss0781/small-transformer) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | TypeScript |
+| Topics | None listed |
+| Repository description | Self-contained CPU-only SmolLM2 135M Instruct chat application with a terminal-style UI and Docker deployment. |
+
+---
+## SmolLM2 Q6_K Inference Window
 
 This application is a self-contained local chat interface for `HuggingFaceTB/SmolLM2-135M-Instruct`, running through **llama.cpp** with a locally built **Q6_K GGUF** model. The Docker image downloads the official checkpoint, converts it to GGUF, and quantizes it during the image build. The runtime image contains only the Q6_K model and the C++ inference engine; it has no Python or PyTorch runtime dependency.
 

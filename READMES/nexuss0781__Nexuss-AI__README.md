@@ -1,20 +1,27 @@
-# 🌌 Nexuss AI: The Ultimate LLM Training Framework
+# Nexuss-AI
 
-<div align="center">
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss-AI](https://github.com/nexuss0781/Nexuss-AI) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | Python |
+| Topics | None listed |
+| Repository description | Not provided |
 
-![Nexuss AI Banner](https://img.shields.io/badge/Nexuss_AI-Enterprise_Grade-blue?style=for-the-badge&logo=starship)
-![License](https://img.shields.io/badge/License-Apache_2.0-green?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)
-![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red?style=for-the-badge&logo=pytorch)
+---
+## 🌌 Nexuss AI: The Ultimate LLM Training Framework
+
+
 
 **From Blank Slate to Production-Ready AI**  
 *Train • Fine-Tune • Align • Deploy • Scale*
 
 [📚 Documentation](#-documentation) | [🚀 Quick Start](#-quick-start) | [🎯 Features](#-features) | [📖 Training Guide](TRAINING.md)
 
-</div>
 
----
 
 ## 🌟 Welcome to Nexuss AI
 

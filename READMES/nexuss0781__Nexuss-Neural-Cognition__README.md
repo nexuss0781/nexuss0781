@@ -1,17 +1,20 @@
-# Nexuss Neural Cognition 🧠
+# Nexuss-Neural-Cognition
 
-**A Next-Generation Biologically-Plausible Spiking Neural Network Simulator with RAM-Budget Meta-Cognitive Controller, Universal Intellectual Neuron (UIN) Building Blocks, and Embodied AI Cognitive Architecture**
-
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]()
-[![Tests](https://img.shields.io/badge/tests-53%20passed-brightgreen)]()
-[![C++](https://img.shields.io/badge/C%2B%2B-17-blue)]()
-[![License](https://img.shields.io/badge/license-MIT-blue)]()
-[![Scale](https://img.shields.io/badge/max_neurons-270K-blue)]()
-[![Performance](https://img.shields.io/badge/realtime-94x+-brightgreen)]()
-[![RAM Budget](https://img.shields.io/badge/memory-500MB%20fixed-green)]()
-[![UIN](https://img.shields.io/badge/UIN-production--ready-blueviolet)]()
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss-Neural-Cognition](https://github.com/nexuss0781/Nexuss-Neural-Cognition) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Not provided |
 
 ---
+**A Next-Generation Biologically-Plausible Spiking Neural Network Simulator with RAM-Budget Meta-Cognitive Controller, Universal Intellectual Neuron (UIN) Building Blocks, and Embodied AI Cognitive Architecture**
+
+
 
 ## 📋 Table of Contents
 

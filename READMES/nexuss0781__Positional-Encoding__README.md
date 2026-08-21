@@ -1,17 +1,23 @@
-<div align="center">
+# Positional-Encoding
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Positional-Encoding](https://github.com/nexuss0781/Positional-Encoding) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Hierarchical Digit Positional Encoding (HDPE) — cache-oblivious, O(log n) RoPE replacement with 65K× memory reduction |
+
+---
 <h1>🌀 HDPE</h1>
 
 <p><strong>Hierarchical Digit Positional Encoding</strong></p>
 
 <p><em>A cache-oblivious, O(log n) positional encoding that replaces 2 GB of RoPE tables with 32 KB — zero approximation, exact RoPE equivalence.</em></p>
 
-[![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
-[![AVX-512](https://img.shields.io/badge/SIMD-AVX--512-green.svg)](#cpu-optimisation)
-[![Spec v1.3-α](https://img.shields.io/badge/Spec-1.3--α-purple.svg)](SPEC.md)
-[![Build](https://img.shields.io/badge/Build-CMake%20%7C%20GCC%2013-success.svg)](#quick-start)
-[![Tests](https://img.shields.io/badge/Tests-28%2F28-passing-brightgreen.svg)](#spec--4-validation-suite)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 <br/>
 
@@ -26,9 +32,7 @@
 | RoPE equivalence | exact | **exact** (proven) | identical |
 | Max context (B=64, L=8) | hard-coded n_max | **281 trillion** | ∞-in-the-limit |
 
-</div>
 
----
 
 ## Table of Contents
 

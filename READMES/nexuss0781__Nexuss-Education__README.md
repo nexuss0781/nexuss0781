@@ -1,10 +1,21 @@
-# Nexuss Education - AI Study Assistant
+# Nexuss-Education
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss-Education](https://github.com/nexuss0781/Nexuss-Education) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | PHP |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## Nexuss Education - AI Study Assistant
 
 A production-grade PDF study assistant with intelligent AI chat capabilities, featuring smart rate limit handling, multi-key rotation for OpenRouter API, and advanced vision model support.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![PHP](https://img.shields.io/badge/PHP-8.0+-purple.svg)
-![OpenRouter](https://img.shields.io/badge/OpenRouter-API-green.svg)
 
 ## 🎯 Features
 
