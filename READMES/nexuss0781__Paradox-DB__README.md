@@ -1,31 +1,28 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Paradox--DB-1.0.4-blue?style=for-the-badge&logo=sqlite&logoColor=white" alt="Paradox-DB">
-</p>
+# Paradox-DB
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Paradox-DB](https://github.com/nexuss0781/Paradox-DB) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | Python |
+| Topics | None listed |
+| Repository description | Local-first SQLite database with Telegram-backed async cloud sync |
+
+---
 <h1 align="center">Paradox-DB</h1>
 
-<p align="center">
   <strong>Drop-in encrypted database with cloud sync.<br>One line of code. Your data, everywhere.</strong>
-</p>
 
-<p align="center">
   <a href="#-quickstart">Quickstart</a> •
   <a href="#-sdk">SDK</a> •
   <a href="#-cli">CLI</a> •
   <a href="#-architecture">Architecture</a> •
   <a href="#-gateway">Gateway</a>
-</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/SQLite-WAL-green?style=flat-square&logo=sqlite" alt="SQLite">
-  <img src="https://img.shields.io/badge/FastAPI-0.115-009688?style=flat-square&logo=fastapi" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Telegram-Bot%20API-26A5E4?style=flat-square&logo=telegram" alt="Telegram">
-  <img src="https://img.shields.io/pypi/v/parad-blue?style=flat-square" alt="PyPI">
-  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square" alt="MIT">
-</p>
 
----
 
 ## What is Paradox-DB?
 

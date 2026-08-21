@@ -1,10 +1,23 @@
-# Nexus Integrated School System
+# NPMS-platform
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/NPMS-platform](https://github.com/nexuss0781/NPMS-platform) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | Python |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## Nexus Integrated School System
 
 **Nexus is a comprehensive, feature-rich, and modern web platform designed to serve as the central digital ecosystem for an entire educational institution.**
 
 This is not just a school management tool; it is a fully integrated environment that connects students, teachers, parents, and administrators through a sophisticated, role-aware interface. The platform seamlessly combines academic management, administrative workflows, asset tracking, and a dynamic social hub into a single, cohesive system.
 
----
 
 ## 🌟 Key Features
 

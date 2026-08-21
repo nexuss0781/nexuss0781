@@ -1,5 +1,17 @@
 # CDI
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/CDI](https://github.com/nexuss0781/CDI) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `master` |
+| Primary language | Python |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
 > **Research status:** CCT Level 1 is an evidence-gated investigation of a compact causal language engine. This repository does not currently make a production-quality, long-context, throughput, or fluency claim.
 
 ## Active Implementation

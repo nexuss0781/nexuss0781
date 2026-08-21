@@ -1,4 +1,18 @@
-# NexussMonitor
+# Nexuss-Monitor
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss-Monitor](https://github.com/nexuss0781/Nexuss-Monitor) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | Python |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## NexussMonitor
 
 NexussMonitor is a command-line uptime monitor. It lets you — or an AI agent —
 add, check, and track monitors for any API, website, or service, against a

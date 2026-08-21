@@ -1,5 +1,17 @@
-# Open-hand Bot
+# Open-hand-Bot
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Open-hand-Bot](https://github.com/nexuss0781/Open-hand-Bot) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | Python |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
 A simple Telegram bot built with Python and Flask to notify you when OpenHands tasks are finished.
 
 ## Deployment

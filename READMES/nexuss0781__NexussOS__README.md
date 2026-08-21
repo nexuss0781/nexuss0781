@@ -1,5 +1,17 @@
 # NexussOS
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/NexussOS](https://github.com/nexuss0781/NexussOS) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | C |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
 NexussOS is a foundational operating system project designed with a unique approach to integrating higher-level operating systems. It functions as a bare-metal bootloader and a minimal kernel, capable of initializing basic graphics and preparing the environment for a secondary OS.
 
 ## Key Features

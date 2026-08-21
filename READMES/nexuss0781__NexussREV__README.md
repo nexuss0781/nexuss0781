@@ -1,5 +1,17 @@
 # NexussREV
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/NexussREV](https://github.com/nexuss0781/NexussREV) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
 NexussREV is an advanced binary decompiler and analysis framework designed for high-fidelity code reconstruction and reverse engineering. Leveraging powerful libraries such as Capstone for disassembly and LIEF for binary parsing, NexussREV aims to achieve programmatic zero-loss recovery of executable code, even from stripped binaries.
 
 ## Key Features

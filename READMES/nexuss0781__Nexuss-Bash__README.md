@@ -1,21 +1,25 @@
-<div align="center">
+# Nexuss-Bash
 
-# ⚡ Nexuss Bash
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss-Bash](https://github.com/nexuss0781/Nexuss-Bash) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | JavaScript |
+| Topics | None listed |
+| Repository description | Containerized Remote Execution & Dev Sandbox Service - Interactive PTY sessions, multi-language code execution, runtime package management |
 
+---
 **Containerized Remote Execution & Dev Sandbox Service**
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Docker](https://img.shields.io/badge/docker-24.04-blue?logo=docker)](Dockerfile)
-[![Node](https://img.shields.io/badge/node-20 LTS-green?logo=node.js)](package.json)
-[![PyPI](https://img.shields.io/pypi/v/nexinal.svg)](https://pypi.org/project/nexinal/)
 
 *One-liner command execution, YAML pipelines, file uploads, and runtime package management — all through a clean REST API, web dashboard, and CLI.*
 
 [Web Dashboard](#web-dashboard) · [CLI](#cli-nexinal) · [API](#api-reference) · [Docs](#documentation)
 
-</div>
 
----
 
 ## What is Nexuss Bash?
 

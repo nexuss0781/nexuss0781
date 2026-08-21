@@ -1,4 +1,18 @@
-# NexusChat - Professional Chat Application
+# Nexuss-Chat
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss-Chat](https://github.com/nexuss0781/Nexuss-Chat) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | PHP |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## NexusChat - Professional Chat Application
 
 ## Project Overview
 NexusChat is a full-featured real-time chat application with complete authentication system, designed for deployment on InfinityFree hosting.

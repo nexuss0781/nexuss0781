@@ -1,4 +1,18 @@
-# Zenith Personal Finance Dashboard
+# ZeinthFinance
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/ZeinthFinance](https://github.com/nexuss0781/ZeinthFinance) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | JavaScript |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## Zenith Personal Finance Dashboard
 
 "Zenith" is a modern, clean, and intuitive web application designed to help users take control of their financial lives. It provides a beautiful and simple interface for tracking income and expenses, visualizing spending habits, and understanding their overall financial health.
 

@@ -1,4 +1,18 @@
-# GPT-2 Training Setup
+# HOLY-AI
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/HOLY-AI](https://github.com/nexuss0781/HOLY-AI) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | Python |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## GPT-2 Training Setup
 
 Everything is configured and ready to train GPT-2 on your custom data.
 

@@ -1,14 +1,23 @@
-# 🧬 GENESIS TRINITY
+# Addis-Neuron-Genesis
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Addis-Neuron-Genesis](https://github.com/nexuss0781/Addis-Neuron-Genesis) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `master` |
+| Primary language | Python |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## 🧬 GENESIS TRINITY
 
 > **A Revolutionary Bio-Inspired Artificial General Intelligence Architecture**  
 > *Where Consciousness Emerges from the Dance of Neurons and Waves*
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Architecture](https://img.shields.io/badge/architecture-bio--inspired-green)]()
-[![Status](https://img.shields.io/badge/status-production--ready-success)]()
 
----
 
 ## 🌌 Vision
 

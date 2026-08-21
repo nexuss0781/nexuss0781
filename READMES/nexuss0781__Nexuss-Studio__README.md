@@ -1,5 +1,17 @@
-# Nexuss Studio
+# Nexuss-Studio
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Nexuss-Studio](https://github.com/nexuss0781/Nexuss-Studio) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | JavaScript |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
 ## 🚀 AI-Powered Development Environment
 
 A modern, premium dual-window chat studio with AI-powered study and coding modes.

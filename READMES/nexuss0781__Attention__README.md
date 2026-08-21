@@ -1,4 +1,18 @@
-# Attention Phase 1 Kernel
+# Attention
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Attention](https://github.com/nexuss0781/Attention) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `master` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## Attention Phase 1 Kernel
 
 Attention Phase 1 is a C++20 numerical kernel for metric-aware attention geometry. It assembles a positive-definite learned metric, computes a symmetric whitening operator, transforms query and key coordinates, and evaluates the scalar Gaussian decomposition factors required by later attention stages.
 

@@ -1,11 +1,20 @@
-# ⚛️ Atomic Logic Vision System (ALVS)
+# Image-text
 
-<div align="center">
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Image-text](https://github.com/nexuss0781/Image-text) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Not provided |
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
-[![C++](https://img.shields.io/badge/C++-17-dodgerblue?style=for-the-badge&logo=cplusplus)](https://isocpp.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)]()
+---
+## ⚛️ Atomic Logic Vision System (ALVS)
+
+
 
 ### Deconstructing Reality into Logic Atoms
 
@@ -13,9 +22,7 @@
 
 [Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Architecture](#-architecture) • [Performance](#-performance)
 
-</div>
 
----
 
 ## 🌟 Overview
 

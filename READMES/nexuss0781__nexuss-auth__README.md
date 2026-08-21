@@ -1,4 +1,18 @@
-# Nex-auth
+# nexuss-auth
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/nexuss-auth](https://github.com/nexuss0781/nexuss-auth) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | TypeScript |
+| Topics | None listed |
+| Repository description | Reusable unified Google and GitHub authentication service with a TypeScript SDK |
+
+---
+## Nex-auth
 
 Nex-auth is a centralized authentication service and TypeScript SDK for adding **Continue with Google** and **Continue with GitHub** to multiple applications. Each application registers a project and uses the same auth service, while OAuth client secrets and user sessions remain on the server.
 

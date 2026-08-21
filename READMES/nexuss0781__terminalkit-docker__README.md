@@ -1,4 +1,18 @@
-# TerminalKit Docker Agent
+# terminalkit-docker
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/terminalkit-docker](https://github.com/nexuss0781/terminalkit-docker) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | JavaScript |
+| Topics | None listed |
+| Repository description | Self-enrolling Docker agent for the Terminal-Kit control plane |
+
+---
+## TerminalKit Docker Agent
 
 TerminalKit Docker Agent is the client-instance component of the Terminal-Kit control plane. It runs alongside a managed terminal environment and provides the communication layer between that instance and the central controller.
 

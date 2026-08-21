@@ -1,6 +1,19 @@
-# Ardi Agent: An Autonomous AI Development System
+# Ardi_agent
 
-![Ardi Agent Logo Placeholder](https://via.placeholder.com/800x200?text=Ardi+Agent+Logo)
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Ardi_agent](https://github.com/nexuss0781/Ardi_agent) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | JavaScript |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## Ardi Agent: An Autonomous AI Development System
+
 
 Ardi Agent is an advanced Agentic AI system designed to streamline the development lifecycle of web applications, from initial concept to implementation and testing. It leverages a multi-agent architecture to autonomously handle tasks across backend, frontend, and full-stack development.
 
@@ -107,6 +120,3 @@ Contributions are highly welcome! Please feel free to fork the repository, imple
 ## 📄 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details. (Note: A `LICENSE` file is not currently included in the repository and would need to be added.)
-
-
-

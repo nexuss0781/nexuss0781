@@ -1,16 +1,23 @@
-<div align="center">
+# Input-Trio
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Input-Trio](https://github.com/nexuss0781/Input-Trio) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Nexus Transformer — Unified Input Layer: Tokenizer → HFAQE Embedding → HDPE Positional Encoding |
+
+---
 <h1>⚡ Nexuss Tokenizer</h1>
 
 <p><strong>Cognition-Optimized BPE Tokenizer — CPU-first, RAM-minimal, Throughput-maximal</strong></p>
 
 <p><em>A production-grade C++ tokenizer that replaces hash-map vocabulary thrashing with succinct data structures, eliminates heap-based merge scheduling via deterministic automata, and achieves parallel linear speedup through merge-independent boundary detection.</em></p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
-[![AVX-512](https://img.shields.io/badge/SIMD-AVX--512-green.svg)](#cpu-optimisation)
-[![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS%20%7C%20Windows-lightgrey.svg)](#quick-start)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
 <br/>
 
@@ -23,9 +30,7 @@
 | Streaming memory | O(input) | **O(max_token_len) = 256 B** | **unbounded** |
 | Training time | O(\|C\|\|\|V\|) | **O(\|C\| log\|C\| + \|V\| log\|C\|)** | **~\|V\|** |
 
-</div>
 
----
 
 ## Table of Contents
 

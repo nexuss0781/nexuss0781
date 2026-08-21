@@ -1,16 +1,23 @@
-<div align="center">
+# QKV-Projection
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/QKV-Projection](https://github.com/nexuss0781/QKV-Projection) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | C++ |
+| Topics | None listed |
+| Repository description | Sub-Quadratic Factorized Projection (SQFP) — O(n) QKV projection for transformers, 130x parameter reduction vs dense |
+
+---
 <h1>⚡ SQFP — Sub-Quadratic Factorized Projection</h1>
 
 <p><strong>QKV Projection for the Nexuss Transformer — O(n) sequence scaling, O(d) per-token compute, 130× parameter reduction.</strong></p>
 
 <p><em>A CPU-native replacement for standard dense QKV linear projections using Diagonal-Plus-Low-Rank (DPLR) matrices with Butterfly residual correction. Drops 16.7 MB per matrix → 128 KB, 8.3 Mflop/token → 120 Kflop/token — with zero downstream contract changes.</em></p>
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.cppreference.com/w/cpp/17)
-[![AVX-512](https://img.shields.io/badge/SIMD-AVX--512-green.svg)](#cpu-optimisation)
-[![O(n)](https://img.shields.io/badge/Sequence-O(n)-brightgreen.svg)](#mathematical-foundations)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 
 <br/>
 
@@ -22,9 +29,7 @@
 | Cache misses per token (L2) | O(d²/L) | **O(d/L)** | **~d×** |
 | Perplexity Δ (WikiText-2) | — | **+0.03** | ≈ lossless |
 
-</div>
 
----
 
 ## Table of Contents
 

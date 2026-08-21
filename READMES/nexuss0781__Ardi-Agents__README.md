@@ -1,22 +1,27 @@
-# 🌟 Ardi-Agent: The Next Generation of Autonomous AI Orchestration
+# Ardi-Agents
 
-<div align="center">
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Ardi-Agents](https://github.com/nexuss0781/Ardi-Agents) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | Python |
+| Topics | None listed |
+| Repository description | Not provided |
 
-![Ardi-Agent Banner](https://img.shields.io/badge/Ardi--Agent-AGI--Ready_Multi_Agent_Orchestration-blue?style=for-the-badge&logo=artificial-intelligence)
+---
+## 🌟 Ardi-Agent: The Next Generation of Autonomous AI Orchestration
+
+
 
 ### **Towards Artificial General Intelligence Through Collaborative Agent Swarms**
 
 *A Sophisticated, Production-Grade Multi-Agent System Engineered for Complex Problem-Solving at Scale*
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg?style=flat-square)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![Dual Stack](https://img.shields.io/badge/stack-Python%20%7C%20PHP-green?style=flat-square)](.)
-[![Agents](https://img.shields.io/badge/specialists-16-orange?style=flat-square)](.)
-[![Workflows](https://img.shields.io/badge/templates-5-purple?style=flat-square)](.)
 
-</div>
 
----
 
 ## 📜 Executive Summary
 

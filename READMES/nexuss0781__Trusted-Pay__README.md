@@ -1,15 +1,22 @@
-<div align="center">
-  <img src="https://img.shields.io/badge/status-active-success.svg" alt="Status">
-  <img src="https://img.shields.io/badge/python-3.10%2B-blue" alt="Python">
-  <img src="https://img.shields.io/badge/framework-FastAPI-009688" alt="FastAPI">
-  <img src="https://img.shields.io/badge/license-MIT-yellow" alt="License">
-  <br/>
+# Trusted-Pay
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Trusted-Pay](https://github.com/nexuss0781/Trusted-Pay) |
+| Visibility | Private |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | Python |
+| Topics | None listed |
+| Repository description | Telegram bot for Trusted Pay |
+
+---
+<br/>
   <h1>Trusted Pay</h1>
   <p><strong>Secure Wallet & Account Management with Telebirr Integration</strong></p>
   <p>A production-ready platform for managing deposits, withdrawals, and disputes using Telebirr receipt verification. Features a Telegram bot, admin dashboard, and multi-layer security.</p>
-</div>
 
----
 
 ## Features
 

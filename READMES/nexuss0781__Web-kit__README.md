@@ -1,5 +1,17 @@
-# Web-Kit
+# Web-kit
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Web-kit](https://github.com/nexuss0781/Web-kit) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `master` |
+| Primary language | Rust |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
 Web-Kit is a free-first web search and page-fetching service for Nexus Agents. It exposes a stable JSON API over multiple search providers and applies bounded, SSRF-aware HTTP fetching with normalized metadata, text, Markdown, links, and content hashes.
 
 ## Current milestone

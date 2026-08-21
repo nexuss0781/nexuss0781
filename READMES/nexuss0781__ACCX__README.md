@@ -1,19 +1,23 @@
-<div align="center">
-
 # ACCX
 
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/ACCX](https://github.com/nexuss0781/ACCX) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | TypeScript |
+| Topics | None listed |
+| Repository description | Modern account management vault with dual-theme, CRUD, categories, folders, notes, dashboard with charts, and comprehensive search/filter. Built with React 19, TypeScript, Tailwind CSS 4, Zustand, and Recharts. |
+
+---
 **A modern, secure account & credential management vault with a sleek dual-theme interface.**
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://accx-app.vercel.app)
-[![Built with React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-4-06B6D4?style=for-the-badge&logo=tailwindcss)](https://tailwindcss.com)
 
 [Live Demo](https://accx-app.vercel.app) · [Report Bug](https://github.com/nexuss0781/ACCX/issues) · [Request Feature](https://github.com/nexuss0781/ACCX/issues)
 
-</div>
 
----
 
 ## Overview
 

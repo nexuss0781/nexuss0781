@@ -1,4 +1,18 @@
-# Calisthenics Dashboard Prototype
+# Calisthenics
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/Calisthenics](https://github.com/nexuss0781/Calisthenics) |
+| Visibility | Public |
+| Fork | Yes |
+| Archived | No |
+| Default branch | `master` |
+| Primary language | HTML |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## Calisthenics Dashboard Prototype
 
 This repository contains the front-end prototype for a comprehensive **Calisthenics Dashboard** application. This project is designed to be a central hub for calisthenics enthusiasts, providing tools for tracking progress, scheduling workouts, setting goals, and finding motivation.
 

@@ -1,4 +1,18 @@
-# C9-Marketing Platf## ✨ Implemented Features
+# C9-Marketing
+
+| Repository metadata | Details |
+|---|---|
+| Repository | [nexuss0781/C9-Marketing](https://github.com/nexuss0781/C9-Marketing) |
+| Visibility | Public |
+| Fork | No |
+| Archived | No |
+| Default branch | `main` |
+| Primary language | TypeScript |
+| Topics | None listed |
+| Repository description | Not provided |
+
+---
+## C9-Marketing Platf## ✨ Implemented Features
 
 ### 🔐 Authentication System
 - Secure user registration with required fields:
@@ -47,12 +61,6 @@
 - Environment variable configuration
 - Error handling and validation
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-[![Vite](https://img.shields.io/badge/Vite-4.2.0-646cff.svg?style=for-the-badge&logo=vite)](https://vitejs.dev/)
 
 A modern, full-stack e-commerce platform built with React, TypeScript, Flask, and TailwindCSS. C9-Marketing provides a seamless shopping experience with real-time updates and secure user authentication.
 
