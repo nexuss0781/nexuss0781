@@ -1,232 +1,120 @@
-# Repository Categorization
+# Repository Categories
 
-> Primary categorization of the 60 repositories documented in `READMES/`. Each repository is assigned to exactly one category according to its main purpose as described by its README, repository description, and implementation focus.
+> The 60 repositories are organized by their primary purpose. Each category is presented as a heading followed by a table of its repositories. Walia is highlighted within the flagship research category.
 
-## Overview
+## 1. High-Level Research & Cutting-Edge Architectures — 15 repositories
 
-| Category | Repositories |
-|---|---:|
-| AI Research & Neural Architectures | 14 |
-| LLM Training & Language Tooling | 7 |
-| Agent Infrastructure & Automation | 4 |
-| Computer Vision & Signal Processing | 4 |
-| Developer Tools & Reverse Engineering | 5 |
-| DevOps, Remote Execution & Observability | 5 |
-| Systems, Operating Platforms & Networking | 3 |
-| Web Applications, Education & Productivity | 11 |
-| Bots, Messaging & Financial Workflows | 3 |
-| Identity, Security & Secrets | 2 |
-| Data & Storage | 1 |
-| Media Assets & Utilities | 1 |
-| **Total** | **60** |
+| # | Repository |
+|---:|---|
+| 1 | [`Walia`](https://github.com/nexuss0781/Walia) |
+| 2 | [`Attention`](https://github.com/nexuss0781/Attention) |
+| 3 | [`CDI`](https://github.com/nexuss0781/CDI) |
+| 4 | [`CCT`](https://github.com/nexuss0781/CCT) |
+| 5 | [`Intellectual-Cortex-Architecture`](https://github.com/nexuss0781/Intellectual-Cortex-Architecture) |
+| 6 | [`QKV-Projection`](https://github.com/nexuss0781/QKV-Projection) |
+| 7 | [`Multi-Head-Attention`](https://github.com/nexuss0781/Multi-Head-Attention) |
+| 8 | [`Nexuss_Embedding`](https://github.com/nexuss0781/Nexuss_Embedding) |
+| 9 | [`alien-intelligence`](https://github.com/nexuss0781/alien-intelligence) |
+| 10 | [`Scaled-Dot-Product-Attention`](https://github.com/nexuss0781/Scaled-Dot-Product-Attention) |
+| 11 | [`Positional-Encoding`](https://github.com/nexuss0781/Positional-Encoding) |
+| 12 | [`Nexuss-Neural-Cognition`](https://github.com/nexuss0781/Nexuss-Neural-Cognition) |
+| 13 | [`Addis-Neuron-Genesis`](https://github.com/nexuss0781/Addis-Neuron-Genesis) |
+| 14 | [`Addis-Neural-Cognition`](https://github.com/nexuss0781/Addis-Neural-Cognition) |
+| 15 | [`Addis-Neural-Genesis`](https://github.com/nexuss0781/Addis-Neural-Genesis) |
 
-The categories are editorial groupings rather than mutually exclusive technical taxonomies. A project that spans several domains is placed according to the most prominent use case or research objective visible in its documentation.
+## 2. LLM Training, Transformers & Tokenization — 7 repositories
 
-## AI Research & Neural Architectures
+| # | Repository |
+|---:|---|
+| 1 | [`small-transformer`](https://github.com/nexuss0781/small-transformer) |
+| 2 | [`Text-tokenizer`](https://github.com/nexuss0781/Text-tokenizer) |
+| 3 | [`Input-Trio`](https://github.com/nexuss0781/Input-Trio) |
+| 4 | [`Ethio_BBPE`](https://github.com/nexuss0781/Ethio_BBPE) |
+| 5 | [`HOLY-AI`](https://github.com/nexuss0781/HOLY-AI) |
+| 6 | [`Nexuss-Transformer`](https://github.com/nexuss0781/Nexuss-Transformer) |
+| 7 | [`Nexuss-AI`](https://github.com/nexuss0781/Nexuss-AI) |
 
-Research-oriented neural, cognitive, attention, and AGI architecture projects.
+## 3. Agent Systems & AI Development Environments — 4 repositories
 
-| Repository | Primary focus | Visibility | Language | Link |
-|---|---|---|---|---|
-| `Attention` | Metric-aware attention geometry research kernel | Public | C++ | [GitHub](https://github.com/nexuss0781/Attention) |
-| `CDI` | Compact causal language-engine research prototype | Public | Python | [GitHub](https://github.com/nexuss0781/CDI) |
-| `CCT` | Causal event fields and spectral dynamics research prototype | Public | C++ | [GitHub](https://github.com/nexuss0781/CCT) |
-| `Intellectual-Cortex-Architecture` | Spiking neural and embodied cognitive architecture | Public | C++ | [GitHub](https://github.com/nexuss0781/Intellectual-Cortex-Architecture) |
-| `QKV-Projection` | Sub-quadratic factorized QKV projection research | Public | C++ | [GitHub](https://github.com/nexuss0781/QKV-Projection) |
-| `Multi-Head-Attention` | Optimized multi-head attention research implementation | Public | C++ | [GitHub](https://github.com/nexuss0781/Multi-Head-Attention) |
-| `Nexuss_Embedding` | Memory-efficient neural embedding and LM-head projection | Public | C++ | [GitHub](https://github.com/nexuss0781/Nexuss_Embedding) |
-| `alien-intelligence` | Sub-quadratic neural architecture for language modeling | Public | C++ | [GitHub](https://github.com/nexuss0781/alien-intelligence) |
-| `Scaled-Dot-Product-Attention` | Linear attention with uncertainty and adaptive computation | Public | C++ | [GitHub](https://github.com/nexuss0781/Scaled-Dot-Product-Attention) |
-| `Positional-Encoding` | Hierarchical digit positional encoding for transformers | Public | C++ | [GitHub](https://github.com/nexuss0781/Positional-Encoding) |
-| `Nexuss-Neural-Cognition` | Biologically plausible spiking neural cognitive simulator | Public | C++ | [GitHub](https://github.com/nexuss0781/Nexuss-Neural-Cognition) |
-| `Addis-Neuron-Genesis` | Bio-inspired AGI and cognitive architecture | Public | Python | [GitHub](https://github.com/nexuss0781/Addis-Neuron-Genesis) |
-| `Addis-Neural-Cognition` | Neural cognition research project | Public | Python | [GitHub](https://github.com/nexuss0781/Addis-Neural-Cognition) |
-| `Addis-Neural-Genesis` | Neural cognition and AGI research variant | Private | Python | [GitHub](https://github.com/nexuss0781/Addis-Neural-Genesis) |
+| # | Repository |
+|---:|---|
+| 1 | [`browser-kit`](https://github.com/nexuss0781/browser-kit) |
+| 2 | [`Ardi-Agents`](https://github.com/nexuss0781/Ardi-Agents) |
+| 3 | [`Nexuss-Studio`](https://github.com/nexuss0781/Nexuss-Studio) |
+| 4 | [`Ardi_agent`](https://github.com/nexuss0781/Ardi_agent) |
 
-## LLM Training & Language Tooling
+## 4. Computer Vision, OCR & Audio Processing — 4 repositories
 
-Language-model training, inference, tokenization, and transformer input tooling.
+| # | Repository |
+|---:|---|
+| 1 | [`Image-text`](https://github.com/nexuss0781/Image-text) |
+| 2 | [`Dot-NXV`](https://github.com/nexuss0781/Dot-NXV) |
+| 3 | [`NASS`](https://github.com/nexuss0781/NASS) |
+| 4 | [`AGI-Substrates`](https://github.com/nexuss0781/AGI-Substrates) |
 
-| Repository | Primary focus | Visibility | Language | Link |
-|---|---|---|---|---|
-| `small-transformer` | Local SmolLM2 CPU inference application | Public | TypeScript | [GitHub](https://github.com/nexuss0781/small-transformer) |
-| `Text-tokenizer` | C++ BPE tokenizer with compact trie and FST structures | Public | C++ | [GitHub](https://github.com/nexuss0781/Text-tokenizer) |
-| `Input-Trio` | Unified tokenizer, embedding, and positional-encoding input layer | Public | C++ | [GitHub](https://github.com/nexuss0781/Input-Trio) |
-| `Ethio_BBPE` | Amharic and Ge’ez byte-pair encoding tokenizer | Public | Python | [GitHub](https://github.com/nexuss0781/Ethio_BBPE) |
-| `HOLY-AI` | GPT-2 training setup for Ethiopian and biblical datasets | Public | Python | [GitHub](https://github.com/nexuss0781/HOLY-AI) |
-| `Nexuss-Transformer` | End-to-end decoder-only LLM training and alignment framework | Public | Python | [GitHub](https://github.com/nexuss0781/Nexuss-Transformer) |
-| `Nexuss-AI` | From-scratch LLM training, fine-tuning, and deployment framework | Public | Python | [GitHub](https://github.com/nexuss0781/Nexuss-AI) |
+## 5. Developer Tools, Programming Languages & Reverse Engineering — 4 repositories
 
-## Agent Infrastructure & Automation
+| # | Repository |
+|---:|---|
+| 1 | [`Web-kit`](https://github.com/nexuss0781/Web-kit) |
+| 2 | [`Nexuss-IDE`](https://github.com/nexuss0781/Nexuss-IDE) |
+| 3 | [`NexussREV`](https://github.com/nexuss0781/NexussREV) |
+| 4 | [`GOOGOLPLEX`](https://github.com/nexuss0781/GOOGOLPLEX) |
 
-Agent orchestration, autonomous development, and browser-based agent execution.
+## 6. DevOps, Remote Execution & Monitoring — 5 repositories
 
-| Repository | Primary focus | Visibility | Language | Link |
-|---|---|---|---|---|
-| `browser-kit` | Remote Chromium control and evidence layer for AI agents | Public | TypeScript | [GitHub](https://github.com/nexuss0781/browser-kit) |
-| `Ardi-Agents` | Collaborative multi-agent orchestration system | Public | Python | [GitHub](https://github.com/nexuss0781/Ardi-Agents) |
-| `Nexuss-Studio` | AI-powered study and coding environment | Public | JavaScript | [GitHub](https://github.com/nexuss0781/Nexuss-Studio) |
-| `Ardi_agent` | Autonomous AI development system | Public | JavaScript | [GitHub](https://github.com/nexuss0781/Ardi_agent) |
+| # | Repository |
+|---:|---|
+| 1 | [`Terminal-kit`](https://github.com/nexuss0781/Terminal-kit) |
+| 2 | [`terminalkit-docker`](https://github.com/nexuss0781/terminalkit-docker) |
+| 3 | [`Nexuss-Monitor`](https://github.com/nexuss0781/Nexuss-Monitor) |
+| 4 | [`Nexuss-Cronjob`](https://github.com/nexuss0781/Nexuss-Cronjob) |
+| 5 | [`Nexuss-Bash`](https://github.com/nexuss0781/Nexuss-Bash) |
 
-## Computer Vision & Signal Processing
+## 7. Systems, Platforms, Networking & Data — 4 repositories
 
-Image, OCR, vision-math, and audio-processing systems.
+| # | Repository |
+|---:|---|
+| 1 | [`FTP-Client`](https://github.com/nexuss0781/FTP-Client) |
+| 2 | [`YOB-OS`](https://github.com/nexuss0781/YOB-OS) |
+| 3 | [`NexussOS`](https://github.com/nexuss0781/NexussOS) |
+| 4 | [`Paradox-DB`](https://github.com/nexuss0781/Paradox-DB) |
 
-| Repository | Primary focus | Visibility | Language | Link |
-|---|---|---|---|---|
-| `Image-text` | Hybrid C++ and Python image-processing engine | Public | C++ | [GitHub](https://github.com/nexuss0781/Image-text) |
-| `Dot-NXV` | On-device OCR system for images and scanned documents | Public | C++ | [GitHub](https://github.com/nexuss0781/Dot-NXV) |
-| `NASS` | Lossless audio-to-mathematics processing pipeline | Public | Python | [GitHub](https://github.com/nexuss0781/NASS) |
-| `AGI-Substrates` | Atomic-logic image processor and vision substrate | Public | Python | [GitHub](https://github.com/nexuss0781/AGI-Substrates) |
+## 8. Web Applications, Education, Productivity & Media — 10 repositories
 
-## Developer Tools & Reverse Engineering
+| # | Repository |
+|---:|---|
+| 1 | [`Digital-Edu`](https://github.com/nexuss0781/Digital-Edu) |
+| 2 | [`ACCX`](https://github.com/nexuss0781/ACCX) |
+| 3 | [`Calisthenics`](https://github.com/nexuss0781/Calisthenics) |
+| 4 | [`Nexuss-Education`](https://github.com/nexuss0781/Nexuss-Education) |
+| 5 | [`Nexuss-Chat`](https://github.com/nexuss0781/Nexuss-Chat) |
+| 6 | [`Nexuss-Notes`](https://github.com/nexuss0781/Nexuss-Notes) |
+| 7 | [`Nexuss-Playground`](https://github.com/nexuss0781/Nexuss-Playground) |
+| 8 | [`NPMS-platform`](https://github.com/nexuss0781/NPMS-platform) |
+| 9 | [`Nexus-School-Management`](https://github.com/nexuss0781/Nexus-School-Management) |
+| 10 | [`Nexuss-Media`](https://github.com/nexuss0781/Nexuss-Media) |
 
-Programming environments, web retrieval, language/runtime systems, and binary analysis.
+## 9. Bots, Messaging & Notifications — 2 repositories
 
-| Repository | Primary focus | Visibility | Language | Link |
-|---|---|---|---|---|
-| `Web-kit` | Search and safe page-fetching service for agents | Public | Rust | [GitHub](https://github.com/nexuss0781/Web-kit) |
-| `Walia` | Sovereign programming language and learning ecosystem | Public | C | [GitHub](https://github.com/nexuss0781/Walia) |
-| `Nexuss-IDE` | Self-hosted browser-based full-stack IDE | Public | HTML | [GitHub](https://github.com/nexuss0781/Nexuss-IDE) |
-| `NexussREV` | Binary decompiler and reverse-engineering framework | Public | C++ | [GitHub](https://github.com/nexuss0781/NexussREV) |
-| `GOOGOLPLEX` | Rust-based object-system and runtime experiment | Private | Rust | [GitHub](https://github.com/nexuss0781/GOOGOLPLEX) |
+| # | Repository |
+|---:|---|
+| 1 | [`PDF-BOT`](https://github.com/nexuss0781/PDF-BOT) |
+| 2 | [`Open-hand-Bot`](https://github.com/nexuss0781/Open-hand-Bot) |
 
-## DevOps, Remote Execution & Observability
+## 10. Identity, Security & Secret Management — 2 repositories
 
-Remote terminal control, container execution, uptime monitoring, and operational tooling.
+| # | Repository |
+|---:|---|
+| 1 | [`nexuss-auth`](https://github.com/nexuss0781/nexuss-auth) |
+| 2 | [`Secret-Management`](https://github.com/nexuss0781/Secret-Management) |
 
-| Repository | Primary focus | Visibility | Language | Link |
-|---|---|---|---|---|
-| `Terminal-kit` | Remote terminal control plane for agentic systems | Public | TypeScript | [GitHub](https://github.com/nexuss0781/Terminal-kit) |
-| `terminalkit-docker` | Self-enrolling Docker agent for Terminal-Kit | Public | JavaScript | [GitHub](https://github.com/nexuss0781/terminalkit-docker) |
-| `Nexuss-Monitor` | CLI uptime monitor for APIs, websites, and services | Public | Python | [GitHub](https://github.com/nexuss0781/Nexuss-Monitor) |
-| `Nexuss-Cronjob` | Real-time endpoint uptime monitoring and alerting platform | Public | TypeScript | [GitHub](https://github.com/nexuss0781/Nexuss-Cronjob) |
-| `Nexuss-Bash` | Containerized remote execution and development sandbox | Public | JavaScript | [GitHub](https://github.com/nexuss0781/Nexuss-Bash) |
+## 11. Finance, Marketing & Business Applications — 3 repositories
 
-## Systems, Operating Platforms & Networking
+| # | Repository |
+|---:|---|
+| 1 | [`ZeinthFinance`](https://github.com/nexuss0781/ZeinthFinance) |
+| 2 | [`C9-Marketing`](https://github.com/nexuss0781/C9-Marketing) |
+| 3 | [`Trusted-Pay`](https://github.com/nexuss0781/Trusted-Pay) |
 
-Operating-system foundations, cloud platforms, and network protocol clients.
-
-| Repository | Primary focus | Visibility | Language | Link |
-|---|---|---|---|---|
-| `FTP-Client` | C++ FTPS client library with language bindings | Public | C++ | [GitHub](https://github.com/nexuss0781/FTP-Client) |
-| `YOB-OS` | Cloud-synchronized HTML application operating system | Public | JavaScript | [GitHub](https://github.com/nexuss0781/YOB-OS) |
-| `NexussOS` | Bare-metal bootloader and minimal operating-system kernel | Public | C | [GitHub](https://github.com/nexuss0781/NexussOS) |
-
-## Web Applications, Education & Productivity
-
-End-user web applications for education, communication, personal productivity, finance, and business.
-
-| Repository | Primary focus | Visibility | Language | Link |
-|---|---|---|---|---|
-| `Digital-Edu` | Markdown-driven digital learning platform | Public | TypeScript | [GitHub](https://github.com/nexuss0781/Digital-Edu) |
-| `ACCX` | Account and credential management vault | Public | TypeScript | [GitHub](https://github.com/nexuss0781/ACCX) |
-| `Calisthenics` | Calisthenics workout and progress dashboard prototype | Public | HTML | [GitHub](https://github.com/nexuss0781/Calisthenics) |
-| `Nexuss-Education` | AI-powered PDF study assistant and learning application | Public | PHP | [GitHub](https://github.com/nexuss0781/Nexuss-Education) |
-| `Nexuss-Chat` | Authenticated real-time chat application | Public | PHP | [GitHub](https://github.com/nexuss0781/Nexuss-Chat) |
-| `Nexuss-Notes` | Ethiopian-calendar-aware note-taking application | Public | PHP | [GitHub](https://github.com/nexuss0781/Nexuss-Notes) |
-| `Nexuss-Playground` | Multi-model AI chat and web-search application | Public | PHP | [GitHub](https://github.com/nexuss0781/Nexuss-Playground) |
-| `NPMS-platform` | Integrated school-management and institutional platform | Public | Python | [GitHub](https://github.com/nexuss0781/NPMS-platform) |
-| `ZeinthFinance` | Personal finance dashboard for income and expenses | Public | JavaScript | [GitHub](https://github.com/nexuss0781/ZeinthFinance) |
-| `C9-Marketing` | Marketing platform with authentication and business workflows | Public | TypeScript | [GitHub](https://github.com/nexuss0781/C9-Marketing) |
-| `Nexus-School-Management` | Integrated school-management web platform | Public | Not specified | [GitHub](https://github.com/nexuss0781/Nexus-School-Management) |
-
-## Bots, Messaging & Financial Workflows
-
-Telegram bots and messaging-driven document, payment, and notification workflows.
-
-| Repository | Primary focus | Visibility | Language | Link |
-|---|---|---|---|---|
-| `PDF-BOT` | Telegram PDF classification and routing bot | Public | TypeScript | [GitHub](https://github.com/nexuss0781/PDF-BOT) |
-| `Trusted-Pay` | Telegram-based payment and wallet workflow bot | Private | Python | [GitHub](https://github.com/nexuss0781/Trusted-Pay) |
-| `Open-hand-Bot` | Telegram and Flask notification bot for OpenHands tasks | Public | Python | [GitHub](https://github.com/nexuss0781/Open-hand-Bot) |
-
-## Identity, Security & Secrets
-
-Authentication services, credential management, and secret-storage systems.
-
-| Repository | Primary focus | Visibility | Language | Link |
-|---|---|---|---|---|
-| `nexuss-auth` | Reusable Google and GitHub OAuth authentication service | Public | TypeScript | [GitHub](https://github.com/nexuss0781/nexuss-auth) |
-| `Secret-Management` | Secret-management service | Private | Python | [GitHub](https://github.com/nexuss0781/Secret-Management) |
-
-## Data & Storage
-
-Databases and local-first data synchronization systems.
-
-| Repository | Primary focus | Visibility | Language | Link |
-|---|---|---|---|---|
-| `Paradox-DB` | Local-first encrypted SQLite database with cloud synchronization | Public | Python | [GitHub](https://github.com/nexuss0781/Paradox-DB) |
-
-## Media Assets & Utilities
-
-Reusable media packages and asset collections.
-
-| Repository | Primary focus | Visibility | Language | Link |
-|---|---|---|---|---|
-| `Nexuss-Media` | Emoji image asset package | Public | Not specified | [GitHub](https://github.com/nexuss0781/Nexuss-Media) |
-
-## References
-
-Repository descriptions and project documentation were drawn from the corresponding GitHub repositories in `READMES/`.
-
-[1]: https://github.com/nexuss0781/small-transformer "nexuss0781/small-transformer on GitHub"
-[2]: https://github.com/nexuss0781/Paradox-DB "nexuss0781/Paradox-DB on GitHub"
-[3]: https://github.com/nexuss0781/Digital-Edu "nexuss0781/Digital-Edu on GitHub"
-[4]: https://github.com/nexuss0781/FTP-Client "nexuss0781/FTP-Client on GitHub"
-[5]: https://github.com/nexuss0781/browser-kit "nexuss0781/browser-kit on GitHub"
-[6]: https://github.com/nexuss0781/PDF-BOT "nexuss0781/PDF-BOT on GitHub"
-[7]: https://github.com/nexuss0781/nexuss-auth "nexuss0781/nexuss-auth on GitHub"
-[8]: https://github.com/nexuss0781/ACCX "nexuss0781/ACCX on GitHub"
-[9]: https://github.com/nexuss0781/Attention "nexuss0781/Attention on GitHub"
-[10]: https://github.com/nexuss0781/Web-kit "nexuss0781/Web-kit on GitHub"
-[11]: https://github.com/nexuss0781/YOB-OS "nexuss0781/YOB-OS on GitHub"
-[12]: https://github.com/nexuss0781/CDI "nexuss0781/CDI on GitHub"
-[13]: https://github.com/nexuss0781/CCT "nexuss0781/CCT on GitHub"
-[14]: https://github.com/nexuss0781/Terminal-kit "nexuss0781/Terminal-kit on GitHub"
-[15]: https://github.com/nexuss0781/terminalkit-docker "nexuss0781/terminalkit-docker on GitHub"
-[16]: https://github.com/nexuss0781/Intellectual-Cortex-Architecture "nexuss0781/Intellectual-Cortex-Architecture on GitHub"
-[17]: https://github.com/nexuss0781/Image-text "nexuss0781/Image-text on GitHub"
-[18]: https://github.com/nexuss0781/Walia "nexuss0781/Walia on GitHub"
-[19]: https://github.com/nexuss0781/Nexuss-IDE "nexuss0781/Nexuss-IDE on GitHub"
-[20]: https://github.com/nexuss0781/Nexuss-Monitor "nexuss0781/Nexuss-Monitor on GitHub"
-[21]: https://github.com/nexuss0781/Nexuss-Cronjob "nexuss0781/Nexuss-Cronjob on GitHub"
-[22]: https://github.com/nexuss0781/Nexuss-Bash "nexuss0781/Nexuss-Bash on GitHub"
-[23]: https://github.com/nexuss0781/Trusted-Pay "nexuss0781/Trusted-Pay on GitHub"
-[24]: https://github.com/nexuss0781/Dot-NXV "nexuss0781/Dot-NXV on GitHub"
-[25]: https://github.com/nexuss0781/QKV-Projection "nexuss0781/QKV-Projection on GitHub"
-[26]: https://github.com/nexuss0781/Text-tokenizer "nexuss0781/Text-tokenizer on GitHub"
-[27]: https://github.com/nexuss0781/Input-Trio "nexuss0781/Input-Trio on GitHub"
-[28]: https://github.com/nexuss0781/Multi-Head-Attention "nexuss0781/Multi-Head-Attention on GitHub"
-[29]: https://github.com/nexuss0781/Nexuss_Embedding "nexuss0781/Nexuss_Embedding on GitHub"
-[30]: https://github.com/nexuss0781/Calisthenics "nexuss0781/Calisthenics on GitHub"
-[31]: https://github.com/nexuss0781/Open-hand-Bot "nexuss0781/Open-hand-Bot on GitHub"
-[32]: https://github.com/nexuss0781/NexussREV "nexuss0781/NexussREV on GitHub"
-[33]: https://github.com/nexuss0781/NexussOS "nexuss0781/NexussOS on GitHub"
-[34]: https://github.com/nexuss0781/alien-intelligence "nexuss0781/alien-intelligence on GitHub"
-[35]: https://github.com/nexuss0781/Scaled-Dot-Product-Attention "nexuss0781/Scaled-Dot-Product-Attention on GitHub"
-[36]: https://github.com/nexuss0781/Positional-Encoding "nexuss0781/Positional-Encoding on GitHub"
-[37]: https://github.com/nexuss0781/Ardi-Agents "nexuss0781/Ardi-Agents on GitHub"
-[38]: https://github.com/nexuss0781/Nexuss-Neural-Cognition "nexuss0781/Nexuss-Neural-Cognition on GitHub"
-[39]: https://github.com/nexuss0781/Nexuss-Education "nexuss0781/Nexuss-Education on GitHub"
-[40]: https://github.com/nexuss0781/Addis-Neuron-Genesis "nexuss0781/Addis-Neuron-Genesis on GitHub"
-[41]: https://github.com/nexuss0781/Addis-Neural-Cognition "nexuss0781/Addis-Neural-Cognition on GitHub"
-[42]: https://github.com/nexuss0781/NASS "nexuss0781/NASS on GitHub"
-[43]: https://github.com/nexuss0781/AGI-Substrates "nexuss0781/AGI-Substrates on GitHub"
-[44]: https://github.com/nexuss0781/Ethio_BBPE "nexuss0781/Ethio_BBPE on GitHub"
-[45]: https://github.com/nexuss0781/HOLY-AI "nexuss0781/HOLY-AI on GitHub"
-[46]: https://github.com/nexuss0781/Nexuss-Transformer "nexuss0781/Nexuss-Transformer on GitHub"
-[47]: https://github.com/nexuss0781/Nexuss-Chat "nexuss0781/Nexuss-Chat on GitHub"
-[48]: https://github.com/nexuss0781/Nexuss-Notes "nexuss0781/Nexuss-Notes on GitHub"
-[49]: https://github.com/nexuss0781/Nexuss-Studio "nexuss0781/Nexuss-Studio on GitHub"
-[50]: https://github.com/nexuss0781/Nexuss-AI "nexuss0781/Nexuss-AI on GitHub"
-[51]: https://github.com/nexuss0781/Nexuss-Playground "nexuss0781/Nexuss-Playground on GitHub"
-[52]: https://github.com/nexuss0781/NPMS-platform "nexuss0781/NPMS-platform on GitHub"
-[53]: https://github.com/nexuss0781/Secret-Management "nexuss0781/Secret-Management on GitHub"
-[54]: https://github.com/nexuss0781/GOOGOLPLEX "nexuss0781/GOOGOLPLEX on GitHub"
-[55]: https://github.com/nexuss0781/Addis-Neural-Genesis "nexuss0781/Addis-Neural-Genesis on GitHub"
-[56]: https://github.com/nexuss0781/ZeinthFinance "nexuss0781/ZeinthFinance on GitHub"
-[57]: https://github.com/nexuss0781/Ardi_agent "nexuss0781/Ardi_agent on GitHub"
-[58]: https://github.com/nexuss0781/C9-Marketing "nexuss0781/C9-Marketing on GitHub"
-[59]: https://github.com/nexuss0781/Nexus-School-Management "nexuss0781/Nexus-School-Management on GitHub"
-[60]: https://github.com/nexuss0781/Nexuss-Media "nexuss0781/Nexuss-Media on GitHub"
+**Total: 60 repositories.**
