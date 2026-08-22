@@ -1,0 +1,59 @@
+- [x] Generate a professional portrait using the seated, glasses-wearing person in the supplied team photograph as the identity reference.
+- [x] Add the new portrait to the portfolio hero while preserving the Systems Conservatory design language.
+- [x] Make “Tadiyos Aschalew” the prominent first introduction in the hero before the manifesto and portfolio sections.
+- [x] Verify the portrait treatment and name-first layout on desktop and mobile.
+- [x] Regenerate the portrait to preserve the younger physical appearance shown in the supplied photo.
+- [x] Give the name a separate sans-serif, verdigris-and-brass typographic treatment distinct from the Fraunces manifesto headline.
+- [x] Verify the revised portrait and typographic hierarchy on desktop and mobile.
+- [x] Generate a replacement portrait using both the original workstation photo and the certificate photo, prioritizing the centred certificate-holder’s real appearance.
+- [x] Replace the hero portrait with the corrected two-reference version.
+- [x] Verify the corrected portrait on desktop and mobile before publishing.
+- [x] Prepare and register the authentic seated workstation photo for the hero.
+- [x] Prepare and register the authentic certificate photo for Field Plate 01.
+- [x] Replace the generated hero portrait and generated Field Plate image with the authentic photographs.
+- [x] Verify the authentic photo treatments on desktop and mobile before publishing.
+- [x] Replace Field Plate 01 with the authentic seated workstation photograph from the first supplied image.
+- [x] Verify the corrected Field Plate image before publishing.
+- [x] Generate a hero portrait using the confirmed older-man facial identity with the younger person's lean current-age physique.
+- [x] Replace only the hero image and retain the authentic seated photograph in Field Plate 01.
+- [x] Verify the final hero portrait and Field Plate separation before publishing.
+- [x] Compare both supplied photo references for facial identity and current-age physical characteristics.
+- [x] Generate and connect an isolated, identity-faithful hero portrait with only Tadiyos—no computer, room, or other people.
+- [x] Verify the final rendered portrait on desktop and mobile; retain Field Plate 01 unchanged.
+- [x] Generate a slightly younger version of the isolated hero portrait while preserving the current facial identity and all other composition choices.
+- [x] Replace and verify the subtly younger hero portrait without changing Field Plate 01.
+- [x] Restore the preferred older-man portrait’s hairline, chin, facial hair, identity features, background, and right-side hero position.
+- [x] Make only a restrained younger adjustment and slightly reduce the face scale without changing the preferred composition.
+- [x] Verify the restored hero portrait on desktop and mobile before publishing.
+- [x] Review the collected README documentation for Nexuss Neural Network and representative non-repeating work.
+- [x] Make Nexuss Neural Network the flagship with the 270,000-neuron, 13.5-million-synapse, sub-500 MB implementation evidence.
+- [x] Remove repetitive project mentions, the “60 repositories” framing, and narrow or repeated language-centric descriptions.
+- [x] Rebalance portfolio copy to show research, systems, language technology, education, finance, and applied products without duplication.
+- [x] Verify the revised narrative and publish the portfolio.
+- [x] Audit display, body, label, card, and mobile typography for uneven sizing or spacing.
+- [x] Rebalance typography scale, line height, and measure across the portfolio without changing the visual direction.
+- [x] Verify refined typography on desktop and mobile before publishing.
+- [x] Generate a portrait with only a slight shorter-face adjustment while preserving identity, hairline, facial hair, composition, and placement.
+- [x] Replace and verify the shorter-face portrait on desktop and mobile before publishing.
+- [x] Register the supplied Nexuss logo image as a web project asset.
+- [x] Replace the header logo, meaningful archive seals, and favicon with the supplied Nexuss mark.
+- [x] Verify the new logo and favicon treatment on desktop and mobile before publishing.
+- [x] Audit the current brass, verdigris, parchment, and logo treatments against the supplied Nexuss mark.
+- [x] Replace the portfolio palette with the logo-led black-green, luminous aqua, white, and silver system.
+- [x] Make the header, archive, and footer logo treatments circular and mirror the new visual system through all sections.
+- [x] Verify the logo-mirrored theme on desktop and mobile before publishing.
+- [x] Audit aqua palette dependencies and current desktop/mobile layout behavior.
+- [x] Rework the portfolio into a comfortable black, white, and grey theme while keeping the circular Nexuss logo as the primary color signal.
+- [x] Strengthen responsive safeguards so all sections remain intact and legible without collapse.
+- [x] Verify the neutral theme at desktop, tablet, and mobile widths before publishing.
+- [x] Review every portfolio section at phone width for oversized or overly long text.
+- [x] Reduce phone-only heading scales and shorten long mobile copy while leaving desktop copy and sizing unchanged.
+- [x] Verify that all phone sections remain readable, complete, and unclipped before publishing.
+- [x] Generate a hero portrait with only a slightly smaller and leaner face while preserving approved identity features and composition.
+- [x] Replace and verify the refined portrait across desktop and phone layouts before publishing.
+- [x] Generate a hero portrait with the approved face and composition but a clearly younger, thin 20-year-old build.
+- [x] Preserve the approved hairline, facial hair, glasses, background, pose, and right-side position while narrowing shoulders, torso, and arms.
+- [x] Replace and verify the younger thin-build portrait on desktop and phone before publishing.
+- [ ] Inspect the target nexuss0781/nexuss0781 repository and current portfolio source state.
+- [ ] Commit and push the current portfolio source and documentation changes to GitHub.
+- [ ] Verify the pushed GitHub revision and report it.
