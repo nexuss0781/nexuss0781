@@ -54,6 +54,15 @@
 - [x] Generate a hero portrait with the approved face and composition but a clearly younger, thin 20-year-old build.
 - [x] Preserve the approved hairline, facial hair, glasses, background, pose, and right-side position while narrowing shoulders, torso, and arms.
 - [x] Replace and verify the younger thin-build portrait on desktop and phone before publishing.
+- [x] Generate a realistic transparent humanoid robot that fits the Nexuss hero composition and monochrome dossier visual system.
+- [x] Replace the human hero portrait with the transparent robot while keeping the desktop and phone layouts intact.
+- [x] Verify the robot hero treatment across desktop and phone before publishing.
+- [x] Generate an upright, thoughtful, visually magnificent transparent humanoid robot for the Nexuss hero.
+- [x] Replace the seated robot while preserving the hero text-safe area and responsive composition.
+- [x] Verify the upright robot hero on desktop and phone before publishing.
+- [ ] Synchronize the latest upright Thinking Engine hero source to the GitHub portfolio export.
+- [ ] Commit and push the Thinking Engine update to nexuss0781/nexuss0781.
+- [ ] Verify and report the resulting GitHub revision.
 - [x] Inspect the target nexuss0781/nexuss0781 repository and current portfolio source state.
 - [x] Commit and push the current portfolio source and documentation changes to GitHub.
 - [x] Verify the pushed GitHub revision and report it.
