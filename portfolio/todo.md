@@ -54,6 +54,6 @@
 - [x] Generate a hero portrait with the approved face and composition but a clearly younger, thin 20-year-old build.
 - [x] Preserve the approved hairline, facial hair, glasses, background, pose, and right-side position while narrowing shoulders, torso, and arms.
 - [x] Replace and verify the younger thin-build portrait on desktop and phone before publishing.
-- [ ] Inspect the target nexuss0781/nexuss0781 repository and current portfolio source state.
-- [ ] Commit and push the current portfolio source and documentation changes to GitHub.
-- [ ] Verify the pushed GitHub revision and report it.
+- [x] Inspect the target nexuss0781/nexuss0781 repository and current portfolio source state.
+- [x] Commit and push the current portfolio source and documentation changes to GitHub.
+- [x] Verify the pushed GitHub revision and report it.
