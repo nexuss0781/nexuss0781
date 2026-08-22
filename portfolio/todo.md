@@ -66,3 +66,6 @@
 - [x] Inspect the target nexuss0781/nexuss0781 repository and current portfolio source state.
 - [x] Commit and push the current portfolio source and documentation changes to GitHub.
 - [x] Verify the pushed GitHub revision and report it.
+- [x] Audit the GitHub portfolio export for managed runtime code and hosted asset references.
+- [x] Create a standalone Vercel-ready source package with localized assets, standard Vite configuration, and no managed runtime or analytics dependencies.
+- [x] Build the standalone package locally, push the conversion to GitHub, and document the Vercel deployment steps.
