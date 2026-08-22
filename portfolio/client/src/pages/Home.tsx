@@ -147,8 +147,8 @@ export default function Home() {
           <div className="hero-image" />
           <div className="hero-shadow" />
           <div className="portrait-frame reveal-2" aria-hidden="true">
-            <div className="portrait-specimen">Portrait / 001</div>
-            <img src="/manus-storage/tadiyos-portrait-younger-thin-build_8f0e82f4.png" alt="Portrait of Tadiyos Aschalew" />
+            <div className="portrait-specimen">Thinking engine / 001</div>
+            <img src="/manus-storage/nexuss-upright-contemplative-robot_594d2b63.png" alt="Upright contemplative humanoid robot representing Nexuss cognitive systems" />
             <div className="portrait-rule" />
           </div>
           <div className="hero-copy reveal-1">
