@@ -1,29 +1,32 @@
-# Nexuss Portfolio Source
+# Nexuss Portfolio
 
-This directory contains the source for the published Nexuss portfolio.
+This is a standalone React, TypeScript, and Vite portfolio, prepared for static deployment on Vercel. It has no platform-specific runtime, analytics injection, storage proxy, or managed asset dependency.
 
-The site is a React, TypeScript, and Vite frontend. Its current design uses a black, white, and grey dossier system, with the supplied circular Nexuss mark as the primary colour signal. Portrait and project assets are referenced through managed project storage paths so the live portfolio remains self-contained in its hosted environment.
+All visual assets are bundled in `client/public/assets/`, including the circular Nexuss mark, Thinking Engine hero, research visuals, and field evidence image.
 
-## Local development
+## Run locally
 
 ```bash
 pnpm install
 pnpm dev
 ```
 
-## Validation
+## Validate and build
 
 ```bash
 pnpm check
 pnpm build
 ```
 
-## Source map
+## Deploy to Vercel
 
-| Path | Purpose |
+Import `nexuss0781/nexuss0781` in Vercel and set the **Root Directory** to `portfolio`.
+
+| Vercel setting | Value |
 | --- | --- |
-| `client/src/pages/Home.tsx` | Portfolio content and layout |
-| `client/src/index.css` | Dossier visual system and responsive rules |
-| `ideas.md` | Design decisions and brand direction |
-| `portfolio-copy-evidence.md` | Documentation evidence for portfolio claims |
-| `todo.md` | Completed revision record |
+| Framework Preset | Vite |
+| Install Command | `pnpm install` |
+| Build Command | `pnpm build` |
+| Output Directory | `dist` |
+
+The included `vercel.json` preserves single-page navigation by rewriting routes to `index.html`.

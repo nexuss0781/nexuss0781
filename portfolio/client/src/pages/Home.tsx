@@ -27,7 +27,7 @@ const featuredProjects = [
     id: "01",
     name: "Walia",
     type: "Persistent computation",
-    image: "/manus-storage/walia-artifact_73cca89a.jpg",
+    image: "/assets/walia.jpg",
     glyph: "",
     material: "runtime chassis",
     description:
@@ -51,7 +51,7 @@ const featuredProjects = [
     id: "03",
     name: "Paradox-DB",
     type: "Local-first data system",
-    image: "/manus-storage/nexuss-hero-lab_dd531049.jpg",
+    image: "/assets/hero-lab.jpg",
     glyph: "",
     material: "encrypted ledger",
     description:
@@ -94,7 +94,7 @@ export default function Home() {
       <div className="noise-layer" aria-hidden="true" />
       <header className={`topbar ${scrolled ? "topbar-scrolled" : ""}`}>
         <a className="brand" href="#origin" onClick={() => scrollTo("Origin")}>
-          <span className="brand-seal"><img src="/manus-storage/nexuss-supplied-mark_09fe0e9a.jpg" alt="Nexuss logo" /></span>
+          <span className="brand-seal"><img src="/assets/nexuss-mark.jpg" alt="Nexuss logo" /></span>
           <span><b>NEXUSS / ARCHIVE</b><i>Field dossier · 01–05</i></span>
         </a>
         <nav className="desktop-nav" aria-label="Portfolio sections">
@@ -148,7 +148,7 @@ export default function Home() {
           <div className="hero-shadow" />
           <div className="portrait-frame reveal-2" aria-hidden="true">
             <div className="portrait-specimen">Thinking engine / 001</div>
-            <img src="/manus-storage/nexuss-upright-contemplative-robot_594d2b63.png" alt="Upright contemplative humanoid robot representing Nexuss cognitive systems" />
+            <img src="/assets/thinking-engine.png" alt="Upright contemplative humanoid robot representing Nexuss cognitive systems" />
             <div className="portrait-rule" />
           </div>
           <div className="hero-copy reveal-1">
@@ -202,7 +202,7 @@ export default function Home() {
           </div>
           <div className="flagship-grid">
             <div className="flagship-image-wrap">
-              <img src="/manus-storage/neural-cognition-artifact_b396df9f.jpg" alt="Nexuss Neural Network system artifact" />
+              <img src="/assets/neural-cognition.jpg" alt="Nexuss Neural Network system artifact" />
               <div className="image-index">N / 01</div>
               <div className="orbit orbit-a" />
               <div className="orbit orbit-b" />
@@ -275,7 +275,7 @@ export default function Home() {
 
         <section id="impact" className="impact-section">
           <div className="impact-image">
-            <img src="/manus-storage/git_22a32f08.jpg" alt="Tadiyos Aschalew seated at a workstation with colleagues" />
+            <img src="/assets/field-plate.jpg" alt="Tadiyos Aschalew seated at a workstation with colleagues" />
             <span className="impact-plate">Field plate / 01</span>
             <span className="impact-location">Addis Ababa · systems in use</span>
           </div>
@@ -310,14 +310,14 @@ export default function Home() {
             </div>
           </div>
           <div className="archive-stamp">
-            <img src="/manus-storage/nexuss-supplied-mark_09fe0e9a.jpg" alt="" />
+            <img src="/assets/nexuss-mark.jpg" alt="" />
             <span>From primitive<br />to institution</span>
           </div>
         </section>
       </main>
 
       <footer>
-        <div className="footer-mark"><img src="/manus-storage/nexuss-supplied-mark_09fe0e9a.jpg" alt="Nexuss logo" /></div>
+        <div className="footer-mark"><img src="/assets/nexuss-mark.jpg" alt="Nexuss logo" /></div>
         <p>Find the broken foundation. Understand why it broke. Rebuild it properly.</p>
         <a href="#origin" onClick={() => scrollTo("Origin")}>Return to origin <ArrowUpRight size={14} /></a>
       </footer>
