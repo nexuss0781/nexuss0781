@@ -46,7 +46,7 @@ That's what I do. I find the broken foundation. Understand why it broke. Rebuild
         ┌───────────────────────────┼───────────────────────────┐
         │                           │                           │
    ┌────▼────┐              ┌───────▼───────┐           ┌──────▼──────┐
-   │ WALIA   │              │   ATTENTION   │           │   CCT       │
+   │ WALIA   │              │   ATTENTION   │           │   CDI       │
    │ Language│              │   Kernels     │           │ Causal AI   │
    └────┬────┘              └───────┬───────┘           └──────┬──────┘
         │                           │                           │
@@ -55,8 +55,8 @@ That's what I do. I find the broken foundation. Understand why it broke. Rebuild
         ┌───────────────────────────┼───────────────────────────┐
         │                           │                           │
    ┌────▼────┐              ┌───────▼───────┐           ┌──────▼──────┐
-   │ ARDI    │              │   PARADOX     │           │  TRANSFORMER│
-   │ Agents  │              │ Database      │           │  Framework  │
+   │ ARDI    │              │  TRANSFORMER  │           │NEURAL COG   │
+   │ Agents  │              │   Framework   │           │ 270K Neurons│
    └─────────┘              └───────────────┘           └─────────────┘
 ```
 
@@ -94,9 +94,9 @@ Production-grade framework for training Decoder-Only LLMs from scratch. Pure imp
 
 C++20 numerical kernel for metric-aware attention geometry. Assembles positive-definite learned metrics, computes symmetric whitening operators, transforms query/key coordinates. Handles 1M context length with deterministic F32 CPU tensors. Validated forward path with numerical guards and condition-number bounds.
 
-### CDI (Paradox-DB) — Local-First Database with Cloud Sync
+### CDI — Compact Causal Language Engine
 
-Drop-in encrypted SQLite database that syncs automatically through Telegram infrastructure. No AWS, no Docker, no config files. Background daemon pushes changes every 2 seconds, pulls every 30 seconds. DB-API 2.0 compatible. Cross-platform: Linux, macOS, Windows.
+Evidence-gated investigation of selective cohomodynamic recurrent state-space models. Active v3 implementation uses EthioBBPE tokenizer, sparse graph-Laplacian correction, and tied output projection. CCT-G3.4 earned token-residual evidence with 21% throughput improvement. CCT-G3.6 achieved bounded continuation at 6.576891 validation loss, beating GRU baselines across all seeds. 297 tests passing. Geometry re-confirmed through G3.1-G3.6 gates.
 ---
 
 ## 📚 Complete Repository Showcase
