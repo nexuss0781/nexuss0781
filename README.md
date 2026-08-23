@@ -98,10 +98,6 @@ C++20 numerical kernel for metric-aware attention geometry. Assembles positive-d
 
 Evidence-gated investigation of selective cohomodynamic recurrent state-space models. Active v3 implementation uses EthioBBPE tokenizer, sparse graph-Laplacian correction, and tied output projection. CCT-G3.4 earned token-residual evidence with 21% throughput improvement. CCT-G3.6 achieved bounded continuation at 6.576891 validation loss, beating GRU baselines across all seeds. 297 tests passing. Geometry re-confirmed through G3.1-G3.6 gates.
 
-### ⚛️ Paradox-DB — Local-First Database with Cloud Sync
-
-Drop-in encrypted SQLite database that syncs automatically through Telegram infrastructure. No AWS, no Docker, no config files. Background daemon pushes changes every 2 seconds, pulls every 30 seconds. DB-API 2.0 compatible. Cross-platform: Linux, macOS, Windows.
-
 ---
 
 ## 📚 Complete Repository Showcase
@@ -153,7 +149,6 @@ Drop-in encrypted SQLite database that syncs automatically through Telegram infr
 ### 🗄️ Databases & Storage
 | Repository | Purpose |
 |------------|---------|
-| [Paradox-DB](https://github.com/nexuss0781/Paradox-DB) | Temporal graph-relational database |
 | [CDI](https://github.com/nexuss0781/CDI) | Data infrastructure |
 | [Secret-Management](https://github.com/nexuss0781/Secret-Management) | Secure credential handling |
 | [Input-Trio](https://github.com/nexuss0781/Input-Trio) | Multi-modal input processing |
@@ -222,7 +217,7 @@ Drop-in encrypted SQLite database that syncs automatically through Telegram infr
 
 ## 📈 Roadmap
 
-**2024 Q4** — Walia alpha, Paradox-DB beta, Attention kernels public
+**2024 Q4** — Walia alpha, CDI v3, Attention kernels public
 **2025** — Ardi-Agents v2.0, CCT causal reasoning engine, Nexuss-Transformer production
 **2026** — Intellectual Cortex complete, NexussOS prototype, quantum-classical hybrid runtime
 **2027+** — Self-sustaining post-human intelligence architectures
@@ -350,7 +345,7 @@ Let's talk.
 ![Total Stars](https://github-readme-streak-stats.herokuapp.com/?user=nexuss0781&theme=radical)
 
 ### Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=nexuss0781/Walia,nexuss0781/Attention,nexuss0781/Nexuss-Transformer,nexuss0781/Paradox-DB&type=Date)](https://star-history.com/#nexuss0781/Walia&nexuss0781/Attention&nexuss0781/Nexuss-Transformer&nexuss0781/Paradox-DB&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=nexuss0781/Walia,nexuss0781/Attention,nexuss0781/Nexuss-Transformer,nexuss0781/CDI&type=Date)](https://star-history.com/#nexuss0781/Walia&nexuss0781/Attention&nexuss0781/Nexuss-Transformer&nexuss0781/CDI&Date)
 
 </div>
 
