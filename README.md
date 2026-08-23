@@ -23,9 +23,9 @@
 
 ---
 
-## 🎯 My Mission
+## 🎯 Executive Vision
 
-I'm a 20 y/o self-taught engineer from Ethiopia building AGI substrates from first principles. No institution handed me this path. What drives every line of code here is a single conviction: **the foundations most people accept as fixed can, in fact, be rebuilt**.
+I'm a 20 y/o self-taught engineer from Ethiopia building the next generation of intelligent systems from first principles. No institution handed me this path. What drives every line of code here is a single conviction: **the foundations most people accept as fixed can, in fact, be rebuilt**.
 
 Current AI hits hard ceilings—transformers scale quadratically, models forget what they learn, systems correlate but don't reason about causation. These aren't engineering problems. They're *architectural problems* requiring rethinking from the ground up.
 
