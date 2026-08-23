@@ -124,7 +124,6 @@ Evidence-gated investigation of selective cohomodynamic recurrent state-space mo
 | Repository | Purpose |
 |------------|---------|
 | [CDI](https://github.com/nexuss0781/CDI) | Data infrastructure |
-| [Secret-Management](https://github.com/nexuss0781/Secret-Management) | Secure credential handling |
 | [Input-Trio](https://github.com/nexuss0781/Input-Trio) | Multi-modal input processing |
 | [Nexuss-IDE](https://github.com/nexuss0781/Nexuss-IDE) | Mobile-first IDE |
 | [Nexuss-Studio](https://github.com/nexuss0781/Nexuss-Studio) | AI study environment |
