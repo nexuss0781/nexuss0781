@@ -110,7 +110,6 @@ Drop-in encrypted SQLite database that syncs automatically through Telegram infr
 | [Addis-Neuron-Genesis](https://github.com/nexuss0781/Addis-Neuron-Genesis) | Neuron growth simulation |
 | [Intellectual-Cortex-Architecture](https://github.com/nexuss0781/Intellectual-Cortex-Architecture) | Pure reasoning decoupled from biology |
 | [CCT](https://github.com/nexuss0781/CCT) | Chrono-Causal Tapestry for causal AI |
-| [AGI-Substrates](https://github.com/nexuss0781/AGI-Substrates) | Foundational AGI research |
 | [alien-intelligence](https://github.com/nexuss0781/alien-intelligence) | Non-biological cognition models |
 | [Multi-Head-Attention](https://github.com/nexuss0781/Multi-Head-Attention) | Multi-head attention variants |
 | [Positional-Encoding](https://github.com/nexuss0781/Positional-Encoding) | Advanced positional encodings |
@@ -122,7 +121,6 @@ Drop-in encrypted SQLite database that syncs automatically through Telegram infr
 | Repository | Purpose |
 |------------|---------|
 | [Walia](https://github.com/nexuss0781/Walia) | 5th gen language with orthogonal persistence |
-| [GOOGOLPLEX](https://github.com/nexuss0781/GOOGOLPLEX) | Quantum computing primitives |
 | [Dot-NXV](https://github.com/nexuss0781/Dot-NXV) | .NET quantum extensions |
 | [Nexuss-Bash](https://github.com/nexuss0781/Nexuss-Bash) | Shell scripting enhancements |
 | [Terminal-kit](https://github.com/nexuss0781/Terminal-kit) | Terminal utilities |
