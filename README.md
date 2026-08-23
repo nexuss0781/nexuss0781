@@ -163,13 +163,6 @@ Evidence-gated investigation of selective cohomodynamic recurrent state-space mo
 | [YOB-OS](https://github.com/nexuss0781/YOB-OS) | Cloud‑synchronized HTML operating system with Play Store, web shell, and Expo Android client. |
 | [NexussREV](https://github.com/nexuss0781/NexussREV) | High‑fidelity binary decompiler and analysis framework for program reconstruction using Capstone and LIEF. |
 
-### 🔬 Research & Experimental
-| Repository | Purpose |
-|------------|---------|
-| [Addis-Neural-Cognition](https://github.com/nexuss0781/Addis-Neural-Cognition) | Undescribed repository — README states no project description provided. |
-| [AGI-Substrates](https://github.com/nexuss0781/AGI-Substrates) | ALVS‑style pure‑math image processor decomposing images into Energy, Flow, and atomic contexts for logic transformations. |
-| [GOOGOLPLEX](https://github.com/nexuss0781/GOOGOLPLEX) | Private Rust project for a novel object system called the Googolplex Engine. |
-
 ---
 
 ## 🛠️ Technical Mastery
