@@ -74,27 +74,27 @@ session_count = session_count + 1;
 print "Session #" + session_count;  // Survives across restarts
 ```
 
-### 👨‍💻 Nexuss Neural Cognition — 270K Neurons in 500MB
+### 🧠 Nexuss Neural Cognition — 270K Neurons in 500MB
 
 Biologically-plausible spiking neural network simulator operating 270,336 neurons and 13,516,800 synapses within a fixed 500MB RAM budget. Features Universal Intellectual Neuron (UIN) building blocks with 6 neuron classes and 5 synapse types. O(1) update kernel achieving 94× real-time speedup. Meta-cognitive controller with adaptive resource allocation.
 
-### 🧠 Image-text — Atomic Logic Vision System (ALVS)
+### 🖼️ Image-text — Atomic Logic Vision System (ALVS)
 
 High-performance hybrid image processing engine decomposing visual data into mathematical logic atoms: RGB matrix, Energy (luminance), and Flow (gradient) layers. C++ backend with Python interface. Sub-200ms processing for 8K UHD images at 508 MB/s throughput. Lossless reconstruction with PSNR >66 dB.
 
-### 🌠 Ardi-Agents — Sixteen Specialist AI Council
+### 🤖 Ardi-Agents — Sixteen Specialist AI Council
 
 Autonomous multi-agent orchestration engine featuring 16 domain-specific AI experts: Language Expert, Analyst, Innovator, Frontend/Backend Developers, Debugger, QA Planners, Code Quality/Security/Performance/UX Auditors, Antagonistic Tester, and Documentation Generator. Meta-cognitive planning coordinates collaborative reasoning for end-to-end complex workflows.
 
-### 🤖 Nexuss Transformer Framework — Blank Slate to Superintelligence
+### 🌐 Nexuss Transformer Framework — Blank Slate to Superintelligence
 
 Production-grade framework for training Decoder-Only LLMs from scratch. Pure implementation with RoPE embeddings, RMSNorm, SwiGLU, Multi-Query Attention. Supports pre-training, LoRA fine-tuning, and RLHF alignment (PPO/DPO). Integrated with EthioBBPE tokenizer optimized for Amharic and Ge'ez scripts.
 
-### 🛸 Attention Kernel — Metric-Aware Geometry
+### 🥏 Attention Kernel — Metric-Aware Geometry
 
 C++20 numerical kernel for metric-aware attention geometry. Assembles positive-definite learned metrics, computes symmetric whitening operators, transforms query/key coordinates. Handles 1M context length with deterministic F32 CPU tensors. Validated forward path with numerical guards and condition-number bounds.
 
-### 🌐 CDI — Compact Causal Language Engine
+### 🛸 CDI — Compact Causal Language Engine
 
 Evidence-gated investigation of selective cohomodynamic recurrent state-space models. Active v3 implementation uses EthioBBPE tokenizer, sparse graph-Laplacian correction, and tied output projection. CCT-G3.4 earned token-residual evidence with 21% throughput improvement. CCT-G3.6 achieved bounded continuation at 6.576891 validation loss, beating GRU baselines across all seeds. 297 tests passing. Geometry re-confirmed through G3.1-G3.6 gates.
 
