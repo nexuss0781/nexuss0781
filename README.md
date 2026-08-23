@@ -120,16 +120,12 @@ Evidence-gated investigation of selective cohomodynamic recurrent state-space mo
 | [Nexuss-Transformer](https://github.com/nexuss0781/Nexuss-Transformer) | Transformer implementations |
 | [HOLY-AI](https://github.com/nexuss0781/HOLY-AI) | Sacred text AI analysis |
 
-### 🗄️ Databases & Storage
+### 🌐 Web & Applications
 | Repository | Purpose |
 |------------|---------|
 | [CDI](https://github.com/nexuss0781/CDI) | Data infrastructure |
 | [Secret-Management](https://github.com/nexuss0781/Secret-Management) | Secure credential handling |
 | [Input-Trio](https://github.com/nexuss0781/Input-Trio) | Multi-modal input processing |
-
-### 🌐 Web & Applications
-| Repository | Purpose |
-|------------|---------|
 | [Nexuss-IDE](https://github.com/nexuss0781/Nexuss-IDE) | Mobile-first IDE |
 | [Nexuss-Studio](https://github.com/nexuss0781/Nexuss-Studio) | AI study environment |
 | [Nexuss-Education](https://github.com/nexuss0781/Nexuss-Education) | Document-grounded AI tutoring |
