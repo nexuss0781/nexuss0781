@@ -158,6 +158,7 @@ Evidence-gated investigation of selective cohomodynamic recurrent state-space mo
 |------------|---------|
 | [FTP-Client](https://github.com/nexuss0781/FTP-Client) | Enterprise file transfer |
 | [nexuss-auth](https://github.com/nexuss0781/nexuss-auth) | Authentication services |
+| [Secret-Management](https://github.com/nexuss0781/Secret-Management) | Secret management services |
 | [PDF-BOT](https://github.com/nexuss0781/PDF-BOT) | PDF processing automation |
 | [NexussOS](https://github.com/nexuss0781/NexussOS) | AI-first operating system |
 | [YOB-OS](https://github.com/nexuss0781/YOB-OS) | Alternative OS project |
