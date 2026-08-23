@@ -1,4 +1,4 @@
-<!-- Colorful Animated Line -->
+
 <div align="center">
 
 # 🧬 TADIYOS ASCHALEW <img src="assets/77bbab8b1c.gif" width="35px">
