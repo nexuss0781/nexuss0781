@@ -94,7 +94,7 @@ Production-grade framework for training Decoder-Only LLMs from scratch. Pure imp
 
 C++20 numerical kernel for metric-aware attention geometry. Assembles positive-definite learned metrics, computes symmetric whitening operators, transforms query/key coordinates. Handles 1M context length with deterministic F32 CPU tensors. Validated forward path with numerical guards and condition-number bounds.
 
-### Paradox-DB — Local-First Database with Cloud Sync
+### CDI (Paradox-DB) — Local-First Database with Cloud Sync
 
 Drop-in encrypted SQLite database that syncs automatically through Telegram infrastructure. No AWS, no Docker, no config files. Background daemon pushes changes every 2 seconds, pulls every 30 seconds. DB-API 2.0 compatible. Cross-platform: Linux, macOS, Windows.
 ---
