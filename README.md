@@ -5,7 +5,7 @@
 
 # 🧬 TADIYOS ASCHALEW <img src="assets/77bbab8b1c.gif" width="35px">
 ### ታዲዮስ አስቻለው
-**Software & AI Engineer** · **Ethco Coder** · **Addis Ababa, Ethiopia**
+**Software & AI Engineer** · [**Ethco Coder**](https://github.com/ethcocoders)
 
 ---
 
@@ -14,6 +14,7 @@
 [![Telegram](assets/aa411d57ec.svg)](https://t.me/Nexuss_stuff)
 [![LinkedIn](assets/05803a7403.svg)](https://www.linkedin.com/in/nexuss0781/)
 [![Portfolio](assets/4bec80e416.svg)](https://nexuss.pro.et/)
+[![Founder](https://img.shields.io/badge/Founder-Nexuss%20Intelligence-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nexuss-Intelligence)
 
 ---
 
@@ -25,7 +26,7 @@
 
 ## 🎯 Executive Vision
 
-I'm a 20 y/o self-taught engineer from Ethiopia building the next generation of intelligent systems from first principles. No institution handed me this path. What drives every line of code here is a single conviction: **the foundations most people accept as fixed can, in fact, be rebuilt**.
+I'm a 20 y/o self-taught engineer from **Ethiopia** building the next generation of intelligent systems from first principles. No institution handed me this path. What drives every line of code here is a single conviction: **the foundations most people accept as fixed can, in fact, be rebuilt**.
 
 Current AI hits hard ceilings—transformers scale quadratically, models forget what they learn, systems correlate but don't reason about causation. These aren't engineering problems. They're *architectural problems* requiring rethinking from the ground up.
 
