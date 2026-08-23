@@ -46,8 +46,8 @@ That's what I do. I find the broken foundation. Understand why it broke. Rebuild
         ┌───────────────────────────┼───────────────────────────┐
         │                           │                           │
    ┌────▼────┐              ┌───────▼───────┐           ┌──────▼──────┐
-   │ WALIA   │              │   AURELIS     │           │   QAU       │
-   │ Language│              │ O(n) Attention│           │ Quantum     │
+   │ WALIA   │              │   ATTENTION   │           │   CCT       │
+   │ Language│              │   Kernels     │           │ Causal AI   │
    └────┬────┘              └───────┬───────┘           └──────┬──────┘
         │                           │                           │
         └───────────────────────────┼───────────────────────────┘
@@ -55,27 +55,48 @@ That's what I do. I find the broken foundation. Understand why it broke. Rebuild
         ┌───────────────────────────┼───────────────────────────┐
         │                           │                           │
    ┌────▼────┐              ┌───────▼───────┐           ┌──────▼──────┐
-   │ ARDI    │              │   PARADOX     │           │   CCT       │
-   │ Agents  │              │ Database      │           │ Causal AI   │
+   │ ARDI    │              │   PARADOX     │           │  TRANSFORMER│
+   │ Agents  │              │ Database      │           │  Framework  │
    └─────────┘              └───────────────┘           └─────────────┘
 ```
 
 ---
 
-## 🚀 Flagship Innovations
+## Flagship Innovations
 
-### ⚡ AURELIS — Breaking the Quadratic Ceiling
-Traditional transformers: O(n²). Double context, quadruple compute. **AURELIS achieves O(n) linear complexity through spectral methods—mathematically proven, not empirical.** 337 passing tests. Parallel scan with O(log n) depth. When transformers break at 32K tokens, this continues to 1M+.
+### Walia — The Sovereign Programming Language
 
-### 💾 Walia — The Language Where Data Survives
-Orthogonal persistence built into the language core. No serialization. No ORM. Variables persist across restarts by default. Register-based VM with NaN-boxing. Neural-native vectors as first-class citizens. Dimensional typing enforces physics at compile time.
+A 5th generation programming language where code doesn't just run—it lives forever. Orthogonal persistence built into the core: variables survive restarts, power failures, and reboots without serialization. Register-based VM with NaN-boxing. Neural-native vectors as first-class citizens. Dimensional typing enforces physics at compile time.
 
-### 🎯 Ardi-Agents — Sixteen Specialists, Zero Standups
-Complete multi-agent development pipeline. 16 AI specialists (Language → Analyst → Innovator → Backend/Frontend → 4-tier QA → Documentation) coordinated by meta-cognitive planning. 23 blueprints, 140+ routes. Dual Python/PHP implementation.
+```walia
+var session_count = 0;  // Persists automatically
+session_count = session_count + 1;
+print "Session #" + session_count;  // Survives across restarts
+```
 
-### 🔷 Paradox-DB — Time-Aware Storage
-ACID-compliant database with native temporal queries. Bitemporal modeling. Immutable history with mutable present. Graph + relational hybrid. Sub-millisecond queries across billions of edges.
+### Nexuss Neural Cognition — 270K Neurons in 500MB
 
+Biologically-plausible spiking neural network simulator operating 270,336 neurons and 13,516,800 synapses within a fixed 500MB RAM budget. Features Universal Intellectual Neuron (UIN) building blocks with 6 neuron classes and 5 synapse types. O(1) update kernel achieving 94× real-time speedup. Meta-cognitive controller with adaptive resource allocation.
+
+### Image-text — Atomic Logic Vision System (ALVS)
+
+High-performance hybrid image processing engine decomposing visual data into mathematical logic atoms: RGB matrix, Energy (luminance), and Flow (gradient) layers. C++ backend with Python interface. Sub-200ms processing for 8K UHD images at 508 MB/s throughput. Lossless reconstruction with PSNR >66 dB.
+
+### Ardi-Agents — Sixteen Specialist AI Council
+
+Autonomous multi-agent orchestration engine featuring 16 domain-specific AI experts: Language Expert, Analyst, Innovator, Frontend/Backend Developers, Debugger, QA Planners, Code Quality/Security/Performance/UX Auditors, Antagonistic Tester, and Documentation Generator. Meta-cognitive planning coordinates collaborative reasoning for end-to-end complex workflows.
+
+### Nexuss Transformer Framework — Blank Slate to Superintelligence
+
+Production-grade framework for training Decoder-Only LLMs from scratch. Pure implementation with RoPE embeddings, RMSNorm, SwiGLU, Multi-Query Attention. Supports pre-training, LoRA fine-tuning, and RLHF alignment (PPO/DPO). Integrated with EthioBBPE tokenizer optimized for Amharic and Ge'ez scripts.
+
+### Attention Kernel — Metric-Aware Geometry
+
+C++20 numerical kernel for metric-aware attention geometry. Assembles positive-definite learned metrics, computes symmetric whitening operators, transforms query/key coordinates. Handles 1M context length with deterministic F32 CPU tensors. Validated forward path with numerical guards and condition-number bounds.
+
+### Paradox-DB — Local-First Database with Cloud Sync
+
+Drop-in encrypted SQLite database that syncs automatically through Telegram infrastructure. No AWS, no Docker, no config files. Background daemon pushes changes every 2 seconds, pulls every 30 seconds. DB-API 2.0 compatible. Cross-platform: Linux, macOS, Windows.
 ---
 
 ## 📚 Complete Repository Showcase
@@ -83,7 +104,7 @@ ACID-compliant database with native temporal queries. Bitemporal modeling. Immut
 ### 🧠 Intelligence Architecture
 | Repository | Purpose |
 |------------|---------|
-| [AURELIS](https://github.com/nexuss0781/AURELIS) | O(n) linear attention via spectral methods |
+| [Attention](https://github.com/nexuss0781/Attention) | C++20 metric-aware attention kernels |
 | [Nexuss-Neural-Cognition](https://github.com/nexuss0781/Nexuss-Neural-Cognition) | Self-optimizing spiking network (270K neurons) |
 | [Addis-Neural-Genesis](https://github.com/nexuss0781/Addis-Neural-Genesis) | Bio-inspired cognition architecture |
 | [Addis-Neuron-Genesis](https://github.com/nexuss0781/Addis-Neuron-Genesis) | Neuron growth simulation |
@@ -91,7 +112,6 @@ ACID-compliant database with native temporal queries. Bitemporal modeling. Immut
 | [CCT](https://github.com/nexuss0781/CCT) | Chrono-Causal Tapestry for causal AI |
 | [AGI-Substrates](https://github.com/nexuss0781/AGI-Substrates) | Foundational AGI research |
 | [alien-intelligence](https://github.com/nexuss0781/alien-intelligence) | Non-biological cognition models |
-| [Attention](https://github.com/nexuss0781/Attention) | Novel attention mechanisms |
 | [Multi-Head-Attention](https://github.com/nexuss0781/Multi-Head-Attention) | Multi-head attention variants |
 | [Positional-Encoding](https://github.com/nexuss0781/Positional-Encoding) | Advanced positional encodings |
 | [QKV-Projection](https://github.com/nexuss0781/QKV-Projection) | Query-Key-Value projections |
@@ -199,9 +219,9 @@ ACID-compliant database with native temporal queries. Bitemporal modeling. Immut
 
 ## 📈 Roadmap
 
-**2024 Q4** — AURELIS public release, Walia alpha, Paradox-DB beta  
-**2025** — Ardi-Agents v2.0, CCT causal reasoning engine, QAU production deployment  
-**2026** — Intellectual Cortex complete, NexussOS prototype, quantum-classical hybrid runtime  
+**2024 Q4** — Walia alpha, Paradox-DB beta, Attention kernels public
+**2025** — Ardi-Agents v2.0, CCT causal reasoning engine, Nexuss-Transformer production
+**2026** — Intellectual Cortex complete, NexussOS prototype, quantum-classical hybrid runtime
 **2027+** — Self-sustaining post-human intelligence architectures
 
 ---
@@ -327,7 +347,7 @@ Let's talk.
 ![Total Stars](https://github-readme-streak-stats.herokuapp.com/?user=nexuss0781&theme=radical)
 
 ### Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=nexuss0781/Walia,nexuss0781/AURELIS,nexuss0781/Ardi-Agents,nexuss0781/Paradox-DB&type=Date)](https://star-history.com/#nexuss0781/Walia&nexuss0781/AURELIS&nexuss0781/Ardi-Agents&nexuss0781/Paradox-DB&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=nexuss0781/Walia,nexuss0781/Attention,nexuss0781/Nexuss-Transformer,nexuss0781/Paradox-DB&type=Date)](https://star-history.com/#nexuss0781/Walia&nexuss0781/Attention&nexuss0781/Nexuss-Transformer&nexuss0781/Paradox-DB&Date)
 
 </div>
 
