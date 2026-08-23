@@ -1,13 +1,11 @@
 <!-- Colorful Animated Line -->
-<img src="assets/b727a8d982.gif" width="1000">
-
 <div align="center">
 
 # 🧬 TADIYOS ASCHALEW <img src="assets/77bbab8b1c.gif" width="35px">
 ### ታዲዮስ አስቻለው
 **[Software & AI Engineer](https://nexuss.pro.et/) · [Ethco Coder](https://github.com/ethcocoders) · [Founder](https://github.com/Nexuss-Intelligence)**
 
----
+<img src="https://github.com/nexuss0781/nexuss0781/raw/main/assets/b727a8d982.gif" width="1000">
 
 [![GitHub](assets/c3cde3ac9d.svg)](https://github.com/nexuss0781)
 [![HuggingFace](assets/18e421212a.svg)](https://huggingface.co/Nexuss0781)
