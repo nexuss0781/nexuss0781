@@ -179,15 +179,6 @@ Evidence-gated investigation of selective cohomodynamic recurrent state-space mo
 
 ---
 
-## 📈 Roadmap
-
-**2024 Q4** — Walia alpha, CDI v3, Attention kernels public
-**2025** — Ardi-Agents v2.0, CCT causal reasoning engine, Nexuss-Transformer production
-**2026** — Intellectual Cortex complete, NexussOS prototype, quantum-classical hybrid runtime
-**2027+** — Self-sustaining post-human intelligence architectures
-
----
-
 ## 🤝 Let's Build
 
 I work where current approaches plateau. If you care about:
