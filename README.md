@@ -197,6 +197,8 @@ Let's talk.
 
 <div align="center">
 
+<img src="assets/compressed1.jpg" width="1000">
+
 *Self-taught. Community-rooted. Foundation-first.*
 
 **Find the broken foundation. Understand why it broke. Rebuild it properly.**
