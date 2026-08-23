@@ -5,7 +5,7 @@
 
 # 🧬 TADIYOS ASCHALEW <img src="assets/77bbab8b1c.gif" width="35px">
 ### ታዲዮስ አስቻለው
-**Software & AI Engineer** · [**Ethco Coder**](https://github.com/ethcocoders)
+**Software & AI Engineer · Ethco Coder · Founder**
 
 ---
 
@@ -15,6 +15,8 @@
 [![LinkedIn](assets/05803a7403.svg)](https://www.linkedin.com/in/nexuss0781/)
 [![Portfolio](assets/4bec80e416.svg)](https://nexuss.pro.et/)
 [![Founder](https://img.shields.io/badge/Founder-Nexuss%20Intelligence-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nexuss-Intelligence)
+[![Ethco Coder](https://img.shields.io/badge/Ethco%20Coder-Community-orange?style=for-the-badge&logo=code&logoColor=white)](https://github.com/ethcocoders)
+[![Location](https://img.shields.io/badge/Location-Ethiopia-green?style=for-the-badge&logo=flag&logoColor=white)](https://github.com/nexuss0781)
 
 ---
 
