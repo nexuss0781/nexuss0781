@@ -18,8 +18,7 @@ const links = {
   github: "https://github.com/nexuss0781",
   walia: "https://github.com/nexuss0781/Walia",
   neural: "https://github.com/nexuss0781/Nexuss-Neural-Cognition",
-  projects: "https://github.com/nexuss0781/nexuss0781/blob/main/CATAGORY.md",
-  projectPlan: "https://github.com/nexuss0781/nexuss0781/blob/main/PROJECT.md",
+  archive: "https://github.com/nexuss0781?tab=repositories",
 };
 
 const featuredProjects = [
@@ -166,7 +165,7 @@ export default function Home() {
               <button className="brass-button" onClick={() => scrollTo("Flagship")}>
                 Enter the work <ArrowDownRight size={17} />
               </button>
-              <a className="quiet-link" href={links.projects} target="_blank" rel="noreferrer">
+              <a className="quiet-link" href={links.archive} target="_blank" rel="noreferrer">
                 Open the full archive <ArrowUpRight size={15} />
               </a>
             </div>
@@ -291,7 +290,7 @@ export default function Home() {
               <span><b>Business</b> Payment verification · finance · marketing operations</span>
               <span><b>Ecosystem</b> Ethiopian text technology · agent environments · community systems</span>
             </div>
-            <a className="project-link" href={links.projectPlan} target="_blank" rel="noreferrer">Inspect visual dossier <ArrowUpRight size={16} /></a>
+            <a className="project-link" href={links.archive} target="_blank" rel="noreferrer">Browse the repository archive <ArrowUpRight size={16} /></a>
           </div>
         </section>
 
@@ -305,7 +304,7 @@ export default function Home() {
               <span className="mobile-copy">Research, systems, language technology, education, finance, security, media, and products—mapped as one archive.</span>
             </p>
             <div className="archive-actions">
-              <a className="brass-button" href={links.projects} target="_blank" rel="noreferrer">Inspect the map <ArrowUpRight size={17} /></a>
+              <a className="brass-button" href={links.archive} target="_blank" rel="noreferrer">Browse the repository archive <ArrowUpRight size={17} /></a>
               <a className="quiet-link" href={links.github} target="_blank" rel="noreferrer">Enter the source <Github size={15} /></a>
             </div>
           </div>
