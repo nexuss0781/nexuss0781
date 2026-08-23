@@ -79,96 +79,96 @@ Evidence-gated investigation of selective cohomodynamic recurrent state-space mo
 ### 🧠 Intelligence Architecture
 | Repository | Purpose |
 |------------|---------|
-| [Attention](https://github.com/nexuss0781/Attention) | C++20 metric-aware attention kernels |
-| [Nexuss-Neural-Cognition](https://github.com/nexuss0781/Nexuss-Neural-Cognition) | Self-optimizing spiking network (270K neurons) |
-| [Addis-Neural-Genesis](https://github.com/nexuss0781/Addis-Neural-Genesis) | Bio-inspired cognition architecture |
-| [Addis-Neuron-Genesis](https://github.com/nexuss0781/Addis-Neuron-Genesis) | Neuron growth simulation |
-| [Intellectual-Cortex-Architecture](https://github.com/nexuss0781/Intellectual-Cortex-Architecture) | Pure reasoning decoupled from biology |
-| [CCT](https://github.com/nexuss0781/CCT) | Chrono-Causal Tapestry for causal AI |
-| [alien-intelligence](https://github.com/nexuss0781/alien-intelligence) | Non-biological cognition models |
-| [Multi-Head-Attention](https://github.com/nexuss0781/Multi-Head-Attention) | Multi-head attention variants |
-| [Positional-Encoding](https://github.com/nexuss0781/Positional-Encoding) | Advanced positional encodings |
-| [QKV-Projection](https://github.com/nexuss0781/QKV-Projection) | Query-Key-Value projections |
-| [Scaled-Dot-Product-Attention](https://github.com/nexuss0781/Scaled-Dot-Product-Attention) | Scaled dot-product implementations |
-| [small-transformer](https://github.com/nexuss0781/small-transformer) | Minimal transformer architecture |
+| [Attention](https://github.com/nexuss0781/Attention) | C++20 metric-aware attention kernel for transformer numerical geometry. |
+| [Nexuss-Neural-Cognition](https://github.com/nexuss0781/Nexuss-Neural-Cognition) | Biologically-plausible spiking neural simulator with RAM-budget meta-cognitive controller. |
+| [Addis-Neural-Genesis](https://github.com/nexuss0781/Addis-Neural-Genesis) | Undescribed repository — README states no project description provided. |
+| [Addis-Neuron-Genesis](https://github.com/nexuss0781/Addis-Neuron-Genesis) | Bio‑inspired AGI Genesis Trinity architecture implementing streaming neurogenesis and symbolic vectors. |
+| [Intellectual-Cortex-Architecture](https://github.com/nexuss0781/Intellectual-Cortex-Architecture) | High-performance Intellectual Cortex architecture with UIN building blocks and meta-cognition. |
+| [CCT](https://github.com/nexuss0781/CCT) | Native C++ Chrono‑Causal Tapestry research prototype for causal-event learning and verifiable memory. |
+| [alien-intelligence](https://github.com/nexuss0781/alien-intelligence) | Research C++ implementation exploring sub-quadratic neural architectures for language modeling. |
+| [Multi-Head-Attention](https://github.com/nexuss0781/Multi-Head-Attention) | CPU-native tensorized multi-head attention with CP factorization and uncertainty-adaptive routing. |
+| [Positional-Encoding](https://github.com/nexuss0781/Positional-Encoding) | Hierarchical digit positional encoding (HDPE) replacing RoPE with cache‑oblivious, log‑time composition. |
+| [QKV-Projection](https://github.com/nexuss0781/QKV-Projection) | Sub-quadratic factorized QKV projection using diagonal-plus-low-rank and butterfly residuals. |
+| [Scaled-Dot-Product-Attention](https://github.com/nexuss0781/Scaled-Dot-Product-Attention) | Linear-time spectrally‑gated recurrent kernel attention with uncertainty and adaptive compute depth. |
+| [small-transformer](https://github.com/nexuss0781/small-transformer) | Self-contained CPU-only SmolLM2 135M instruct chat with terminal UI and Docker deployment. |
 
 ### ⚛️ Quantum & Language Computing
 | Repository | Purpose |
 |------------|---------|
-| [Walia](https://github.com/nexuss0781/Walia) | 5th gen language with orthogonal persistence |
-| [Dot-NXV](https://github.com/nexuss0781/Dot-NXV) | .NET quantum extensions |
-| [Nexuss-Bash](https://github.com/nexuss0781/Nexuss-Bash) | Shell scripting enhancements |
-| [Terminal-kit](https://github.com/nexuss0781/Terminal-kit) | Terminal utilities |
-| [terminalkit-docker](https://github.com/nexuss0781/terminalkit-docker) | Containerized terminal tools |
+| [Walia](https://github.com/nexuss0781/Walia) | 5th‑generation programming language with orthogonal persistence, register VM, neural vectors, dimensional typing. |
+| [Dot-NXV](https://github.com/nexuss0781/Dot-NXV) | Lightweight from‑scratch OCR engine combining classical image processing and a small neural recognizer. |
+| [Nexuss-Bash](https://github.com/nexuss0781/Nexuss-Bash) | Containerized remote execution and developer sandbox with CLI, YAML pipelines and PTY sessions. |
+| [Terminal-kit](https://github.com/nexuss0781/Terminal-kit) | Backend control plane to register, enroll, route commands, and stream remote terminal instances. |
+| [terminalkit-docker](https://github.com/nexuss0781/terminalkit-docker) | Dockerized Terminal‑Kit agent for self‑enrolling instances, status reporting, and command streaming. |
 
 ### 🤖 Autonomous Agents
 | Repository | Purpose |
 |------------|---------|
-| [Ardi-Agents](https://github.com/nexuss0781/Ardi-Agents) | 16-agent development pipeline |
-| [Ardi_agent](https://github.com/nexuss0781/Ardi_agent) | Agent framework core |
-| [Open-hand-Bot](https://github.com/nexuss0781/Open-hand-Bot) | Robotic control systems |
+| [Ardi-Agents](https://github.com/nexuss0781/Ardi-Agents) | Production‑grade multi‑agent orchestration engine coordinating sixteen specialist AI experts for autonomous workflows. |
+| [Ardi_agent](https://github.com/nexuss0781/Ardi_agent) | JavaScript agentic AI system orchestrating specialized agents for autonomous web application development. |
+| [Open-hand-Bot](https://github.com/nexuss0781/Open-hand-Bot) | Flask‑based Telegram bot to notify users when OpenHands tasks finish; designed for Vercel deployment. |
 
 ### 👁️ Sensory Substrates
 | Repository | Purpose |
 |------------|---------|
-| [NASS](https://github.com/nexuss0781/NASS) | Audio-to-tensor conversion (245× realtime) |
-| [Image-text](https://github.com/nexuss0781/Image-text) | Vision-language models |
-| [Text-tokenizer](https://github.com/nexuss0781/Text-tokenizer) | Custom tokenization |
-| [Ethio_BBPE](https://github.com/nexuss0781/Ethio_BBPE) | BPE for Ethiopian scripts |
-| [Nexuss_Embedding](https://github.com/nexuss0781/Nexuss_Embedding) | Embedding models |
-| [Nexuss-AI](https://github.com/nexuss0781/Nexuss-AI) | Core AI frameworks |
-| [Nexuss-Transformer](https://github.com/nexuss0781/Nexuss-Transformer) | Transformer implementations |
-| [HOLY-AI](https://github.com/nexuss0781/HOLY-AI) | Sacred text AI analysis |
+| [NASS](https://github.com/nexuss0781/NASS) | High‑performance audio substrate converting audio into lossless STFT tensors with zero‑copy parallel processing. |
+| [Image-text](https://github.com/nexuss0781/Image-text) | Atomic Logic Vision System (ALVS): hybrid C++/Python engine decomposing images into RGB, Energy, and Flow atoms. |
+| [Text-tokenizer](https://github.com/nexuss0781/Text-tokenizer) | Cognition‑optimized BPE tokenizer using an FST, LOUDS trie, CHD decoder, and entropy‑weighted training. |
+| [Ethio_BBPE](https://github.com/nexuss0781/Ethio_BBPE) | Production‑ready BPE tokenizer tailored for Amharic and Ge'ez with HuggingFace model and Python API. |
+| [Nexuss_Embedding](https://github.com/nexuss0781/Nexuss_Embedding) | Hierarchical frequency‑adaptive quantized embedding (HFAQE) saving embedding memory with hot/cold tiers. |
+| [Nexuss-AI](https://github.com/nexuss0781/Nexuss-AI) | End‑to‑end framework for training, fine‑tuning, aligning, and deploying large language models from scratch. |
+| [Nexuss-Transformer](https://github.com/nexuss0781/Nexuss-Transformer) | Production‑grade decoder‑only transformer framework supporting blank‑slate pretraining, LoRA, RLHF, and EthioBBPE. |
+| [HOLY-AI](https://github.com/nexuss0781/HOLY-AI) | GPT‑2 training repository with data loaders and training scripts for Synaxarium and biblical datasets. |
 
 ### 🌐 Web & Applications
 | Repository | Purpose |
 |------------|---------|
-| [CDI](https://github.com/nexuss0781/CDI) | Data infrastructure |
-| [Input-Trio](https://github.com/nexuss0781/Input-Trio) | Multi-modal input processing |
-| [Nexuss-IDE](https://github.com/nexuss0781/Nexuss-IDE) | Mobile-first IDE |
-| [Nexuss-Studio](https://github.com/nexuss0781/Nexuss-Studio) | AI study environment |
-| [Nexuss-Education](https://github.com/nexuss0781/Nexuss-Education) | Document-grounded AI tutoring |
-| [Nexuss-Chat](https://github.com/nexuss0781/Nexuss-Chat) | Real-time messaging |
-| [Nexuss-Media](https://github.com/nexuss0781/Nexuss-Media) | Emoji rendering engine |
-| [Nexuss-Playground](https://github.com/nexuss0781/Nexuss-Playground) | Multi-model AI interface |
-| [Nexuss-Notes](https://github.com/nexuss0781/Nexuss-Notes) | Note-taking system |
-| [Nexuss-Monitor](https://github.com/nexuss0781/Nexuss-Monitor) | System monitoring |
-| [Nexuss-Cronjob](https://github.com/nexuss0781/Nexuss-Cronjob) | Task scheduling |
-| [browser-kit](https://github.com/nexuss0781/browser-kit) | Browser automation |
-| [Web-kit](https://github.com/nexuss0781/Web-kit) | Web development utilities |
+| [CDI](https://github.com/nexuss0781/CDI) | Research implementation of a compact causal language engine (cdi.v3) with CCT‑gated experiments; not production ready. |
+| [Input-Trio](https://github.com/nexuss0781/Input-Trio) | C++ cognition‑optimized tokenizer (Nexuss Tokenizer) focused on FST encoding, LOUDS trie, and parallel encoding. |
+| [Nexuss-IDE](https://github.com/nexuss0781/Nexuss-IDE) | Mobile‑first self‑hosted full‑stack IDE using Monaco editor, Flask backend, and Python plugin architecture. |
+| [Nexuss-Studio](https://github.com/nexuss0781/Nexuss-Studio) | Dual‑window AI chat studio offering study and coding modes with PDF reader and multi‑model AI integration. |
+| [Nexuss-Education](https://github.com/nexuss0781/Nexuss-Education) | PDF study assistant with AI chat, multi‑model routing, smart API key rotation, and vision model support. |
+| [Nexuss-Chat](https://github.com/nexuss0781/Nexuss-Chat) | Full‑featured PHP real‑time chat application with authentication, presence, groups, and file sharing. |
+| [Nexuss-Media](https://github.com/nexuss0781/Nexuss-Media) | Emoji image asset collection rendered from Apple Color Emoji covering Unicode v13.1 and composites. |
+| [Nexuss-Playground](https://github.com/nexuss0781/Nexuss-Playground) | Zero‑backend multi‑model AI web app with web search, code intelligence, and local‑first persistence. |
+| [Nexuss-Notes](https://github.com/nexuss0781/Nexuss-Notes) | Premium PHP note‑taking app with Ethiopian calendar support, PWA features, and offline caching. |
+| [Nexuss-Monitor](https://github.com/nexuss0781/Nexuss-Monitor) | Command‑line uptime monitor client for Nexuss‑Cronjob supporting interactive and non‑interactive agent usage. |
+| [Nexuss-Cronjob](https://github.com/nexuss0781/Nexuss-Cronjob) | Real‑time uptime monitoring platform with React frontend, Vercel serverless backend, JWT auth, and customizable checks. |
+| [browser-kit](https://github.com/nexuss0781/browser-kit) | AI‑facing remote Chromium control platform offering sessions, observation, scripted interaction, and evidence capture. |
+| [Web-kit](https://github.com/nexuss0781/Web-kit) | Rust/Axum web search and safe page‑fetching service with provider fan‑out, SSRF protections, and markdown output. |
 
 ### 🏫 Education & Community
 | Repository | Purpose |
 |------------|---------|
-| [NPMS-platform](https://github.com/nexuss0781/NPMS-platform) | School management ecosystem |
-| [Nexus-School-Management](https://github.com/nexuss0781/Nexus-School-Management) | Institutional management |
-| [Digital-Edu](https://github.com/nexuss0781/Digital-Edu) | Digital education tools |
-| [ACCX](https://github.com/nexuss0781/ACCX) | Accessibility tools |
-| [Calisthenics](https://github.com/nexuss0781/Calisthenics) | Fitness tracking |
+| [NPMS-platform](https://github.com/nexuss0781/NPMS-platform) | Nexus integrated school management system supporting RBAC, academic workflows, asset tracking, and communication. |
+| [Nexus-School-Management](https://github.com/nexuss0781/Nexus-School-Management) | Comprehensive school management platform implementing academic management, multi‑tiered requests, and real‑time chat. |
+| [Digital-Edu](https://github.com/nexuss0781/Digital-Edu) | Filesystem‑driven competency‑based LMS with quizzes, workshops, practical IDEs, badges, and certificates. |
+| [ACCX](https://github.com/nexuss0781/ACCX) | Modern secure account and credential vault with dual themes, full CRUD, categories, folders, and dashboards. |
+| [Calisthenics](https://github.com/nexuss0781/Calisthenics) | Front‑end prototype of a calisthenics dashboard showcasing workouts, calendar, schedule, and health metrics. |
 
 ### 💰 Finance & Business
 | Repository | Purpose |
 |------------|---------|
-| [ZeinthFinance](https://github.com/nexuss0781/ZeinthFinance) | Financial clarity platform |
-| [Trusted-Pay](https://github.com/nexuss0781/Trusted-Pay) | Payment infrastructure |
-| [C9-Marketing](https://github.com/nexuss0781/C9-Marketing) | Frictionless e-commerce |
+| [ZeinthFinance](https://github.com/nexuss0781/ZeinthFinance) | Personal finance dashboard web application for income/expense tracking, categories, and analytics. |
+| [Trusted-Pay](https://github.com/nexuss0781/Trusted-Pay) | Secure wallet and Telegram bot platform with Telebirr receipt verification, admin dashboard, and dispute workflows. |
+| [C9-Marketing](https://github.com/nexuss0781/C9-Marketing) | Full‑stack e‑commerce platform with React frontend, Flask backend, JWT auth, and product management. |
 
 ### 🔧 Infrastructure & DevOps
 | Repository | Purpose |
 |------------|---------|
-| [FTP-Client](https://github.com/nexuss0781/FTP-Client) | Enterprise file transfer |
-| [nexuss-auth](https://github.com/nexuss0781/nexuss-auth) | Authentication services |
-| [PDF-BOT](https://github.com/nexuss0781/PDF-BOT) | PDF processing automation |
-| [NexussOS](https://github.com/nexuss0781/NexussOS) | AI-first operating system |
-| [YOB-OS](https://github.com/nexuss0781/YOB-OS) | Alternative OS project |
-| [NexussREV](https://github.com/nexuss0781/NexussREV) | Version control system |
+| [FTP-Client](https://github.com/nexuss0781/FTP-Client) | Development‑stage FTPS client library with stable C ABI and Python bindings; M0 baseline, not production ready. |
+| [nexuss-auth](https://github.com/nexuss0781/nexuss-auth) | Centralized OAuth authentication service and TypeScript SDK supporting Continue with Google and GitHub. |
+| [PDF-BOT](https://github.com/nexuss0781/PDF-BOT) | Telegram PDF classifier bot using hierarchical range parsing, Vercel webhook, and optional Render worker for large files. |
+| [NexussOS](https://github.com/nexuss0781/NexussOS) | Bare‑metal bootloader and minimal kernel with framebuffer; kexec‑style loader to hand off to another OS. |
+| [YOB-OS](https://github.com/nexuss0781/YOB-OS) | Cloud‑synchronized HTML operating system with Play Store, web shell, and Expo Android client. |
+| [NexussREV](https://github.com/nexuss0781/NexussREV) | High‑fidelity binary decompiler and analysis framework for program reconstruction using Capstone and LIEF. |
 
 ### 🔬 Research & Experimental
 | Repository | Purpose |
 |------------|---------|
-| [Addis-Neural-Cognition](https://github.com/nexuss0781/Addis-Neural-Cognition) | Neural cognition research |
-| [AGI-Substrates](https://github.com/nexuss0781/AGI-Substrates) | Foundational AGI research |
-| [GOOGOLPLEX](https://github.com/nexuss0781/GOOGOLPLEX) | Quantum computing primitives |
+| [Addis-Neural-Cognition](https://github.com/nexuss0781/Addis-Neural-Cognition) | Undescribed repository — README states no project description provided. |
+| [AGI-Substrates](https://github.com/nexuss0781/AGI-Substrates) | ALVS‑style pure‑math image processor decomposing images into Energy, Flow, and atomic contexts for logic transformations. |
+| [GOOGOLPLEX](https://github.com/nexuss0781/GOOGOLPLEX) | Private Rust project for a novel object system called the Googolplex Engine. |
 
 ---
 
