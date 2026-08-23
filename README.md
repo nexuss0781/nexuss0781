@@ -38,7 +38,7 @@ That's what I do. I find the broken foundation. Understand why it broke. Rebuild
 
 ## 🛍️ Flagship Innovations
 
-### 🌟 Walia — The Sovereign Programming Language
+### 🌟 [Walia — The Sovereign Programming Language](https://github.com/nexuss0781/Walia)
 
 - **Purpose:** A fifth-generation programming language built around persistent, stateful computation.
 - **Core capabilities:**
@@ -53,40 +53,40 @@ session_count = session_count + 1;
 print "Session #" + session_count;  // Survives across restarts
 ```
 
-### 🧠 Nexuss Neural Cognition — 270K Neurons in 500MB
+### 🧠 [Nexuss Neural Cognition — 270K Neurons in 500MB](https://github.com/nexuss0781/Nexuss-Neural-Cognition)
 
 - **Purpose:** A biologically plausible spiking-neural-network simulator designed for large cognitive models within a fixed memory budget.
 - **Scale:** 270,336 neurons and 13,516,800 synapses within 500 MB of RAM.
 - **Architecture:** Universal Intellectual Neuron (UIN) building blocks with six neuron classes and five synapse types.
 - **Performance:** O(1) update kernel reported at 94× real-time speedup, with a meta-cognitive controller for adaptive resource allocation.
 
-### 🖼️ Image-text — Atomic Logic Vision System (ALVS)
+### 🖼️ [Image-text — Atomic Logic Vision System (ALVS)](https://github.com/nexuss0781/Image-text)
 
 - **Purpose:** A hybrid C++/Python image-processing engine that converts visual data into mathematical logic atoms.
 - **Representation:** RGB matrix, Energy (luminance), and Flow (gradient) layers.
 - **Performance:** Sub-200 ms processing for 8K UHD images, reported throughput of 508 MB/s, and lossless reconstruction with PSNR above 66 dB.
 
-### 🤖 Ardi-Agents — Sixteen Specialist AI Council
+### 🤖 [Ardi-Agents — Sixteen Specialist AI Council](https://github.com/nexuss0781/Ardi-Agents)
 
 - **Purpose:** An autonomous multi-agent orchestration engine for complex, end-to-end workflows.
 - **Specialists:** Sixteen domain-focused agents covering language, analysis, innovation, frontend and backend development, debugging, QA planning, code quality, security, performance, UX, adversarial testing, and documentation.
 - **Coordination:** Meta-cognitive planning connects specialist outputs into a collaborative development process.
 
-### 🌐 Nexuss Transformer Framework — Blank Slate to Superintelligence
+### 🌐 [Nexuss Transformer Framework — Blank Slate to Superintelligence](https://github.com/nexuss0781/Nexuss-Transformer)
 
 - **Purpose:** A production-oriented framework for training decoder-only large language models from scratch.
 - **Model components:** RoPE embeddings, RMSNorm, SwiGLU, and Multi-Query Attention.
 - **Training lifecycle:** Pre-training, LoRA fine-tuning, and RLHF alignment through PPO/DPO.
 - **Language support:** Integrates EthioBBPE for Amharic and Ge'ez tokenization.
 
-### 🥏 Attention Kernel — Metric-Aware Geometry
+### 🥏 [Attention Kernel — Metric-Aware Geometry](https://github.com/nexuss0781/Attention)
 
 - **Purpose:** A C++20 numerical kernel for metric-aware attention geometry.
 - **Operations:** Builds learned positive-definite metrics, computes symmetric whitening operators, and transforms query/key coordinates.
 - **Design targets:** Deterministic F32 CPU tensors and context lengths up to one million tokens.
 - **Validation:** Forward-path checks include numerical guards and condition-number bounds.
 
-### 🛸 CDI — Compact Causal Language Engine
+### 🛸 [CDI — Compact Causal Language Engine](https://github.com/nexuss0781/CDI)
 
 - **Purpose:** An evidence-gated research implementation of selective cohomodynamic recurrent state-space models for causal language processing.
 - **Current implementation:** CDI v3 uses the EthioBBPE tokenizer, sparse graph-Laplacian correction, and tied output projection.
