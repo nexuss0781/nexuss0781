@@ -32,6 +32,8 @@
   --accent: #5B0E14;
   --accent-strong: #430910;
   --accent-hover: #430910;
+  --action-background: #5B0E14;
+  --action-hover-background: #430910;
   --accent-on-hover: #F4F3EE;
   --accent-muted: #5B0E14;
   --focus: #5B0E14;
@@ -63,34 +65,36 @@
 
 :root.dark {
   color-scheme: dark;
-  --background: #2A080D;
+  --background: #111112;
   --foreground: #F4F3EE;
-  --border: rgba(244, 243, 238, 0.18);
+  --border: rgba(244, 243, 238, 0.17);
   --primary: #F4F3EE;
-  --primary-foreground: #5B0E14;
-  --surface: #330A10;
-  --surface-alt: #3B0B12;
-  --surface-raised: #4A0D15;
-  --surface-brand: #5B0E14;
-  --surface-wash: #461017;
+  --primary-foreground: #111112;
+  --surface: #191718;
+  --surface-alt: #201D1E;
+  --surface-raised: #292425;
+  --surface-brand: #76212A;
+  --surface-wash: #241E1F;
   --text-primary: #F4F3EE;
-  --text-secondary: #E1D5D1;
-  --text-muted: #C5B3B2;
-  --accent: #F4F3EE;
-  --accent-strong: #F4F3EE;
-  --accent-hover: #F1E194;
-  --accent-on-hover: #5B0E14;
-  --accent-muted: #F4F3EE;
-  --focus: #F1E194;
-  --on-accent: #5B0E14;
-  --accent-rgb: 244, 243, 238;
+  --text-secondary: #D8CFCD;
+  --text-muted: #BAAEAC;
+  --accent: #D47D86;
+  --accent-strong: #E08C93;
+  --accent-hover: #96343E;
+  --action-background: #76212A;
+  --action-hover-background: #96343E;
+  --accent-on-hover: #F4F3EE;
+  --accent-muted: #D47D86;
+  --focus: #E08C93;
+  --on-accent: #F4F3EE;
+  --accent-rgb: 212, 125, 134;
   --border-rgb: 244, 243, 238;
-  --ambient-rgb: 241, 225, 148;
-  --selection-bg: rgba(241, 225, 148, 0.32);
-  --selection-text: #2A080D;
-  --topbar-bg: rgba(42, 8, 13, 0.92);
-  --topbar-scrolled-bg: rgba(42, 8, 13, 0.98);
-  --overlay-surface: rgba(42, 8, 13, 0.94);
+  --ambient-rgb: 122, 32, 42;
+  --selection-bg: rgba(212, 125, 134, 0.34);
+  --selection-text: #F4F3EE;
+  --topbar-bg: rgba(17, 17, 18, 0.92);
+  --topbar-scrolled-bg: rgba(17, 17, 18, 0.98);
+  --overlay-surface: rgba(17, 17, 18, 0.94);
 }
 
 * { box-sizing: border-box; }
@@ -149,8 +153,8 @@ button, a { touch-action: manipulation; }
 .hero-copy h1 em, h2 em { color: var(--accent-muted); font-family: var(--font-display); font-size: 0.88em; font-style: italic; font-weight: 450; letter-spacing: -0.07em; }
 .hero-statement { max-width: 58ch; margin-top: 23px; color: var(--text-secondary); font-size: clamp(16px, 1.24vw, 18px); line-height: 1.68; }
 .hero-actions, .archive-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 14px 25px; margin-top: 27px; }
-.primary-action { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 10px; padding: 0 17px; border: 1px solid var(--signal); background: var(--signal); color: var(--on-accent); font: 600 13px/1.3 var(--font-body); transition: background 200ms var(--ease-out), color 200ms var(--ease-out), transform 200ms var(--ease-out); }
-.primary-action:hover { background: var(--accent-hover); color: var(--accent-on-hover); transform: translateY(-2px); }
+.primary-action { display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 10px; padding: 0 17px; border: 1px solid var(--action-background); background: var(--action-background); color: var(--on-accent); font: 600 13px/1.3 var(--font-body); transition: background 200ms var(--ease-out), color 200ms var(--ease-out), transform 200ms var(--ease-out); }
+.primary-action:hover { background: var(--action-hover-background); color: var(--accent-on-hover); transform: translateY(-2px); }
 .primary-action:active { transform: translateY(0); }
 .quiet-link, .project-link { display: inline-flex; min-height: 44px; align-items: center; gap: 8px; color: var(--text-primary); font: 500 13px/1.4 var(--font-body); transition: color 200ms var(--ease-out); }
 .quiet-link:hover, .project-link:hover { color: var(--signal); }
