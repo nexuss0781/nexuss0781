@@ -197,16 +197,45 @@ export default function Home() {
 
       <main id="main-content">
         <section id="origin" className="hero-section" aria-labelledby="hero-title">
-          <div className="hero-grid page-frame">
+          <figure className="hero-scene page-frame">
+            <picture className="hero-photo">
+              <source
+                media="(max-width: 720px)"
+                type="image/avif"
+                srcSet="/assets/nexuss-hero-mobile-960.avif 960w"
+                sizes="100vw"
+              />
+              <source
+                media="(max-width: 720px)"
+                type="image/webp"
+                srcSet="/assets/nexuss-hero-mobile-960.webp 960w"
+                sizes="100vw"
+              />
+              <source
+                type="image/avif"
+                srcSet="/assets/nexuss-hero-1600.avif 1600w, /assets/nexuss-hero-2560.avif 2560w"
+                sizes="100vw"
+              />
+              <source
+                type="image/webp"
+                srcSet="/assets/nexuss-hero-1600.webp 1600w, /assets/nexuss-hero-2560.webp 2560w"
+                sizes="100vw"
+              />
+              <img
+                src="/assets/nexuss-hero-1600.webp"
+                srcSet="/assets/nexuss-hero-1600.webp 1600w, /assets/nexuss-hero-2560.webp 2560w"
+                sizes="100vw"
+                alt="Layered neural-computation core with luminous circuitry"
+                fetchPriority="high"
+                decoding="async"
+              />
+            </picture>
             <div className="hero-copy">
               <div className="hero-identity">
                 <div className="eyebrow"><span className="eyebrow-mark" aria-hidden="true">◆</span> Founder / researcher / systems builder</div>
                 <p className="name-introduction"><span>TADIYOS</span><em>ASCHALEW</em></p>
               </div>
               <h1 id="hero-title">Begin where the <em>assumption</em> breaks.</h1>
-              <p className="hero-statement">
-                I work from first principles across cognitive architectures, systems infrastructure, Ethiopian text technology, and public-facing products—then carry the idea through to a usable form.
-              </p>
               <div className="hero-actions">
                 <a className="primary-action" href="#flagship" onClick={() => selectSection("flagship")}>
                   Enter the work <ArrowDownRight size={17} aria-hidden="true" />
@@ -215,19 +244,17 @@ export default function Home() {
                   Open the full archive <ArrowUpRight size={15} aria-hidden="true" />
                 </a>
               </div>
+              <p className="hero-statement">
+                I work from first principles across cognitive architectures, systems infrastructure, Ethiopian text technology, and public-facing products—then carry the idea through to a usable form.
+              </p>
+              <dl className="hero-meta">
+                <div><dt>Focus</dt><dd>Cognition · Systems · Public tech</dd></div>
+                <div><dt>Base</dt><dd>Addis Ababa, Ethiopia</dd></div>
+                <div><dt>Method</dt><dd>Research → implementation</dd></div>
+              </dl>
             </div>
-
-            <figure className="hero-artwork">
-              <div className="artwork-glow" aria-hidden="true" />
-              <img src="/assets/neural-cognition.webp" alt="Layered neural-computation core with luminous circuitry" />
-              <figcaption><span>Thinking engine</span><span>001 / field study</span></figcaption>
-            </figure>
-            <dl className="hero-meta">
-              <div><dt>Focus</dt><dd>Cognition · Systems · Public tech</dd></div>
-              <div><dt>Base</dt><dd>Addis Ababa, Ethiopia</dd></div>
-              <div><dt>Method</dt><dd>Research → implementation</dd></div>
-            </dl>
-          </div>
+            <figcaption className="hero-scene-caption"><span>Thinking engine</span><span>001 / field study</span></figcaption>
+          </figure>
         </section>
 
         <section className="manifesto-section" aria-label="Portfolio statement">
