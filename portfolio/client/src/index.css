@@ -179,6 +179,7 @@ button, a { touch-action: manipulation; }
 .hero-copy .hero-meta { border-color: rgba(255, 250, 246, 0.44); }
 .hero-copy .hero-meta dt { color: var(--hero-accent); }
 .hero-copy .hero-meta dd { color: var(--hero-text-secondary); }
+.hero-copy .mobile-contact-action, .hero-copy .hero-socials { display: none; }
 
 .manifesto-section { padding: clamp(64px, 8vw, 116px) 0; background: var(--stone); color: var(--stone-ink); }
 .manifesto-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); align-items: start; gap: 24px; }
@@ -386,6 +387,30 @@ button, a { touch-action: manipulation; }
   .hero-meta dt { font-size: 9px; }
   .hero-meta dd { font-size: 10px; line-height: 1.35; }
   .hero-scene-caption { top: 10px; right: 10px; bottom: auto; gap: 8px; padding: 6px 8px; font-size: 9px; }
+  .hero-scene { height: auto; min-height: 0; flex-direction: column; align-items: stretch; background: var(--background); }
+  .hero-photo { position: relative; z-index: 0; inset: auto; width: 100%; height: auto; aspect-ratio: 5 / 6; overflow: hidden; }
+  .hero-photo img { height: 100%; object-position: center 14%; }
+  .hero-scene::before { display: none; }
+  .hero-copy { width: 100%; max-width: 620px; align-self: center; align-items: center; margin: 0; padding: 16px clamp(22px, 6vw, 32px) 28px; background: var(--background); color: var(--text-primary); text-align: center; }
+  .hero-copy .hero-identity { width: 100%; justify-content: center; margin-bottom: 10px; }
+  .hero-copy .hero-identity .eyebrow { display: none; }
+  .hero-copy .name-introduction { justify-content: center; color: var(--text-secondary); }
+  .hero-copy .name-introduction em { color: var(--text-secondary); }
+  .hero-copy h1 { width: 100%; max-width: 18ch; color: var(--text-primary); font-size: clamp(32px, 9.2vw, 42px); line-height: 1.02; letter-spacing: -0.075em; text-align: center; }
+  .hero-copy h1 em { color: var(--accent-muted); }
+  .hero-copy .hero-actions { width: 100%; justify-content: center; gap: 0; margin-top: 14px; }
+  .hero-copy .desktop-hero-action { display: none; }
+  .hero-copy .mobile-contact-action { display: inline-flex; width: min(100%, 220px); min-height: 52px; margin-inline: auto; }
+  .hero-copy .hero-socials { display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 8px; }
+  .hero-social-link { display: grid; width: 44px; height: 44px; place-items: center; border: 1px solid var(--border); background: var(--surface); color: var(--text-secondary); transition: border-color 180ms var(--ease-out), color 180ms var(--ease-out), background 180ms var(--ease-out); }
+  .hero-social-link:hover { border-color: var(--signal); background: var(--surface-alt); color: var(--signal); }
+  .hero-social-icon { display: block; width: 21px; height: 21px; background: currentColor; -webkit-mask-position: center; -webkit-mask-repeat: no-repeat; -webkit-mask-size: contain; mask-position: center; mask-repeat: no-repeat; mask-size: contain; }
+  .hero-social-icon-github { -webkit-mask-image: url("/assets/social/github.svg"); mask-image: url("/assets/social/github.svg"); }
+  .hero-social-icon-npm { -webkit-mask-image: url("/assets/social/npm.svg"); mask-image: url("/assets/social/npm.svg"); }
+  .hero-social-icon-pypi { -webkit-mask-image: url("/assets/social/pypi.svg"); mask-image: url("/assets/social/pypi.svg"); }
+  .hero-social-icon-huggingface { -webkit-mask-image: url("/assets/social/huggingface.svg"); mask-image: url("/assets/social/huggingface.svg"); }
+  .hero-copy .hero-statement { width: 100%; max-width: 58ch; margin-top: 12px; color: var(--text-muted); font-size: clamp(13px, 3.7vw, 14px); line-height: 1.58; text-align: center; }
+  .hero-copy .hero-meta, .hero-scene-caption { display: none; }
   .manifesto-section { padding-block: 58px; }
   .manifesto-grid { grid-template-columns: 1fr; gap: 17px; }
   .manifesto-index, .manifesto-section blockquote, .manifesto-copy { grid-column: auto; }
@@ -448,9 +473,9 @@ button, a { touch-action: manipulation; }
   .nav-github { gap: 6px; font-size: 12px; }
   .nav-github svg:last-child { display: none; }
   .hero-scene { width: 100%; }
-  .hero-copy { width: min(72%, 286px); margin-left: clamp(16px, 5vw, 20px); padding: 0; }
-  .hero-copy h1 { max-width: 12ch; font-size: clamp(33px, 10vw, 42px); }
-  .hero-copy .hero-actions { align-items: flex-start; flex-direction: column; gap: 3px; }
+  .hero-copy { width: 100%; max-width: 620px; margin: 0; padding: 16px 22px 28px; }
+  .hero-copy h1 { max-width: 18ch; font-size: clamp(31px, 10vw, 36px); }
+  .hero-copy .hero-actions { align-items: center; flex-direction: row; gap: 0; }
   .primary-action { min-height: 48px; }
   .quiet-link { min-height: 44px; }
   .flagship-copy h2 { font-size: clamp(32px, 8vw, 39px); }

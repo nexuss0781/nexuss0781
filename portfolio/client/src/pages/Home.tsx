@@ -14,9 +14,20 @@ import { useTheme } from "../contexts/ThemeContext";
 
 const links = {
   github: "https://github.com/nexuss0781",
+  npm: "https://www.npmjs.com/~nexuss0781",
+  pypi: "https://pypi.org/user/nexuss0781/",
+  huggingface: "https://huggingface.co/Nexuss0781",
+  contact: "https://www.linkedin.com/in/nexuss0781/",
   neural: "https://github.com/nexuss0781/Nexuss-Neural-Cognition",
   archive: "https://github.com/nexuss0781?tab=repositories",
 };
+
+const socialProfiles = [
+  { label: "GitHub", href: links.github, icon: "github" },
+  { label: "npm", href: links.npm, icon: "npm" },
+  { label: "PyPI", href: links.pypi, icon: "pypi" },
+  { label: "Hugging Face", href: links.huggingface, icon: "huggingface" },
+];
 
 const featuredProjects = [
   {
@@ -231,7 +242,7 @@ export default function Home() {
                 src="/assets/nexuss-hero-1600.webp"
                 srcSet="/assets/nexuss-hero-1600.webp 1600w, /assets/nexuss-hero-2560.webp 2560w"
                 sizes="100vw"
-                alt="Layered neural-computation core with luminous circuitry"
+                alt="Tadiyos Aschalew at a workstation with a humanoid beside him"
                 fetchPriority="high"
                 decoding="async"
               />
@@ -243,13 +254,31 @@ export default function Home() {
               </div>
               <h1 id="hero-title">Begin where the <em>assumption</em> breaks.</h1>
               <div className="hero-actions">
-                <a className="primary-action" href="#flagship" onClick={() => selectSection("flagship")}>
+                <a className="primary-action desktop-hero-action" href="#flagship" onClick={() => selectSection("flagship")}>
                   Enter the work <ArrowDownRight size={17} aria-hidden="true" />
                 </a>
-                <a className="quiet-link" href={links.archive} target="_blank" rel="noreferrer">
+                <a className="quiet-link desktop-hero-action" href={links.archive} target="_blank" rel="noreferrer">
                   Open the full archive <ArrowUpRight size={15} aria-hidden="true" />
                 </a>
+                <a className="primary-action mobile-contact-action" href={links.contact} target="_blank" rel="noreferrer">
+                  Contact <ArrowUpRight size={17} aria-hidden="true" />
+                </a>
               </div>
+              <nav className="hero-socials" aria-label="Social profiles">
+                {socialProfiles.map((profile) => (
+                  <a
+                    className="hero-social-link"
+                    href={profile.href}
+                    key={profile.label}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`${profile.label} profile`}
+                    title={profile.label}
+                  >
+                    <span className={`hero-social-icon hero-social-icon-${profile.icon}`} aria-hidden="true" />
+                  </a>
+                ))}
+              </nav>
               <p className="hero-statement">
                 I work from first principles across cognitive architectures, systems infrastructure, Ethiopian text technology, and public-facing products—then carry the idea through to a usable form.
               </p>
