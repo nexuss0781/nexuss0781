@@ -5,8 +5,12 @@ import {
   ChevronRight,
   Github,
   Menu,
+  Monitor,
+  Moon,
+  Sun,
   X,
 } from "lucide-react";
+import { useTheme } from "../contexts/ThemeContext";
 
 const links = {
   github: "https://github.com/nexuss0781",
@@ -76,6 +80,7 @@ export default function Home() {
   const [isCompact, setIsCompact] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const menuButtonRef = useRef<HTMLButtonElement>(null);
+  const { preference, setPreference, switchable } = useTheme();
 
   useEffect(() => {
     const media = window.matchMedia("(max-width: 900px)");
@@ -157,6 +162,19 @@ export default function Home() {
                 <span className="nav-number">0{index + 1}</span>{label}
               </a>
             ))}
+            {switchable && (
+              <div className="theme-control" role="group" aria-label="Color theme">
+                <button type="button" className="theme-option" aria-label="Follow system color scheme" title="Follow system color scheme" aria-pressed={preference === "system"} onClick={() => setPreference("system")}>
+                  <Monitor size={14} aria-hidden="true" /><span>Auto</span>
+                </button>
+                <button type="button" className="theme-option" aria-label="Use light color theme" title="Use light color theme" aria-pressed={preference === "light"} onClick={() => setPreference("light")}>
+                  <Sun size={14} aria-hidden="true" /><span>Light</span>
+                </button>
+                <button type="button" className="theme-option" aria-label="Use dark color theme" title="Use dark color theme" aria-pressed={preference === "dark"} onClick={() => setPreference("dark")}>
+                  <Moon size={14} aria-hidden="true" /><span>Dark</span>
+                </button>
+              </div>
+            )}
           </nav>
 
           <a className="nav-github" href={links.github} target="_blank" rel="noreferrer">
