@@ -212,8 +212,8 @@ export default function Home() {
             <picture className="hero-photo">
               <source
                 media="(max-width: 720px)"
-                type="image/webp"
-                srcSet="/assets/nexuss-hero-mobile-portrait.webp 960w"
+                type="image/jpeg"
+                srcSet="/assets/field-plate.jpg 1280w"
                 sizes="100vw"
               />
               <source
@@ -242,7 +242,7 @@ export default function Home() {
                 src="/assets/nexuss-hero-1600.webp"
                 srcSet="/assets/nexuss-hero-1600.webp 1600w, /assets/nexuss-hero-2560.webp 2560w"
                 sizes="100vw"
-                alt="Tadiyos Aschalew at a workstation with a humanoid beside him"
+                alt="Tadiyos Aschalew working at his central workstation"
                 fetchPriority="high"
                 decoding="async"
               />
