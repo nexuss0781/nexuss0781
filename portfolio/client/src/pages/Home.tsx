@@ -219,7 +219,7 @@ export default function Home() {
 
             <figure className="hero-artwork">
               <div className="artwork-glow" aria-hidden="true" />
-              <img src="/assets/thinking-engine.webp" alt="Upright contemplative humanoid robot representing Nexuss cognitive systems" />
+              <img src="/assets/neural-cognition.webp" alt="Layered neural-computation core with luminous circuitry" />
               <figcaption><span>Thinking engine</span><span>001 / field study</span></figcaption>
             </figure>
             <dl className="hero-meta">
