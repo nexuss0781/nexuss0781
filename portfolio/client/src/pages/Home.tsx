@@ -197,16 +197,16 @@ export default function Home() {
 
       <main id="main-content">
         <section id="origin" className="hero-section" aria-labelledby="hero-title">
-          <figure className="hero-scene page-frame">
+          <figure className="hero-scene">
             <picture className="hero-photo">
               <source
-                media="(max-width: 720px)"
+                media="(max-width: 900px)"
                 type="image/avif"
                 srcSet="/assets/nexuss-hero-mobile-960.avif 960w"
                 sizes="100vw"
               />
               <source
-                media="(max-width: 720px)"
+                media="(max-width: 900px)"
                 type="image/webp"
                 srcSet="/assets/nexuss-hero-mobile-960.webp 960w"
                 sizes="100vw"
