@@ -200,6 +200,12 @@ export default function Home() {
           <figure className="hero-scene">
             <picture className="hero-photo">
               <source
+                media="(max-width: 720px)"
+                type="image/webp"
+                srcSet="/assets/nexuss-hero-mobile-portrait.webp 960w"
+                sizes="100vw"
+              />
+              <source
                 media="(max-width: 900px)"
                 type="image/avif"
                 srcSet="/assets/nexuss-hero-mobile-960.avif 960w"
