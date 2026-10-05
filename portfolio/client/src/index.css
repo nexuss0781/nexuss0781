@@ -372,7 +372,7 @@ button, a { touch-action: manipulation; }
   .page-frame { width: calc(100% - 48px); }
   .hero-section { padding: 0; }
   .hero-scene { height: max(600px, calc(100svh - var(--header-height))); min-height: 600px; }
-  .hero-photo img { object-position: 0% 42%; }
+  .hero-photo img { object-position: 100% 42%; }
   .hero-scene::before { background: linear-gradient(90deg, rgba(7, 9, 13, 0.72) 0%, rgba(7, 9, 13, 0.53) 45%, rgba(7, 9, 13, 0.12) 76%, rgba(7, 9, 13, 0) 100%), linear-gradient(0deg, rgba(7, 9, 13, 0.82) 0%, rgba(7, 9, 13, 0.52) 38%, rgba(7, 9, 13, 0.04) 82%); }
   .hero-copy { width: min(74%, 340px); align-self: flex-end; margin: 0 auto 24px clamp(18px, 5vw, 22px); padding: 0; }
   .hero-identity { gap: 7px 13px; margin-bottom: 12px; }
