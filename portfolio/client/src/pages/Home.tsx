@@ -19,7 +19,7 @@ const featuredProjects = [
     id: "01",
     name: "Walia",
     type: "Persistent computation",
-    image: "/assets/walia.jpg",
+    image: "/assets/walia.webp",
     glyph: "",
     material: "runtime chassis",
     description:
@@ -205,7 +205,7 @@ export default function Home() {
 
             <figure className="hero-artwork">
               <div className="artwork-glow" aria-hidden="true" />
-              <img src="/assets/thinking-engine.png" alt="Upright contemplative humanoid robot representing Nexuss cognitive systems" />
+              <img src="/assets/thinking-engine.webp" alt="Upright contemplative humanoid robot representing Nexuss cognitive systems" />
               <figcaption><span>Thinking engine</span><span>001 / field study</span></figcaption>
             </figure>
           </div>
@@ -237,7 +237,7 @@ export default function Home() {
             </div>
             <div className="flagship-grid">
               <div className="flagship-image-wrap">
-                <img src="/assets/neural-cognition.jpg" alt="Nexuss Neural Network system artifact" loading="lazy" />
+                <img src="/assets/neural-cognition.webp" alt="Nexuss Neural Network system artifact" loading="lazy" />
                 <span className="image-index">N / 01</span>
               </div>
               <div className="flagship-copy">
