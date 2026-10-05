@@ -132,7 +132,6 @@ export default function Home() {
   return (
     <div className="portfolio-shell">
       <a className="skip-link" href="#main-content">Skip to content</a>
-      <div className="noise-layer" aria-hidden="true" />
 
       <header className={`topbar${scrolled ? " topbar-scrolled" : ""}`}>
         <div className="header-inner">
@@ -182,8 +181,10 @@ export default function Home() {
         <section id="origin" className="hero-section" aria-labelledby="hero-title">
           <div className="hero-grid page-frame">
             <div className="hero-copy">
-              <div className="eyebrow"><span className="eyebrow-mark" aria-hidden="true">◆</span> Founder / researcher / systems builder</div>
-              <p className="name-introduction"><span>TADIYOS</span><em>ASCHALEW</em></p>
+              <div className="hero-identity">
+                <div className="eyebrow"><span className="eyebrow-mark" aria-hidden="true">◆</span> Founder / researcher / systems builder</div>
+                <p className="name-introduction"><span>TADIYOS</span><em>ASCHALEW</em></p>
+              </div>
               <h1 id="hero-title">Begin where the <em>assumption</em> breaks.</h1>
               <p className="hero-statement">
                 I work from first principles across cognitive architectures, systems infrastructure, Ethiopian text technology, and public-facing products—then carry the idea through to a usable form.
@@ -196,11 +197,6 @@ export default function Home() {
                   Open the full archive <ArrowUpRight size={15} aria-hidden="true" />
                 </a>
               </div>
-              <dl className="hero-meta">
-                <div><dt>Focus</dt><dd>Cognition · Systems · Public tech</dd></div>
-                <div><dt>Base</dt><dd>Addis Ababa, Ethiopia</dd></div>
-                <div><dt>Method</dt><dd>Research → implementation</dd></div>
-              </dl>
             </div>
 
             <figure className="hero-artwork">
@@ -208,6 +204,11 @@ export default function Home() {
               <img src="/assets/thinking-engine.webp" alt="Upright contemplative humanoid robot representing Nexuss cognitive systems" />
               <figcaption><span>Thinking engine</span><span>001 / field study</span></figcaption>
             </figure>
+            <dl className="hero-meta">
+              <div><dt>Focus</dt><dd>Cognition · Systems · Public tech</dd></div>
+              <div><dt>Base</dt><dd>Addis Ababa, Ethiopia</dd></div>
+              <div><dt>Method</dt><dd>Research → implementation</dd></div>
+            </dl>
           </div>
         </section>
 
