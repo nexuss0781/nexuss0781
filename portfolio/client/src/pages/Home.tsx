@@ -212,8 +212,20 @@ export default function Home() {
             <picture className="hero-photo">
               <source
                 media="(max-width: 720px)"
+                type="image/avif"
+                srcSet="/assets/nexuss-hero-mobile-ai-960.avif 960w, /assets/nexuss-hero-mobile-ai-1536.avif 1536w"
+                sizes="100vw"
+              />
+              <source
+                media="(max-width: 720px)"
+                type="image/webp"
+                srcSet="/assets/nexuss-hero-mobile-ai-960.webp 960w, /assets/nexuss-hero-mobile-ai-1536.webp 1536w"
+                sizes="100vw"
+              />
+              <source
+                media="(max-width: 720px)"
                 type="image/jpeg"
-                srcSet="/assets/field-plate.jpg 1280w"
+                srcSet="/assets/nexuss-hero-mobile-ai-960.jpg 960w"
                 sizes="100vw"
               />
               <source
