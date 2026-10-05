@@ -1,13 +1,7 @@
-/**
- * Systems Conservatory: an editorial research archive with basalt surfaces,
- * verdigris instruments, brass details, deliberate technical motion, and one
- * distinct evidence-led mention for each featured workstream.
- */
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import {
   ArrowDownRight,
   ArrowUpRight,
-  ArrowUpRightIcon,
   ChevronRight,
   Github,
   Menu,
@@ -16,7 +10,6 @@ import {
 
 const links = {
   github: "https://github.com/nexuss0781",
-  walia: "https://github.com/nexuss0781/Walia",
   neural: "https://github.com/nexuss0781/Nexuss-Neural-Cognition",
   archive: "https://github.com/nexuss0781?tab=repositories",
 };
@@ -50,7 +43,7 @@ const featuredProjects = [
     id: "03",
     name: "Paradox-DB",
     type: "Local-first data system",
-    image: "/assets/hero-lab.jpg",
+    image: "",
     glyph: "",
     material: "encrypted ledger",
     description:
@@ -69,256 +62,320 @@ const systems = [
   ["Nexuss-Transformer", "Model foundations", "https://github.com/nexuss0781/Nexuss-Transformer"],
 ];
 
-const sections = ["Origin", "Flagship", "Systems", "Impact", "Archive"];
+const sections = [
+  ["Origin", "origin"],
+  ["Flagship", "flagship"],
+  ["Systems", "systems"],
+  ["Impact", "impact"],
+  ["Archive", "archive"],
+] as const;
 
 export default function Home() {
-  const [active, setActive] = useState("Origin");
+  const [activeSection, setActiveSection] = useState("origin");
   const [menuOpen, setMenuOpen] = useState(false);
+  const [isCompact, setIsCompact] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    const media = window.matchMedia("(max-width: 900px)");
+    const updateLayout = () => {
+      setIsCompact(media.matches);
+      if (!media.matches) setMenuOpen(false);
+    };
+    updateLayout();
+    media.addEventListener("change", updateLayout);
+    return () => media.removeEventListener("change", updateLayout);
   }, []);
 
-  const scrollTo = (id: string) => {
-    document.getElementById(id.toLowerCase())?.scrollIntoView({ behavior: "smooth" });
-    setActive(id);
+  useEffect(() => {
+    const updateScroll = () => setScrolled(window.scrollY > 20);
+    updateScroll();
+    window.addEventListener("scroll", updateScroll, { passive: true });
+    return () => window.removeEventListener("scroll", updateScroll);
+  }, []);
+
+  useEffect(() => {
+    const targets = sections
+      .map(([, id]) => document.getElementById(id))
+      .filter((target): target is HTMLElement => target !== null);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top)[0];
+        if (visible) setActiveSection(visible.target.id);
+      },
+      { rootMargin: "-20% 0px -65% 0px", threshold: 0 },
+    );
+    targets.forEach((target) => observer.observe(target));
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    if (!menuOpen) return;
+    const closeOnEscape = (event: KeyboardEvent) => {
+      if (event.key === "Escape") {
+        setMenuOpen(false);
+        menuButtonRef.current?.focus();
+      }
+    };
+    document.addEventListener("keydown", closeOnEscape);
+    return () => document.removeEventListener("keydown", closeOnEscape);
+  }, [menuOpen]);
+
+  const selectSection = (id: string) => {
+    setActiveSection(id);
     setMenuOpen(false);
   };
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-[#0b0d0c] text-[#eeece4]">
+    <div className="portfolio-shell">
+      <a className="skip-link" href="#main-content">Skip to content</a>
       <div className="noise-layer" aria-hidden="true" />
-      <header className={`topbar ${scrolled ? "topbar-scrolled" : ""}`}>
-        <a className="brand" href="#origin" onClick={() => scrollTo("Origin")}>
-          <span className="brand-seal"><img src="/assets/nexuss-mark.jpg" alt="Nexuss logo" /></span>
-          <span><b>NEXUSS / ARCHIVE</b><i>Field dossier · 01–05</i></span>
-        </a>
-        <nav className="desktop-nav" aria-label="Portfolio sections">
-          {sections.map((section) => (
-            <button
-              key={section}
-              className={active === section ? "active" : ""}
-              onClick={() => scrollTo(section)}
-            >
-              {section}
-            </button>
-          ))}
-        </nav>
-        <a className="nav-github" href={links.github} target="_blank" rel="noreferrer">
-          <Github size={15} /> <span>GitHub</span>
-        </a>
-        <button className="mobile-menu" aria-label="Open site navigation" onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? <X /> : <Menu />}
-        </button>
+
+      <header className={`topbar${scrolled ? " topbar-scrolled" : ""}`}>
+        <div className="header-inner">
+          <a className="brand" href="#origin" onClick={() => selectSection("origin")} aria-label="Nexuss Field Studio, return to origin">
+            <span className="brand-seal"><img src="/assets/nexuss-mark.jpg" alt="" /></span>
+            <span className="brand-wordmark"><b>NEXUSS</b><i>FIELD STUDIO</i></span>
+          </a>
+
+          <nav
+            className={`section-nav${menuOpen ? " section-nav-open" : ""}`}
+            id="site-navigation"
+            aria-label="Portfolio sections"
+            aria-hidden={isCompact && !menuOpen ? true : undefined}
+            inert={isCompact && !menuOpen}
+          >
+            {sections.map(([label, id], index) => (
+              <a
+                key={id}
+                href={`#${id}`}
+                aria-current={activeSection === id ? "location" : undefined}
+                onClick={() => selectSection(id)}
+              >
+                <span className="nav-number">0{index + 1}</span>{label}
+              </a>
+            ))}
+          </nav>
+
+          <a className="nav-github" href={links.github} target="_blank" rel="noreferrer">
+            <Github size={16} aria-hidden="true" /> <span>GitHub</span><ArrowUpRight size={13} aria-hidden="true" />
+          </a>
+
+          <button
+            className="mobile-menu"
+            type="button"
+            aria-label={menuOpen ? "Close site navigation" : "Open site navigation"}
+            aria-expanded={menuOpen}
+            aria-controls="site-navigation"
+            onClick={() => setMenuOpen((open) => !open)}
+            ref={menuButtonRef}
+          >
+            {menuOpen ? <X size={21} aria-hidden="true" /> : <Menu size={21} aria-hidden="true" />}
+          </button>
+        </div>
       </header>
 
-      {menuOpen && (
-        <nav className="mobile-nav" aria-label="Mobile portfolio sections">
-          {sections.map((section) => (
-            <button key={section} onClick={() => scrollTo(section)}>{section}</button>
-          ))}
-        </nav>
-      )}
-
-      <aside className="index-rail" aria-label="Section index">
-        <div className="rail-super">DOSSIER</div>
-        <div className="rail-line" />
-        {sections.map((section, index) => (
-          <button
-            key={section}
-            className={active === section ? "rail-active" : ""}
-            onClick={() => scrollTo(section)}
-            >
-              <span className="rail-number">{String(index + 1).padStart(2, "0")}</span>
-              <i />
-              <span className="rail-coordinate">STN / {String(index + 1).padStart(2, "0")}</span>
-              <span className="rail-name">{section}</span>
-          </button>
-        ))}
-        <div className="rail-foot">01 — 05</div>
-      </aside>
-
-      <main>
-        <section id="origin" className="hero-section">
-          <div className="hero-image" />
-          <div className="hero-shadow" />
-          <div className="portrait-frame reveal-2" aria-hidden="true">
-            <div className="portrait-specimen">Thinking engine / 001</div>
-            <img src="/assets/thinking-engine.png" alt="Upright contemplative humanoid robot representing Nexuss cognitive systems" />
-            <div className="portrait-rule" />
-          </div>
-          <div className="hero-copy reveal-1">
-            <div className="eyebrow"><span className="eyebrow-mark">◆</span> founder / researcher / systems builder</div>
-            <p className="name-introduction"><span>TADIYOS</span><em>ASCHALEW</em></p>
-            <h1>
-              Begin where the
-              <em>assumption</em> breaks.
-            </h1>
-            <p className="hero-statement">
-              <span className="desktop-copy">I work from first principles across cognitive architectures, systems infrastructure, Ethiopian text technology, and public-facing products—then carry the idea through to a usable form.</span>
-              <span className="mobile-copy">First-principles work across cognition, systems, Ethiopian technology, and practical products.</span>
-            </p>
-            <div className="hero-actions">
-              <button className="brass-button" onClick={() => scrollTo("Flagship")}>
-                Enter the work <ArrowDownRight size={17} />
-              </button>
-              <a className="quiet-link" href={links.archive} target="_blank" rel="noreferrer">
-                Open the full archive <ArrowUpRight size={15} />
-              </a>
+      <main id="main-content">
+        <section id="origin" className="hero-section" aria-labelledby="hero-title">
+          <div className="hero-grid page-frame">
+            <div className="hero-copy">
+              <div className="eyebrow"><span className="eyebrow-mark" aria-hidden="true">◆</span> Founder / researcher / systems builder</div>
+              <p className="name-introduction"><span>TADIYOS</span><em>ASCHALEW</em></p>
+              <h1 id="hero-title">Begin where the <em>assumption</em> breaks.</h1>
+              <p className="hero-statement">
+                I work from first principles across cognitive architectures, systems infrastructure, Ethiopian text technology, and public-facing products—then carry the idea through to a usable form.
+              </p>
+              <div className="hero-actions">
+                <a className="primary-action" href="#flagship" onClick={() => selectSection("flagship")}>
+                  Enter the work <ArrowDownRight size={17} aria-hidden="true" />
+                </a>
+                <a className="quiet-link" href={links.archive} target="_blank" rel="noreferrer">
+                  Open the full archive <ArrowUpRight size={15} aria-hidden="true" />
+                </a>
+              </div>
+              <dl className="hero-meta">
+                <div><dt>Focus</dt><dd>Cognition · Systems · Public tech</dd></div>
+                <div><dt>Base</dt><dd>Addis Ababa, Ethiopia</dd></div>
+                <div><dt>Method</dt><dd>Research → implementation</dd></div>
+              </dl>
             </div>
+
+            <figure className="hero-artwork">
+              <div className="artwork-glow" aria-hidden="true" />
+              <img src="/assets/thinking-engine.png" alt="Upright contemplative humanoid robot representing Nexuss cognitive systems" />
+              <figcaption><span>Thinking engine</span><span>001 / field study</span></figcaption>
+            </figure>
           </div>
-          <div className="hero-metadata reveal-2">
-            <div><span>Focus</span><strong>Cognition · Systems · Public tech</strong></div>
-            <div><span>Base</span><strong>Addis Ababa, Ethiopia</strong></div>
-            <div><span>Method</span><strong>Research → implementation</strong></div>
-          </div>
-          <div className="corner-note reveal-3">Scroll to inspect <span>↓</span></div>
         </section>
 
         <section className="manifesto-section" aria-label="Portfolio statement">
-          <div className="manifesto-index">01 / the premise</div>
-          <blockquote>
-            “I don’t build on what’s already assumed. I return to where the assumptions began—and rebuild from there.”
-          </blockquote>
-          <div className="manifesto-copy">
-            <p>
-              The work crosses three connected terrains: computational primitives, the infrastructure that makes them dependable, and products that bring technical capability into real settings.
-            </p>
-            <p>
-              It moves from spiking neural networks and persistent runtimes to data systems, remote execution, Ethiopian text technology, learning environments, finance, and applied platforms.
-            </p>
-          </div>
-        </section>
-
-        <section id="flagship" className="flagship-section">
-          <div className="section-rule" />
-          <div className="section-lead">
-            <div className="eyebrow"><span className="eyebrow-mark">⟡</span> flagship / neural cognition</div>
-            <p className="section-kicker">Evidence under a real machine boundary</p>
-          </div>
-          <div className="flagship-grid">
-            <div className="flagship-image-wrap">
-              <img src="/assets/neural-cognition.jpg" alt="Nexuss Neural Network system artifact" />
-              <div className="image-index">N / 01</div>
-              <div className="orbit orbit-a" />
-              <div className="orbit orbit-b" />
-            </div>
-            <div className="flagship-copy">
-              <h2>
-                <span className="desktop-copy">Nexuss Neural Network is built to test what cognition can do inside a real machine boundary. <em>270,336 neurons and 13,516,800 synapses operate within 500 MB.</em></span>
-                <span className="mobile-copy">Nexuss Neural Network. <em>270k neurons. 13.5M synapses. Under 500 MB.</em></span>
-              </h2>
+          <div className="manifesto-grid page-frame">
+            <div className="manifesto-index">01 / the premise</div>
+            <blockquote>
+              “I don’t build on what’s already assumed. I return to where the assumptions began—and rebuild from there.”
+            </blockquote>
+            <div className="manifesto-copy">
               <p>
-                <span className="desktop-copy">The system brings spiking dynamics, memory subsystems, sensory pathways, and a RAM-budget controller into one architecture. At its documented full-scale configuration, it uses 488.9 MB, reports a 94× real-time factor, and initializes in under 200 ms.</span>
-                <span className="mobile-copy">A spiking system with memory, sensory pathways, and a firm RAM budget.</span>
+                The work crosses three connected terrains: computational primitives, the infrastructure that makes them dependable, and products that bring technical capability into real settings.
               </p>
-              <div className="spec-list">
-                <span>01 <b>270,336 neurons</b></span>
-                <span>02 <b>13,516,800 synapses</b></span>
-                <span>03 <b>488.9 MB at full scale</b></span>
-                <span>04 <b>94× real-time factor</b></span>
-              </div>
-              <a className="project-link brass" href={links.neural} target="_blank" rel="noreferrer">Inspect Nexuss Neural Network <ArrowUpRight size={16} /></a>
+              <p>
+                It moves from spiking neural networks and persistent runtimes to data systems, remote execution, Ethiopian text technology, learning environments, finance, and applied platforms.
+              </p>
             </div>
           </div>
         </section>
 
-        <section id="systems" className="systems-section">
-          <div className="section-head compact-head">
-            <div>
-              <div className="eyebrow"><span className="eyebrow-mark">◌</span> selected directions</div>
-              <h2>Different constraints.<br /><em>Different artifacts.</em></h2>
+        <section id="flagship" className="flagship-section page-section" aria-labelledby="flagship-title">
+          <div className="page-frame">
+            <div className="section-rule" />
+            <div className="section-lead">
+              <div className="eyebrow"><span className="eyebrow-mark" aria-hidden="true">⟡</span> Flagship / neural cognition</div>
+              <p className="section-kicker">Evidence under a real machine boundary</p>
             </div>
-            <p><span className="desktop-copy">Three projects selected for contrast: persistent computation, Ethiopian text technology, and local-first data. The remaining work is mapped without repeating the same claim.</span><span className="mobile-copy">Three distinct directions, one evidence index.</span></p>
-          </div>
-          <div className="feature-grid">
-            {featuredProjects.map((project) => (
-              <article className={`artifact-card ${project.theme}`} key={project.name}>
-                <a href={project.href} target="_blank" rel="noreferrer" className="artifact-image" aria-label={`Open ${project.name} repository`}>
-                  {project.image ? (
-                    <img src={project.image} alt={`${project.name} project visual`} />
-                  ) : (
-                    <div className={`artifact-glyph ${project.theme}`} aria-hidden="true">{project.glyph}</div>
-                  )}
-                  <span className="artifact-id">{project.id}</span>
-                  <span className="image-arrow"><ArrowUpRightIcon size={18} /></span>
-                </a>
-                <div className="artifact-body">
-                  <span className="artifact-type">{project.type}</span>
-                  <h3>{project.name}</h3>
-                  <p>{project.description}</p>
-              <div className="artifact-catalog"><span>Plate {project.id}</span><span>Material / {project.material}</span></div>
-              <a href={project.href} target="_blank" rel="noreferrer" className="project-link">Inspect source <ChevronRight size={16} /></a>
+            <div className="flagship-grid">
+              <div className="flagship-image-wrap">
+                <img src="/assets/neural-cognition.jpg" alt="Nexuss Neural Network system artifact" loading="lazy" />
+                <span className="image-index">N / 01</span>
+              </div>
+              <div className="flagship-copy">
+                <h2 id="flagship-title">
+                  Nexuss Neural Network is built to test what cognition can do inside a real machine boundary. <em>270,336 neurons and 13,516,800 synapses operate within 500 MB.</em>
+                </h2>
+                <p>
+                  The system brings spiking dynamics, memory subsystems, sensory pathways, and a RAM-budget controller into one architecture. At its documented full-scale configuration, it uses 488.9 MB, reports a 94× real-time factor, and initializes in under 200 ms.
+                </p>
+                <div className="spec-list">
+                  <span>01 <b>270,336 neurons</b></span>
+                  <span>02 <b>13,516,800 synapses</b></span>
+                  <span>03 <b>488.9 MB at full scale</b></span>
+                  <span>04 <b>94× real-time factor</b></span>
                 </div>
-              </article>
-            ))}
-          </div>
-
-          <div className="systems-index-list">
-            <div className="index-title"><span>Field index</span><b>Six further directions</b></div>
-            <div className="index-entries">
-              {systems.map(([name, kind, href], index) => (
-                <a href={href} target="_blank" rel="noreferrer" className="system-row" key={name}>
-                  <span>{String(index + 4).padStart(2, "0")}</span>
-                  <strong>{name}</strong>
-                  <em>{kind}</em>
-                  <ArrowUpRight size={16} />
+                <a className="project-link feature-link" href={links.neural} target="_blank" rel="noreferrer">
+                  Inspect Nexuss Neural Network <ArrowUpRight size={16} aria-hidden="true" />
                 </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="systems" className="systems-section page-section" aria-labelledby="systems-title">
+          <div className="page-frame">
+            <div className="section-head">
+              <div>
+                <div className="eyebrow"><span className="eyebrow-mark" aria-hidden="true">◌</span> Selected directions</div>
+                <h2 id="systems-title">Different constraints.<br /><em>Different artifacts.</em></h2>
+              </div>
+              <p>
+                Three projects selected for contrast: persistent computation, Ethiopian text technology, and local-first data. The remaining work is mapped without repeating the same claim.
+              </p>
+            </div>
+
+            <div className="feature-grid">
+              {featuredProjects.map((project) => (
+                <article className="artifact-card" key={project.name}>
+                  <a href={project.href} target="_blank" rel="noreferrer" className={`artifact-card-link ${project.theme}`}>
+                    <div className="artifact-image">
+                      {project.image ? (
+                        <img src={project.image} alt="" loading="lazy" />
+                      ) : project.glyph ? (
+                        <div className={`artifact-glyph ${project.theme}`} aria-hidden="true">
+                          <span>{project.glyph}</span><i>ETHIOPIAN TEXT / 02</i>
+                        </div>
+                      ) : (
+                        <div className="paradox-visual" aria-hidden="true">
+                          <div className="ledger-orbit orbit-one" />
+                          <div className="ledger-orbit orbit-two" />
+                          <div className="ledger-core"><span>LOCAL</span><b>↔</b><span>SYNC</span></div>
+                          <i>SNAPSHOT / ENCRYPTED</i>
+                        </div>
+                      )}
+                      <span className="artifact-id">{project.id}</span>
+                      <span className="image-arrow" aria-hidden="true"><ArrowUpRight size={18} /></span>
+                    </div>
+                    <div className="artifact-body">
+                      <span className="artifact-type">{project.type}</span>
+                      <h3>{project.name}</h3>
+                      <p>{project.description}</p>
+                      <div className="artifact-catalog"><span>Plate {project.id}</span><span>Material / {project.material}</span></div>
+                      <span className="project-card-action">Inspect source <ChevronRight size={16} aria-hidden="true" /></span>
+                    </div>
+                  </a>
+                </article>
               ))}
             </div>
-          </div>
-        </section>
 
-        <section id="impact" className="impact-section">
-          <div className="impact-image">
-            <img src="/assets/field-plate.jpg" alt="Tadiyos Aschalew seated at a workstation with colleagues" />
-            <span className="impact-plate">Field plate / 01</span>
-            <span className="impact-location">Addis Ababa · systems in use</span>
-          </div>
-          <div className="impact-copy">
-            <div className="eyebrow"><span className="eyebrow-mark">⌁</span> people and infrastructure</div>
-            <h2>Ideas only matter when they <em>leave the lab.</em></h2>
-            <p>
-              <span className="desktop-copy">Beyond research and infrastructure, the work reaches learning environments, payment and finance workflows, communication surfaces, administration tools, and communities around Ethiopian technology. Each belongs to its own setting; the shared method is to begin with the actual operating constraint and make the result usable.</span>
-              <span className="mobile-copy">Education, finance, communication, and Ethiopian technology—built around the constraint of each real setting.</span>
-            </p>
-            <div className="impact-notes">
-              <span><b>Education</b> Study tools · school platforms · digital libraries</span>
-              <span><b>Business</b> Payment verification · finance · marketing operations</span>
-              <span><b>Ecosystem</b> Ethiopian text technology · agent environments · community systems</span>
+            <div className="systems-index-list">
+              <div className="index-title"><span>Field index</span><b>Six further directions</b></div>
+              <div className="index-entries">
+                {systems.map(([name, kind, href], index) => (
+                  <a href={href} target="_blank" rel="noreferrer" className="system-row" key={name}>
+                    <span className="system-number">{String(index + 4).padStart(2, "0")}</span>
+                    <strong>{name}</strong>
+                    <em>{kind}</em>
+                    <ArrowUpRight size={16} aria-hidden="true" />
+                  </a>
+                ))}
+              </div>
             </div>
-            <a className="project-link" href={links.archive} target="_blank" rel="noreferrer">Browse the repository archive <ArrowUpRight size={16} /></a>
           </div>
         </section>
 
-        <section id="archive" className="archive-section">
+        <section id="impact" className="impact-section" aria-labelledby="impact-title">
+          <div className="impact-grid">
+            <div className="impact-image">
+              <img src="/assets/field-plate.jpg" alt="Tadiyos Aschalew seated at a workstation with colleagues" loading="lazy" />
+              <span className="impact-plate">Field plate / 01</span>
+              <span className="impact-location">Addis Ababa · systems in use</span>
+            </div>
+            <div className="impact-copy">
+              <div className="eyebrow"><span className="eyebrow-mark" aria-hidden="true">⌁</span> People and infrastructure</div>
+              <h2 id="impact-title">Ideas only matter when they <em>leave the lab.</em></h2>
+              <p>
+                Beyond research and infrastructure, the work reaches learning environments, payment and finance workflows, communication surfaces, administration tools, and communities around Ethiopian technology. Each belongs to its own setting; the shared method is to begin with the actual operating constraint and make the result usable.
+              </p>
+              <div className="impact-notes">
+                <span><b>Education</b> Study tools · school platforms · digital libraries</span>
+                <span><b>Business</b> Payment verification · finance · marketing operations</span>
+                <span><b>Ecosystem</b> Ethiopian text technology · agent environments · community systems</span>
+              </div>
+              <a className="project-link impact-link" href={links.archive} target="_blank" rel="noreferrer">Browse the repository archive <ArrowUpRight size={16} aria-hidden="true" /></a>
+            </div>
+          </div>
+        </section>
+
+        <section id="archive" className="archive-section page-section" aria-labelledby="archive-title">
           <div className="archive-grid-bg" aria-hidden="true" />
-          <div className="archive-copy">
-            <div className="eyebrow"><span className="eyebrow-mark">⌘</span> the complete dossier</div>
-            <h2>A wider body of work.<br /><em>Many paths through it.</em></h2>
-            <p>
-              <span className="desktop-copy">The archive moves through cognitive architectures, machine-learning foundations, agents, developer tools, infrastructure, Ethiopian text technology, education, finance, security, media, and applied platforms. Follow a workstream or enter the source directly.</span>
-              <span className="mobile-copy">Research, systems, language technology, education, finance, security, media, and products—mapped as one archive.</span>
-            </p>
-            <div className="archive-actions">
-              <a className="brass-button" href={links.archive} target="_blank" rel="noreferrer">Browse the repository archive <ArrowUpRight size={17} /></a>
-              <a className="quiet-link" href={links.github} target="_blank" rel="noreferrer">Enter the source <Github size={15} /></a>
+          <div className="archive-content page-frame">
+            <div className="archive-copy">
+              <div className="eyebrow"><span className="eyebrow-mark" aria-hidden="true">⌘</span> The complete dossier</div>
+              <h2 id="archive-title">A wider body of work.<br /><em>Many paths through it.</em></h2>
+              <p>
+                The archive moves through cognitive architectures, machine-learning foundations, agents, developer tools, infrastructure, Ethiopian text technology, education, finance, security, media, and applied platforms. Follow a workstream or enter the source directly.
+              </p>
+              <div className="archive-actions">
+                <a className="primary-action" href={links.archive} target="_blank" rel="noreferrer">Browse the repository archive <ArrowUpRight size={17} aria-hidden="true" /></a>
+                <a className="quiet-link" href={links.github} target="_blank" rel="noreferrer">Enter the source <Github size={15} aria-hidden="true" /></a>
+              </div>
             </div>
-          </div>
-          <div className="archive-stamp">
-            <img src="/assets/nexuss-mark.jpg" alt="" />
-            <span>From primitive<br />to institution</span>
+            <div className="archive-stamp" aria-hidden="true">
+              <img src="/assets/nexuss-mark.jpg" alt="" />
+              <span>From primitive<br />to institution</span>
+            </div>
           </div>
         </section>
       </main>
 
-      <footer>
-        <div className="footer-mark"><img src="/assets/nexuss-mark.jpg" alt="Nexuss logo" /></div>
-        <p>Find the broken foundation. Understand why it broke. Rebuild it properly.</p>
-        <a href="#origin" onClick={() => scrollTo("Origin")}>Return to origin <ArrowUpRight size={14} /></a>
+      <footer className="site-footer">
+        <div className="footer-inner page-frame">
+          <a className="footer-mark" href="#origin" onClick={() => selectSection("origin")} aria-label="Return to the beginning">
+            <img src="/assets/nexuss-mark.jpg" alt="" />
+          </a>
+          <p>Find the broken foundation. Understand why it broke. Rebuild it properly.</p>
+          <a className="footer-top" href="#origin" onClick={() => selectSection("origin")}>Return to origin <ArrowUpRight size={14} aria-hidden="true" /></a>
+        </div>
       </footer>
     </div>
   );
