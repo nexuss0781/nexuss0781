@@ -142,7 +142,7 @@ Let's talk.
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -153,19 +153,7 @@ Let's talk.
     <img height="180" src="assets/fd9a7d417f.svg" />
   </a>
 
-  <img src="assets/0ab940dd60.svg" alt="Profile views" />
-
 </div>
-
----
-
-### Contribution / Commit Streak
-
-![Commit Streak](https://github-readme-streak-stats.herokuapp.com/?user=nexuss0781&theme=radical)
-
-### Most Used Languages
-
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=radical)
 
 ---
 
