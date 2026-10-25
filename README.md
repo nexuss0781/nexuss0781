@@ -159,14 +159,13 @@ Let's talk.
 
 ---
 
-## 🎨 Visual Collection
+### Contribution / Commit Streak
 
-### Dynamic Stats
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=radical)
-![Total Stars](https://github-readme-streak-stats.herokuapp.com/?user=nexuss0781&theme=radical)
+![Commit Streak](https://github-readme-streak-stats.herokuapp.com/?user=nexuss0781&theme=radical)
 
-### Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=nexuss0781/Walia,nexuss0781/Attention,nexuss0781/Nexuss-Transformer,nexuss0781/CDI&type=Date)](https://star-history.com/#nexuss0781/Walia&nexuss0781/Attention&nexuss0781/Nexuss-Transformer&nexuss0781/CDI&Date)
+### Most Used Languages
+
+![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=radical)
 
 ---
 
