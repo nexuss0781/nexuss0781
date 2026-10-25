@@ -145,14 +145,8 @@ Let's talk.
 ## GitHub Stats
 
 <div align="center">
-
-  <a href="https://github.com/nexuss0781">
-    <img height="180" src="assets/d18ea2ae3a.svg" />
-  </a>
-  <a href="https://github.com/nexuss0781">
-    <img height="180" src="assets/fd9a7d417f.svg" />
-  </a>
-
+  <img src="assets/fd9a7d417f.svg" width="100%" alt="Most Used Languages" />
+  <img src="assets/882b120959.svg" width="100%" alt="Total contributions, current streak, and longest streak" />
 </div>
 
 ---
