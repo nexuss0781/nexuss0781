@@ -153,18 +153,6 @@ Let's talk.
     <img height="180" src="assets/fd9a7d417f.svg" />
   </a>
 
-  <a href="https://github.com/nexuss0781">
-    <img src="assets/882b120959.svg" width="100%" alt="GitHub Streak" />
-  </a>
-
-  <a href="https://github.com/nexuss0781">
-    <img src="assets/d0f8c74e09.svg" width="100%" alt="Contribution Graph" />
-  </a>
-
-  <a href="https://github.com/nexuss0781">
-    <img src="assets/0bcc6096ae.svg" width="100%" alt="GitHub Trophies" />
-  </a>
-
   <img src="assets/0ab940dd60.svg" alt="Profile views" />
 
 </div>
