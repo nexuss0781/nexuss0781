@@ -126,12 +126,9 @@ Let's talk.
 ---
 
 ### 🌟 Connect
-- [Email](mailto:nexuss0781@gmail.com)
-- [Portfolio](https://nexuss.pro.et/)
-- [Hugging Face](https://huggingface.co/Nexuss0781)
-- [Telegram](https://t.me/Nexuss_stuff)
-- [LinkedIn](https://www.linkedin.com/in/nexuss0781/)
-- [PyPI](https://pypi.org/project/EthioBBPE/)
+[![Email](assets/a5d4cab933.svg)](mailto:nexuss0781@gmail.com)
+[![HuggingFace](assets/51b4e79f84.svg)](https://huggingface.co/Nexuss0781)
+[![PyPI](assets/2b1da11de9.svg)](https://pypi.org/project/EthioBBPE/)
 ---
 
 ## GitHub Stats
