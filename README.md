@@ -136,7 +136,6 @@ Let's talk.
 ### 🌟 Connect
 
 [![Email](assets/a5d4cab933.svg)](mailto:nexuss0781@gmail.com)
-[![GitHub](assets/bada021f1c.svg)](https://github.com/nexuss0781)
 [![HuggingFace](assets/51b4e79f84.svg)](https://huggingface.co/Nexuss0781)
 [![PyPI](assets/2b1da11de9.svg)](https://pypi.org/project/EthioBBPE/)
 
@@ -147,14 +146,4 @@ Let's talk.
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=tokyonight&hide_border=true" width="100%" alt="Most Used Languages" />
   <img src="https://streak-stats.demolab.com/?user=nexuss0781&theme=tokyonight&hide_border=true" width="100%" alt="Total contributions, current streak, and longest streak" />
-</div>
-
----
-
-<div align="center">
-
-**Built from First Principles · Powered by First Principles**
-
-© 2024 Tadiyos Aschalew · All Foundations Rebuilt
-
 </div>
