@@ -145,8 +145,8 @@ Let's talk.
 ## GitHub Stats
 
 <div align="center">
-  <img src="assets/fd9a7d417f.svg" width="100%" alt="Most Used Languages" />
-  <img src="assets/882b120959.svg" width="100%" alt="Total contributions, current streak, and longest streak" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nexuss0781&layout=compact&theme=tokyonight&hide_border=true" width="100%" alt="Most Used Languages" />
+  <img src="https://streak-stats.demolab.com/?user=nexuss0781&theme=tokyonight&hide_border=true" width="100%" alt="Total contributions, current streak, and longest streak" />
 </div>
 
 ---
