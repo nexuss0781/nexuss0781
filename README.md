@@ -3,18 +3,10 @@
 
 # 🧬 TADIYOS ASCHALEW <img src="assets/77bbab8b1c.gif" width="35px">
 ### ታዲዮስ አስቻለው
-**[Software & AI Engineer](https://nexuss.pro.et/) · [Ethco Coder](https://github.com/ethcocoders) · [Founder](https://github.com/Nexuss-Intelligence)**
+**Software & AI Engineer · Ethco Coder · Founder**
 
 <img src="https://github.com/nexuss0781/nexuss0781/raw/main/assets/b727a8d982.gif" width="1000">
 
-[![GitHub](assets/c3cde3ac9d.svg)](https://github.com/nexuss0781)
-[![HuggingFace](assets/18e421212a.svg)](https://huggingface.co/Nexuss0781)
-[![Telegram](assets/aa411d57ec.svg)](https://t.me/Nexuss_stuff)
-[![LinkedIn](assets/05803a7403.svg)](https://www.linkedin.com/in/nexuss0781/)
-[![Portfolio](assets/4bec80e416.svg)](https://nexuss.pro.et/)
-[![Founder](https://img.shields.io/badge/Founder-Nexuss%20Intelligence-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Nexuss-Intelligence)
-[![Ethco Coder](https://img.shields.io/badge/Ethco%20Coder-Community-orange?style=for-the-badge&logo=code&logoColor=white)](https://github.com/ethcocoders)
-[![Location](https://img.shields.io/badge/Location-Ethiopia-green?style=for-the-badge&logo=flag&logoColor=white)](https://github.com/nexuss0781)
 
 ---
 
@@ -134,11 +126,12 @@ Let's talk.
 ---
 
 ### 🌟 Connect
-
-[![Email](assets/a5d4cab933.svg)](mailto:nexuss0781@gmail.com)
-[![HuggingFace](assets/51b4e79f84.svg)](https://huggingface.co/Nexuss0781)
-[![PyPI](assets/2b1da11de9.svg)](https://pypi.org/project/EthioBBPE/)
-
+- [Email](mailto:nexuss0781@gmail.com)
+- [Portfolio](https://nexuss.pro.et/)
+- [Hugging Face](https://huggingface.co/Nexuss0781)
+- [Telegram](https://t.me/Nexuss_stuff)
+- [LinkedIn](https://www.linkedin.com/in/nexuss0781/)
+- [PyPI](https://pypi.org/project/EthioBBPE/)
 ---
 
 ## GitHub Stats
